@@ -25,6 +25,26 @@ Constructive Approximation | https://link.springer.com/search.rss?facet-journal-
 Foundations of Comput Math | https://link.springer.com/search.rss?facet-journal-id=10208
 Sampling Theory Signal Data Anal | https://link.springer.com/search.rss?facet-journal-id=43670
 
+# Signal Processing & Applied Mathematics
+arXiv Math | http://export.arxiv.org/rss/math.NA
+arXiv Signal Processing | http://export.arxiv.org/rss/eess.SP
+arXiv Machine Learning | http://export.arxiv.org/rss/cs.LG
+arXiv Computer Vision | http://export.arxiv.org/rss/cs.CV
+IEEE Trans Signal Processing | https://ieeexplore.ieee.org/rss/TOC78.XML
+IEEE Trans Image Processing | https://ieeexplore.ieee.org/rss/TOC83.XML
+SIAM Journal Applied Math | https://epubs.siam.org/action/showFeed?type=etoc&feed=rss&jc=smjmap
+
+# Machine Learning (Top Venues)
+arXiv AI | http://export.arxiv.org/rss/cs.AI
+arXiv Stats ML | http://export.arxiv.org/rss/stat.ML
+JMLR | http://www.jmlr.org/jmlr.xml
+
+# Keep these from your current list:
+Nature Comput Sci | https://www.nature.com/natcomputsci.rss
+Nature Machine Intell | https://www.nature.com/natmachintell.rss
+Nature Methods | http://www.nature.com/nmeth/current_issue/rss
+PLOS Comp Bio | https://journals.plos.org/ploscompbiol/rss
+
 # AI/ML journals
 Nature Comput Sci | https://www.nature.com/natcomputsci.rss
 Nature Machine Intell | https://www.nature.com/natmachintell.rss
