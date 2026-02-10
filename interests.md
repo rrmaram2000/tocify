@@ -5,7 +5,9 @@
 Wavelets, Learnable Wavelets, Wavelet Design
 
 ## keywords
-Wavelet Design: * Compactly supported wavelets
+Wavelet Design:
+
+Compactly supported wavelets
 
 Biorthogonal bases
 
