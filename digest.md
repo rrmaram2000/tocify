@@ -1,238 +1,316 @@
-# Weekly ToC Digest (week of 2026-02-10)
+# Weekly ToC Digest (week of 2026-02-16)
 
-Prioritizing papers that closely align with classical and modern signal processing, particularly those integrating wavelets and neural networks. Relevance based on user's interests in harmonic analysis, wavelet theory, and modern deep learning for signal processing. Summarizing and prioritizing recent papers relevant to interests at the intersection of harmonic analysis, wavelet theory, and deep learning. Prioritized papers related to wavelet theory, multiresolution analysis, and deep learning. Focused on works involving signal processing, mathematical frameworks, and novel decomposition methods.
+Prioritized based on relevance to wavelet design, multiresolution analysis, and deep learning integration. Prioritized wavelet-based methods and those at the intersection of signal processing and deep learning for applications relevant to the user's research interests. Focusing on signal processing advancements and novel integrations between classical methods and deep learning. This week's prioritized articles focus on developments in signal processing and theoretical advances with relevance to deep learning and harmonic analysis.
 
-**Included:** 14 (score ≥ 0.35)  
-**Scored:** 15 total items
+**Included:** 19 (score ≥ 0.35)  
+**Scored:** 19 total items
 
 ---
 
-## [Escaping Spectral Bias without Backpropagation: Fast Implicit Neural Representations with Extreme Learning Machines](https://arxiv.org/abs/2602.07603)
+## [VDW-GNNs: Vector diffusion wavelets for geometric graph neural networks](https://arxiv.org/abs/2510.01022)
+*arXiv Signal Processing*  
+Score: **0.95**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: wavelets, graph-nn, theory
+
+Introduces vector diffusion wavelets, integrating wavelets into graph neural networks, useful for data on Riemannian manifolds, aligning with wavelet theory and deep learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2510.01022v2 Announce Type: replace-cross Abstract: We introduce vector diffusion wavelets (VDWs), a novel family of wavelets inspired by the vector diffusion maps algorithm that was introduced to analyze data lying in the tangent bundle of a Riemannian manifold. We show that these wavelets may be effectively incorporated into a family of geometric graph neural networks, which we refer to as VDW-GNNs. We demonstrate that such networks are effective on synthetic point cloud data, as well as…
+
+</details>
+
+---
+
+## [Neural Evolutionary Kernel Method: A Knowledge-Guided Framework for Solving Evolutionary PDEs](https://arxiv.org/abs/2602.12872)
 *arXiv Math*  
 Score: **0.85**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: wavelets, CNN, neural-networks
+Published: 2026-02-16T05:00:00+00:00
+Tags: PDE, deep-learning, methods
 
-Proposes a backpropagation-free method using Extreme Learning Machines to address spectral bias in learning fine-scale details, relevant to wavelet-like decompositions in deep learning.
+Uses deep neural networks for operator learning, linking to approximation in PDEs, relevant for deep learning and classical techniques.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07603v1 Announce Type: cross Abstract: Training implicit neural representations (INRs) to capture fine-scale details typically relies on iterative backpropagation and is often hindered by spectral bias when the target exhibits highly non-uniform frequency content. We propose ELM-INR, a backpropagation-free INR that decomposes the domain into overlapping subdomains and fits each local problem using an Extreme Learning Machine (ELM) in closed form, replacing iterative optimization with …
+arXiv:2602.12872v1 Announce Type: new Abstract: Numerical solution of partial differential equations (PDEs) plays a vital role in various fields of science and engineering. In recent years, deep neural networks (DNNs) have emerged as a powerful tool for solving PDEs, leveraging their approximation capabilities to handle complex domains and high-dimensional problems. Among these, operator learning has gained increasing attention by learning mappings between function spaces using DNNs. This paper …
 
 </details>
 
 ---
 
-## [Fractional Filtering and Anomaly-Guided Diagnostics: The Local Damage Mode Extractor (LDME) for Early Gear Fault Detection](https://arxiv.org/abs/2602.07527)
-*arXiv Signal Processing*  
+## [OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization](https://arxiv.org/abs/2602.12305)
+*arXiv AI*  
 Score: **0.85**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: multiscale, filter-bank, time-frequency, methods
+Published: 2026-02-16T05:00:00+00:00
+Tags: methods, sparse, theory
 
-Leverages multiscale decomposition and fractional-domain enhancement, relevant to time-frequency and signal processing methods.
+This paper presents a framework integrating natural-language inputs with CUDA optimization, relevant for sparse coding and learnable basis functions in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07527v1 Announce Type: new Abstract: Early and reliable detection of gear faults in complex drivetrain systems is critical for aviation safety and operational availability. We present the Local Damage Mode Extractor (LDME), a structured, physics-informed signal processing framework that combines dual-path denoising, multiscale decomposition, fractional-domain enhancement, and statistically principled anomaly scoring to produce interpretable condition indicators without supervision. LD…
+arXiv:2602.12305v1 Announce Type: cross Abstract: Generating high-performance CUDA kernels remains challenging due to the need to navigate a combinatorial space of low-level transformations under noisy and expensive hardware feedback. Although large language models can synthesize functionally correct CUDA code, achieving competitive performance requires systematic exploration and verification of optimization choices. We present OptiML, an end-to-end framework that maps either natural-language in…
 
 </details>
 
 ---
 
-## [FEM-Informed Hypergraph Neural Networks for Efficient Elastoplasticity](https://arxiv.org/abs/2602.07364)
-*arXiv Machine Learning*  
-Score: **0.76**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: GNN, methods, theory
-
-Integrates finite-element computations directly into GNNs, aligning with modern signal processing in computational mechanics, an area of intersection with deep learning and harmonic analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.07364v1 Announce Type: new Abstract: Graph neural networks (GNNs) naturally align with sparse operators and unstructured discretizations, making them a promising paradigm for physics-informed machine learning in computational mechanics. Motivated by discrete physics losses and Hierarchical Deep Learning Neural Network (HiDeNN) constructions, we embed finite-element (FEM) computations at nodes and Gauss points directly into message-passing layers and propose a numerically consistent FE…
-
-</details>
-
----
-
-## [Data-Driven Discovery of Sign-Indefinite Artificial Viscosity for Linear Convection -- A Space-Time Reconvolution Perspective](https://arxiv.org/abs/2602.07733)
+## [Temporal-Stability-Enhanced and Energy-Stable Dynamical Low-Rank Approximation for Multiscale Linear Kinetic Transport Equations](https://arxiv.org/abs/2602.12337)
 *arXiv Math*  
 Score: **0.75**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: time-frequency, methods
+Published: 2026-02-16T05:00:00+00:00
+Tags: multiscale, MRA, methods
 
-Uses data-driven methods for discovering artificial viscosity in reconvolution perspectives, potentially applicable to adaptive representations in signal processing.
+Focuses on multiscale analysis and low-rank representation, relevant to multiresolution techniques commonly used in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07733v1 Announce Type: new Abstract: Artificial viscosity is traditionally interpreted as a positive, spatially acting regularization introduced to stabilize numerical discretizations of hyperbolic conservation laws. In this work, we report a data-driven discovery that motivates a reinterpretation of this classical view. We consider the linear convection equation discretized using an unstable FTCS scheme augmented with a learnable artificial viscosity. Using automatic differentiation …
+arXiv:2602.12337v1 Announce Type: new Abstract: In this paper, we develop an asymptotic-preserving dynamical low-rank method for the multiscale linear kinetic transport equation. The proposed scheme is unconditionally stable in the diffusive regime while preserving the correct asymptotic behavior, and can achieve significant reductions in computational cost through a low-rank representation and large time step stability. A low-rank formulation consistent with the discrete energy is introduced un…
 
 </details>
 
 ---
 
-## [Deep Energy Method with Large Language Model assistance: an open-source Streamlit-based platform for solving variational PDEs](https://arxiv.org/abs/2602.07838)
+## [Compressible Dynamics in Deep Overparameterized Low-Rank Learning & Adaptation](https://arxiv.org/abs/2406.04112)
+*arXiv Signal Processing*  
+Score: **0.75**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: sparse, deep-learning, low-rank
+
+Highlights compressible dynamics in deep learning, leveraging low-dimensional structures, relevant to sparse coding and representation learning techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2406.04112v3 Announce Type: replace-cross Abstract: While overparameterization in machine learning models offers great benefits in terms of optimization and generalization, it also leads to increased computational requirements as model sizes grow. In this work, we show that by leveraging the inherent low-dimensional structures of data and compressible dynamics within the model parameters, we can reap the benefits of overparameterization without the computational burdens. In practice, we de…
+
+</details>
+
+---
+
+## [Detecting Object Tracking Failure via Sequential Hypothesis Testing](https://arxiv.org/abs/2602.12983)
+*arXiv Computer Vision*  
+Score: **0.75**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: theory, time-frequency, methods
+
+Proposal of sequential hypothesis testing could benefit signal decomposition methodologies, enhancing classical signal analysis frameworks.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2602.12983v1 Announce Type: new Abstract: Real-time online object tracking in videos constitutes a core task in computer vision, with wide-ranging applications including video surveillance, motion capture, and robotics. Deployed tracking systems usually lack formal safety assurances to convey when tracking is reliable and when it may fail, at best relying on heuristic measures of model confidence to raise alerts. To obtain such assurances we propose interpreting object tracking as a sequen…
+
+</details>
+
+---
+
+## [TFT-ACB-XML: Decision-Level Integration of Customized Temporal Fusion Transformer and Attention-BiLSTM with XGBoost Meta-Learner for BTC Price Forecasting](https://arxiv.org/abs/2602.12380)
+*arXiv AI*  
+Score: **0.72**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: time-frequency, methods, theory
+
+This hybrid model uses deep learning techniques to analyze time-series, aligning with interests in modern signal processing methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2602.12380v1 Announce Type: cross Abstract: Accurate forecasting of Bitcoin (BTC) has always been a challenge because decentralized markets are non-linear, highly volatile, and have temporal irregularities. Existing deep learning models often struggle with interpretability and generalization across diverse market conditions. This research presents a hybrid stacked-generalization framework, TFT-ACB-XML, for BTC closing price prediction. The framework integrates two parallel base learners: a…
+
+</details>
+
+---
+
+## [Data-Driven Filter Design for Flexible and Noise-Robust Tomographic Imaging](https://arxiv.org/abs/2602.13048)
 *arXiv Math*  
 Score: **0.70**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: methods, neural-networks
+Published: 2026-02-16T05:00:00+00:00
+Tags: filter, adaptive, sparse
 
-Involves using neural networks to solve PDEs, analogous to energy methods in classical mechanics and useful in bridging deep learning with traditional mathematical frameworks.
+Develops learning-based filter design, integrating data-driven methods with classical filtered back projection. Relevant for adaptive representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07838v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) in energy form, also known as the deep energy method (DEM), offer advantages over strong-form PINNs such as lower-order derivatives and fewer hyperparameters, yet dedicated and user-friendly software for energy-form PINNs remains scarce. To address this gap, we present \textbf{LM-DEM} (Large-Model-assisted Deep Energy Method), an open-source, Streamlit-based platform for solving variational partial different…
+arXiv:2602.13048v1 Announce Type: new Abstract: While filtered back projection (FBP) is still the method of choice for fast tomographic reconstruction, its performance degrades noticeably in the presence of noise, incomplete sampling, or non-standard scan geometries. We propose a data-driven approach for learning FBP filters and projection weights directly from training data, with the goal of improving robustness without sacrificing computational efficiency. The resulting reconstructions adapt n…
 
 </details>
 
 ---
 
-## [A Unifying Framework for Doubling Algorithms](https://arxiv.org/abs/2602.07250)
+## [SLA2: Sparse-Linear Attention with Learnable Routing and QAT](https://arxiv.org/abs/2602.12675)
+*arXiv Machine Learning*  
+Score: **0.70**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: sparse, signal-processing, methods
+
+The paper introduces Sparse-Linear Attention (SLA), optimizing attention mechanisms with a potential application in multi-resolution signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2602.12675v1 Announce Type: new Abstract: Sparse-Linear Attention (SLA) combines sparse and linear attention to accelerate diffusion models and has shown strong performance in video generation. However, (i) SLA relies on a heuristic split that assigns computations to the sparse or linear branch based on attention-weight magnitude, which can be suboptimal. Additionally, (ii) after formally analyzing the attention error in SLA, we identify a mismatch between SLA and a direct decomposition in…
+
+</details>
+
+---
+
+## [WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning](https://arxiv.org/abs/2602.12852)
+*arXiv AI*  
+Score: **0.70**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: methods, theory
+
+Graph-based pruning in this paper could inform adaptive representations and signal analysis models.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2602.12852v1 Announce Type: new Abstract: Deep Research systems based on web agents have shown strong potential in solving complex information-seeking tasks, yet their search efficiency remains underexplored. We observe that many state-of-the-art open-source web agents rely on long tool-call trajectories with cyclic reasoning loops and exploration of unproductive branches. To address this, we propose WebClipper, a framework that compresses web agent trajectories via graph-based pruning. Co…
+
+</details>
+
+---
+
+## [Evolving Beyond Snapshots: Harmonizing Structure and Sequence via Entity State Tuning for Temporal Knowledge Graph Forecasting](https://arxiv.org/abs/2602.12389)
+*arXiv AI*  
+Score: **0.68**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: theory, time-frequency
+
+Introduces a stateful approach for entity representation, potentially useful for temporal signal representation.
+
+---
+
+## [A versatile FEM framework with native GPU scalability via globally-applied AD](https://arxiv.org/abs/2602.12365)
 *arXiv Math*  
 Score: **0.65**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: methods, filter-bank
+Published: 2026-02-16T05:00:00+00:00
+Tags: methods, computational, FEM
 
-Focuses on efficient algorithms for matrix equations, which are applicable in signal processing contexts including filter design and adaptation.
+Involves automatic differentiation (AD) for energy-based methods, linking computational frameworks to advanced signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07250v1 Announce Type: new Abstract: The existing doubling algorithms have been proven efficient for several important nonlinear matrix equations arising from real-world engineering applications. In a nutshell, the algorithms iteratively compute a basis matrix, in one of the two particular forms, for the eigenspace of some matrix pencil associated with its eigenvalues in certain complex region such as the left-half plane or the open unit disk, and their success critically depends on t…
+arXiv:2602.12365v1 Announce Type: new Abstract: Energy-based finite-element formulations provide a unified framework for describing complex physical systems in computational mechanics. In these energy-based methods, the governing equations can be obtained directly by considering the derivatives of a single global energy functional. While Automatic Differentiation (AD) can be used to automate the generation of these derivatives, current frameworks face a clear trade-off based primarily on the sca…
 
 </details>
 
 ---
 
-## [Arithmetical enhancements of the Kogbetliantz method for the SVD of order two](https://arxiv.org/abs/2407.13116)
+## [A Machine Learning Approach to the Nirenberg Problem](https://arxiv.org/abs/2602.12368)
+*arXiv Machine Learning*  
+Score: **0.65**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: machine-learning, geometry, methods
+
+Relevant for its application of a numerical approach to Nirenberg's problem using neural networks, potentially valuable for understanding complex signal geometries.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2602.12368v1 Announce Type: new Abstract: This work introduces the Nirenberg Neural Network: a numerical approach to the Nirenberg problem of prescribing Gaussian curvature on $S^2$ for metrics that are pointwise conformal to the round metric. Our mesh-free physics-informed neural network (PINN) approach directly parametrises the conformal factor globally and is trained with a geometry-aware loss enforcing the curvature equation. Additional consistency checks were performed via the Gauss-B…
+
+</details>
+
+---
+
+## [Fast convolution solvers using moment-matching](https://arxiv.org/abs/2602.12850)
 *arXiv Math*  
 Score: **0.60**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: theory, wavelets
+Published: 2026-02-16T05:00:00+00:00
+Tags: convolution, methods, signal-processing
 
-Enhancements in SVD computations are directly relevant for applications in multiresolution analysis and wavelet transforms where SVD plays a critical role.
+Introduces efficient convolution algorithms relevant for signal processing applications.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2407.13116v3 Announce Type: replace Abstract: An enhanced Kogbetliantz method for the singular value decomposition (SVD) of general matrices of order two is proposed. The method consists of three phases: an almost exact prescaling, that can be beneficial to the LAPACK's xLASV2 routine for the SVD of upper triangular 2x2 matrices as well, a highly relatively accurate triangularization in the absence of underflows, and an alternative procedure for computing the SVD of triangular matrices, th…
+arXiv:2602.12850v1 Announce Type: new Abstract: We propose two easy-to-implement fast algorithms based on moment-matching to compute the nonlocal potential $\varphi(\textbf{x})=(U\ast \rho)(\textbf{x})$ on bounded domain, where the kernel $U$ is singular at the origin and the density $\rho$ is a fast-decaying smooth function. Each method requires merely minor modifications to commonly-used existing methods, i.e., the sine spectral/Fourier quadrature method, and achieves a much better convergence…
 
 </details>
 
 ---
 
-## [Deep Reinforcement Learning for Interference Suppression in RIS-Aided Space-Air-Ground Integrated Networks](https://arxiv.org/abs/2602.06982)
-*arXiv Signal Processing*  
+## [Unifying Model-Free Efficiency and Model-Based Representations via Latent Dynamics](https://arxiv.org/abs/2602.12643)
+*arXiv Machine Learning*  
 Score: **0.60**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: deep learning, methods, spectrum
+Published: 2026-02-16T05:00:00+00:00
+Tags: adaptive, methods, theory
 
-Focuses on spectrum sharing and interference suppression with deep learning, relevant to signal processing and wireless communications.
+Bridges model-free and model-based learning, embedding state-action pairs for signal analysis, relevant to adaptive representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.06982v1 Announce Type: new Abstract: Future 6G networks envision ubiquitous connectivity through space-air-ground integrated networks (SAGINs), where high-altitude platform stations (HAPSs) and satellites complement terrestrial systems to provide wide-area, low-latency coverage. However, the rapid growth of terrestrial devices intensifies spectrum sharing between terrestrial and non-terrestrial segments, resulting in severe cross-tier interference. In particular, frequency sharing bet…
+arXiv:2602.12643v1 Announce Type: new Abstract: We present Unified Latent Dynamics (ULD), a novel reinforcement learning algorithm that unifies the efficiency of model-free methods with the representational strengths of model-based approaches, without incurring planning overhead. By embedding state-action pairs into a latent space in which the true value function is approximately linear, our method supports a single set of hyperparameters across diverse domains -- from continuous control with lo…
 
 </details>
 
 ---
 
-## [Neural Sabermetrics with World Model: Play-by-play Predictive Modeling with Large Language Model](https://arxiv.org/abs/2602.07030)
+## [Self-Supervised Temporal Super-Resolution of Energy Data using Generative Adversarial Transformer](https://arxiv.org/abs/2508.10587)
+*arXiv Signal Processing*  
+Score: **0.55**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: time-series, GAN, signal-processing
+
+Focuses on time-series data resampling using GANs, connecting signal processing with machine learning innovations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2508.10587v4 Announce Type: replace-cross Abstract: To bridge the temporal granularity gap in energy network design and operation based on Energy System Models, resampling of time series is required. While conventional upsampling methods are computationally efficient, they often result in significant information loss or increased noise. Advanced models such as time series generation models, Super-Resolution models and imputation models show potential, but also face fundamental challenges. …
+
+</details>
+
+---
+
+## [High-dimensional Level Set Estimation with Trust Regions and Double Acquisition Functions](https://arxiv.org/abs/2602.12391)
 *arXiv Machine Learning*  
 Score: **0.50**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: LLM, time-series, methods
+Published: 2026-02-16T05:00:00+00:00
+Tags: high-dimensional, methods, signal-processing
 
-Presents a novel approach to modeling time-series data, which can be relevant for temporal signal processing connected to wavelet and deep learning interests.
+Presents a method for iterative acquisition in high-dimensional spaces, valuable for enhancing signal processing models in complex environments.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07030v1 Announce Type: new Abstract: Classical sabermetrics has profoundly shaped baseball analytics by summarizing long histories of play into compact statistics. While these metrics are invaluable for valuation and retrospective analysis, they do not define a generative model of how baseball games unfold pitch by pitch, leaving most existing approaches limited to single-step prediction or post-hoc analysis. In this work, we present Neural Sabermetrics with World Model, a Large Langu…
+arXiv:2602.12391v1 Announce Type: new Abstract: Level set estimation (LSE) classifies whether an unknown function's value exceeds a specified threshold for given inputs, a fundamental problem in many real-world applications. In active learning settings with limited initial data, we aim to iteratively acquire informative points to construct an accurate classifier for this task. In high-dimensional spaces, this becomes challenging where the search volume grows exponentially with increasing dimensi…
 
 </details>
 
 ---
 
-## [Behavior Score Prediction in Resting-State Functional MRI by Deep State Space Modeling](https://arxiv.org/abs/2602.07131)
-*arXiv Signal Processing*  
-Score: **0.40**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: deep learning, methods
+## [Channel-Aware Probing for Multi-Channel Imaging](https://arxiv.org/abs/2602.12696)
+*arXiv Computer Vision*  
+Score: **0.50**  
+Published: 2026-02-16T05:00:00+00:00
+Tags: methods, filter-bank, adaptive
 
-Uses deep modeling techniques for time-series analysis, applicable in contexts involving signal processing frameworks.
-
----
-
-## [Convex Dominance in Deep Learning I: A Scaling Law of Loss and Learning Rate](https://arxiv.org/abs/2602.07145)
-*arXiv Machine Learning*  
-Score: **0.40**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: theory, optimization
-
-Explores convex-like dynamics in deep learning, linking optimization with underlying mathematical properties pertinent to signal processing frameworks.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.07145v1 Announce Type: new Abstract: Deep learning has non-convex loss landscape and its optimization dynamics is hard to analyze or control. Nevertheless, the dynamics can be empirically convex-like across various tasks, models, optimizers, hyperparameters, etc. In this work, we examine the applicability of convexity and Lipschitz continuity in deep learning, in order to precisely control the loss dynamics via the learning rate schedules. We illustrate that deep learning quickly beco…
-
-</details>
+Explores using frozen encoders with multi-channel data, relevant to adaptive filtering and sparsity in signal processing.
 
 ---
 
-## [Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference](https://arxiv.org/abs/2602.07397)
-*arXiv Machine Learning*  
-Score: **0.40**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: methods, sparse
-
-Introduces a sparse attention method using sketching techniques, which may relate to efficient signal representation.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.07397v1 Announce Type: new Abstract: Self-attention dominates the computational and memory cost of long-context LLM inference across both prefill and decode phases. To address this challenge, we introduce Sketch&amp;Walk Attention, a training-free sparse attention method that determines sparsity with lightweight sketches and deterministic walk. Sketch&amp;Walk applies Hadamard sketching to get inexpensive approximations of attention scores, then aggregates these estimates across layer…
-
-</details>
-
----
-
-## [LUCID-SAE: Learning Unified Vision-Language Sparse Codes for Interpretable Concept Discovery](https://arxiv.org/abs/2602.07311)
+## [QuEPT: Quantized Elastic Precision Transformers with One-Shot Calibration for Multi-Bit Switching](https://arxiv.org/abs/2602.12609)
 *arXiv Computer Vision*  
 Score: **0.40**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: sparse, methods
+Published: 2026-02-16T05:00:00+00:00
+Tags: quantization, methods, CNN
 
-Utilizes sparse coding techniques, connecting to interests in sparse representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.07311v1 Announce Type: new Abstract: Sparse autoencoders (SAEs) offer a natural path toward comparable explanations across different representation spaces. However, current SAEs are trained per modality, producing dictionaries whose features are not directly understandable and whose explanations do not transfer across domains. In this study, we introduce LUCID (Learning Unified vision-language sparse Codes for Interpretable concept Discovery), a unified vision-language sparse autoenco…
-
-</details>
-
----
-
-## [Probing Neural TSP Representations for Prescriptive Decision Support](https://arxiv.org/abs/2602.07216)
-*arXiv Machine Learning*  
-Score: **0.35**  
-Published: 2026-02-10T05:00:00+00:00
-Tags: CNN, methods
-
-Focuses on the internal representations of neural policies which could connect to adaptive representations and learning mechanisms in signal processing.
+Innovative quantization method applicable to multiresolution analysis in neural networks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2602.07216v1 Announce Type: new Abstract: The field of neural combinatorial optimization (NCO) trains neural policies to solve NP-hard problems such as the traveling salesperson problem (TSP). We ask whether, beyond producing good tours, a trained TSP solver learns internal representations that transfer to other optimization-relevant objectives, in the spirit of transfer learning from other domains. We train several attention-based TSP policies, collect their internal activations, and trai…
+arXiv:2602.12609v1 Announce Type: new Abstract: Elastic precision quantization enables multi-bit deployment via a single optimization pass, fitting diverse quantization scenarios.Yet, the high storage and optimization costs associated with the Transformer architecture, research on elastic quantization remains limited, particularly for large language models.This paper proposes QuEPT, an efficient post-training scheme that reconstructs block-wise multi-bit errors with one-shot calibration on a sma…
 
 </details>
 
