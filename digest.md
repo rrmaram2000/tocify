@@ -1,303 +1,242 @@
-# Weekly ToC Digest (week of 2026-03-09)
+# Weekly ToC Digest (week of 2026-03-16)
 
-This week's selection includes relevant papers on multiresolution signal processing, novel computational frameworks, and signal processing for wireless and neurophysiological data. Focus on advanced signal processing, particularly in wavelet theory, multiresolution analysis, and machine learning applications. Papers were scored primarily on their relevance to harmonic analysis, wavelet theory, and their intersection with modern deep learning methods. Priority was given to subjects like multiresolution analysis, sparse coding, and structured neural networks. Papers are ranked by relevance to the user's research interests at the intersection of harmonic analysis, wavelet theory, and modern deep learning.
+Focus on relevant intersections between harmonic analysis, wavelets, and deep learning methods. The digest focuses on signal processing and machine learning advances, highlighting contributions that align with interests in wavelets, multiresolution analysis, and deep learning integration. This week's selection primarily focuses on signal processing techniques, particularly those involving multiresolution analysis and their integration with machine learning, especially deep learning architectures. Highest relevancy was given to papers that directly combined classical signal analysis with modern neural methods. Focused on papers involving wavelets, multiresolution analysis, and integrating classical signal processing with deep learning.
 
-**Included:** 19 (score ≥ 0.35)  
-**Scored:** 19 total items
+**Included:** 15 (score ≥ 0.35)  
+**Scored:** 15 total items
 
 ---
 
-## [Accurate, Provable, and Fast Polychromatic Tomographic Reconstruction: A Variational Inequality Approach](https://epubs.siam.org/doi/abs/10.1137/25M1742242?af=R)
-*SIAM J Imaging Sciences*  
-Score: **0.85**  
-Published: 2026-03-09T07:00:00+00:00
-Tags: MRA, sparse, methods
+## [Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group](https://arxiv.org/abs/2603.12459)
+*arXiv Machine Learning*  
+Score: **0.95**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: equivariant-CNN, wavelets, theory
 
-Innovative algorithm for CT reconstruction using multiresolution analysis. Relevant to wavelet theory through signal decomposition improvements.
+This paper provides new bases for steerable kernels in CNNs, connecting symmetry groups with feature maps. This aligns with interests in wavelet design and structured neural networks.
 
 <details>
 <summary>RSS summary</summary>
 
-SIAM Journal on Imaging Sciences, Volume 19, Issue 1, Page 446-479, March 2026. <br /> Abstract.We consider the problem of signal reconstruction for computed tomography (CT) given a nonlinear forward model that accounts for exponential signal attenuation, a polychromatic X-ray source, general measurement noise (e.g., Poisson shot noise), and observations acquired over multiple wavelength windows. We develop a simple iterative algorithm for single-material reconstruction, which we call EXACT (EXt…
+arXiv:2603.12459v1 Announce Type: new Abstract: We present an alternative way of solving the steerable kernel constraint that appears in the design of steerable equivariant convolutional neural networks. We find explicit real and complex bases which are ready to use, for different symmetry groups and for feature maps of arbitrary tensor type. A major advantage of this method is that it bypasses the need to numerically or analytically compute Clebsch-Gordan coefficients and works directly with th…
 
 </details>
 
 ---
 
-## [A Survey on Stacked Intelligent Metasurfaces: Fundamentals, Recent Advances, and Challenges](https://arxiv.org/abs/2603.05633)
+## [Sampling and Uniqueness Sets in Graphon Signal Processing](https://arxiv.org/abs/2401.06279)
 *arXiv Signal Processing*  
-Score: **0.75**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: signal-processing, metasurfaces, MRA
+Score: **0.85**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: signal-processing, theory, methods
 
-Describes wave-domain signal processing architecture with potential multiresolution applications. Connects signal processing with novel metasurfaces.
+The study extends graph signal processing principles, which supports multiresolution and time-frequency analysis, adapting them to large graph limits using graphon theory.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.05633v1 Announce Type: new Abstract: Reconfigurable intelligent surfaces (RISs) enable programmable control of wireless propagation. Beyond environmental deployments, integrating metasurfaces at the antenna front end allows direct manipulation of the radiated electromagnetic field and enables wave-domain signal processing. In this context, stacked intelligent metasurfaces (SIMs) have recently been proposed as an advanced architecture in which multiple programmable metasurface layers i…
+arXiv:2401.06279v3 Announce Type: replace-cross Abstract: In this work, we study the properties of sampling sets on families of large graphs by leveraging the theory of graphons and graph limits. To this end, we extend to graphon signals the notion of removable and uniqueness sets, which was developed originally for the analysis of signals on graphs. We state the formal definition of a $\Lambda-$removable set and conditions under which a bandlimited graphon signal can be represented in a unique …
 
 </details>
 
 ---
 
-## [Dynamic Momentum Recalibration in Online Gradient Learning](https://arxiv.org/abs/2603.06120)
+## [Disentangled Latent Dynamics Manifold Fusion for Solving Parameterized PDEs](https://arxiv.org/abs/2603.12676)
+*arXiv Machine Learning*  
+Score: **0.85**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: signal-processing, neural-surrogates, adaptive-methods
+
+The paper addresses neural surrogate models for parameterized PDEs, combining signal processing (latent dynamics) with machine learning, which relates to the user's interest in signal analysis and adaptive methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.12676v1 Announce Type: new Abstract: Generalizing neural surrogate models across different PDE parameters remains difficult because changes in PDE coefficients often make learning harder and optimization less stable. The problem becomes even more severe when the model must also predict beyond the training time range. Existing methods usually cannot handle parameter generalization and temporal extrapolation at the same time. Standard parameterized models treat time as just another inpu…
+
+</details>
+
+---
+
+## [Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions](https://arxiv.org/abs/2603.12296)
+*arXiv AI*  
+Score: **0.85**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: brain-computer-interface, deep-learning, synthetic-data, EEG
+
+The paper discusses deep learning applications in brain-computer interfaces, focusing on generating synthetic neural signals, addressing data scarcity, and enhancing multiresolution techniques, which ties well with modern deep learning adaptations of signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.12296v1 Announce Type: cross Abstract: Deep learning has achieved transformative performance across diverse domains, largely driven by the large-scale, high-quality training data. In contrast, the development of brain-computer interfaces (BCIs) is fundamentally constrained by the limited, heterogeneous, and privacy-sensitive neural recordings. Generating synthetic yet physiologically plausible brain signals has therefore emerged as a compelling way to mitigate data scarcity and enhanc…
+
+</details>
+
+---
+
+## [Sinkhorn-Drifting Generative Models](https://arxiv.org/abs/2603.12366)
+*arXiv Machine Learning*  
+Score: **0.80**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: spectral-methods, theory
+
+Links gradient flows with Sinkhorn divergence, relevant for multiresolution and spectral methods in generative models, aligning with the mathematical foundations of wavelet-based analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.12366v1 Announce Type: new Abstract: We establish a theoretical link between the recently proposed "drifting" generative dynamics and gradient flows induced by the Sinkhorn divergence. In a particle discretization, the drift field admits a cross-minus-self decomposition: an attractive term toward the target distribution and a repulsive/self-correction term toward the current model, both expressed via one-sided normalized Gibbs kernels. We show that Sinkhorn divergence yields an analog…
+
+</details>
+
+---
+
+## [Adaptive Diffusion Posterior Sampling for Data and Model Fusion of Complex Nonlinear Dynamical Systems](https://arxiv.org/abs/2603.12635)
+*arXiv Machine Learning*  
+Score: **0.80**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: signal-processing, adaptive, nonlinear-systems
+
+Focuses on surrogate modeling for high-dimensional nonlinear systems, leveraging adaptive methods relevant to signal processing. Offers novel computational approaches for dynamical systems.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.12635v1 Announce Type: new Abstract: High-fidelity numerical simulations of chaotic, high dimensional nonlinear dynamical systems are computationally expensive, necessitating the development of efficient surrogate models. Most surrogate models for such systems are deterministic, for example when neural operators are involved. However, deterministic models often fail to capture the intrinsic distributional uncertainty of chaotic systems. This work presents a surrogate modeling formulat…
+
+</details>
+
+---
+
+## [Deep Distance Measurement Method for Unsupervised Multivariate Time Series Similarity Retrieval](https://arxiv.org/abs/2603.12544)
 *arXiv Machine Learning*  
 Score: **0.75**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: signal-processing, methods
+Published: 2026-03-16T04:00:00+00:00
+Tags: time-series, deep-learning, methods
 
-The paper reinterprets gradient updates through signal processing, which aligns with interests in time-frequency decompositions. It may offer insights into new methods of adaptive representation.
+Focuses on a deep learning method for time series analysis, potentially incorporating adaptive representations akin to learnable wavelet-based methods.
+
+---
+
+## [Human-AI Collaborative Autonomous Experimentation With Proxy Modeling for Comparative Observation](https://arxiv.org/abs/2603.12618)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: modeling, optimization, machine-learning
+
+Involves proxy modeling and optimization in complex systems, intersecting with signal processing and machine learning methods for data analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.06120v1 Announce Type: new Abstract: Stochastic Gradient Descent (SGD) and its momentum variants form the backbone of deep learning optimization, yet the underlying dynamics of their gradient behavior remain insufficiently understood. In this work, we reinterpret gradient updates through the lens of signal processing and reveal that fixed momentum coefficients inherently distort the balance between bias and variance, leading to skewed or suboptimal parameter updates. To address this, …
+arXiv:2603.12618v1 Announce Type: new Abstract: Optimization for different tasks like material characterization, synthesis, and functional properties for desired applications over multi-dimensional control parameters need a rapid strategic search through active learning such as Bayesian optimization (BO). However, such high-dimensional experimental physical descriptors are complex and noisy, from which realization of a low-dimensional mathematical scalar metrics or objective functions can be err…
 
 </details>
 
 ---
 
-## [Solving Approximation Tasks with Greedy Deep Kernel Methods](https://arxiv.org/abs/2508.08759)
-*arXiv Math*  
-Score: **0.73**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: sparse, deep-learning, methods
-
-Combines kernel methods with deep learning for function approximations—relevant to sparse coding and structured learning.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2508.08759v2 Announce Type: replace Abstract: Kernel methods are versatile tools for function approximation and surrogate modeling. In particular, greedy techniques offer computational efficiency and reliability through inherent sparsity and provable convergence. Inspired by the success of deep neural networks and structured deep kernel networks, we consider deep, multilayer kernels for greedy approximation. This multilayer structure, consisting of linear kernel layers and optimizable kern…
-
-</details>
-
----
-
-## [Channel Estimation for Reconfigurable Intelligent Surface Assisted Upper Mid-Band MIMO Systems](https://arxiv.org/abs/2603.06017)
+## [Distribution-Aware GMD Transceiver Design for Probabilistic Shaping in MIMO](https://arxiv.org/abs/2603.12447)
 *arXiv Signal Processing*  
 Score: **0.72**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: filter-bank, MIMO, time-frequency
+Published: 2026-03-16T04:00:00+00:00
+Tags: signal processing, deep learning, MIMO
 
-Presents advanced channel estimation techniques involving structured filtering and signal decomposition methods.
+This paper integrates signal processing with deep learning for MIMO systems, focusing on geometric-mean decomposition strategies that might overlap with multiresolution techniques.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.06017v1 Announce Type: new Abstract: The upper mid-band (UMB) spectrum is a key enabler for 6G systems, yet reconfigurable intelligent surface (RIS)-assisted UMB communications face severe channel estimation challenges due to near-field propagation and transitional scattering, which induce strong spatial correlation and ill-conditioned least-squares (LS) formulations. To overcome this limitation, we propose a conditioning-aware channel estimation framework that transforms the inherent…
+arXiv:2603.12447v1 Announce Type: new Abstract: Multiple-input multiple-output (MIMO) transceiver design and probabilistic shaping (PS) are key enablers for high spectral efficiency in 6G wireless networks. This work proposes a distribution-aware MIMO transceiver optimized for PS constellation symbols, including a Bayesian geometric-mean decomposition (BGMD) precoder and a maximum a posteriori-VBLAST (MAP-VBLAST) detector. BGMD precoder incorporates PS priors into the derivation and equalizes la…
 
 </details>
 
 ---
 
-## [Certified and accurate computation of function space norms of deep neural networks](https://arxiv.org/abs/2603.06431)
+## [Weak Adversarial Neural Pushforward Method for Fractional Fokker-Planck Equations](https://arxiv.org/abs/2603.12869)
 *arXiv Math*  
-Score: **0.71**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: theory, deep-learning, methods
+Score: **0.70**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: neural networks, PDE, signal processing
 
-Develops framework for certifying neural network accuracy in function spaces. Ties mathematical analysis with neural network architecture.
+Involves neural network-based methods integrated with differential equations, potentially overlapping with signal decomposition techniques.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.06431v1 Announce Type: new Abstract: Neural network methods for PDEs require reliable error control in function space norms. However, trained neural networks can typically only be probed at a finite number of point values. Without strong assumptions, point evaluations alone do not provide enough information to derive tight deterministic and guaranteed bounds on function space norms. In this work, we move beyond a purely black-box setting and exploit the neural network structure direct…
+arXiv:2603.12869v1 Announce Type: new Abstract: We extend the Weak Adversarial Neural Pushforward Method (WANPM) to fractional Fokker-Planck equations (fFPE), in which the classical Laplacian diffusion operator is replaced by the fractional Laplacian $(-\Delta)^{\alpha/2}$ for $\alpha \in (0, 2]$. The solution distribution is represented not as an explicit probability density function but as the pushforward of a simple base distribution through a time-parameterized neural network $F_\vartheta(t,…
 
 </details>
 
 ---
 
-## [CECGSR: Circular ECG Super-Resolution](https://arxiv.org/abs/2508.11658)
+## [Near-Optimal Low-Complexity MIMO Detection via Structured Reduced-Search Enumeration](https://arxiv.org/abs/2603.05441)
 *arXiv Signal Processing*  
 Score: **0.70**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: ECG, super-resolution, methods
+Published: 2026-03-16T04:00:00+00:00
+Tags: MIMO, methods, filter-bank
 
-Presents a novel ECG super-resolution method using classical and modern techniques, which aligns with multiresolution and signal enhancement interests.
+Discusses a structured approach for MIMO detection, which could be relevant to filter banks and sparse coding, common in harmonic and wavelet analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.05441v2 Announce Type: replace Abstract: Maximum-likelihood (ML) detection in high-order MIMO systems is computationally prohibitive due to exponential complexity in the number of transmit layers and constellation size. In this white paper, we demonstrate that for practical MIMO dimensions (up to 8x8) and modulation orders, near-ML hard-decision performance can be achieved using a structured reduced-search strategy with complexity linear in constellation size. Extensive simulations ov…
+
+</details>
 
 ---
 
-## [Beyond Static Frames: Temporal Aggregate-and-Restore Vision Transformer for Human Pose Estimation](https://arxiv.org/abs/2603.05929)
+## [RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection](https://arxiv.org/abs/2603.12685)
 *arXiv Computer Vision*  
 Score: **0.70**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: time-frequency, CNN, methods
+Published: 2026-03-16T04:00:00+00:00
+Tags: CNN, filtering, image-analysis
 
-The paper uses transformers to address temporal coherence in pose estimation, relevant to time-frequency analysis in dynamic settings.
+The encoder-decoder structure with context interaction and spatial-aware fusion may relate to structured filter approaches used in CNNs, highlighting cross-domain feature extraction relevance.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.05929v1 Announce Type: new Abstract: Vision Transformers (ViTs) have recently achieved state-of-the-art performance in 2D human pose estimation due to their strong global modeling capability. However, existing ViT-based pose estimators are designed for static images and process each frame independently, thereby ignoring the temporal coherence that exists in video sequences. This limitation often results in unstable predictions, especially in challenging scenes involving motion blur, o…
+arXiv:2603.12685v1 Announce Type: new Abstract: This paper focuses on the inconsistency in salient regions between RGB and thermal images. To address this issue, we propose the Region-guided Selective Optimization Network for RGB-T Salient Object Detection, which consists of the region guidance stage and saliency generation stage. In the region guidance stage, three parallel branches with same encoder-decoder structure equipped with the context interaction (CI) module and spatial-aware fusion (S…
 
 </details>
 
 ---
 
-## [MAD: A Multimodal and Multi-perspective Affective Dataset with Hierarchical Annotations](https://arxiv.org/abs/2603.06206)
-*arXiv Signal Processing*  
-Score: **0.69**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: EEG, neuro, wavelets
-
-Includes EEG data with multiscale and signal decomposition analysis—relevant to neural signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.06206v1 Announce Type: new Abstract: This work presents MAD (Multimodal Affection Dataset), a multimodal emotion dataset designed for affective computing and neurophysiological modeling. MAD is built upon synchronous collection of diverse physiological signals (EEG, ECG, EOG, EMG, PPG, and BCG) together with tri-view RGB-D facial videos, enabling the observation of emotional dynamics from neural, physiological, and behavioral perspectives. The dataset consists of synchronized recordin…
-
-</details>
-
----
-
-## [FourierSpecNet: Neural Collision Operator Approximation Inspired by the Fourier Spectral Method for Solving the Boltzmann Equation](https://arxiv.org/abs/2504.20408)
+## [RUNNs: Ritz-Uzawa Neural Networks for Solving Variational Problems](https://arxiv.org/abs/2603.12982)
 *arXiv Math*  
 Score: **0.68**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: scattering, Fourier, CNN
+Published: 2026-03-16T04:00:00+00:00
+Tags: neural networks, variational, signal analysis
 
-Combines Fourier spectral methods with neural networks—provides techniques applicable at the intersection of spectral analysis and deep learning.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2504.20408v2 Announce Type: replace-cross Abstract: The Boltzmann equation, a fundamental model in kinetic theory, describes the evolution of particle distribution functions through a nonlinear, high-dimensional collision operator. However, its numerical solution remains computationally demanding, particularly for inelastic collisions and high-dimensional velocity domains. In this work, we propose the Fourier Neural Spectral Network (FourierSpecNet), a hybrid framework that integrates the …
-
-</details>
+Applies deep learning to approximate solutions for complex equations, relevant to signal analysis through neural network frameworks.
 
 ---
 
-## [Multivariate Fields of Experts for Convergent Image Reconstruction](https://arxiv.org/abs/2508.06490)
-*arXiv Signal Processing*  
-Score: **0.60**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: sparse, image-reconstruction, methods
-
-Discusses a new framework for learning image priors with multivariate potential functions, relevant to sparse coding and signal reconstruction.
-
----
-
-## [Physics Informed Deep Unfolded Full Waveform Inversion for Edema Detection](https://arxiv.org/abs/2603.04070)
-*arXiv Signal Processing*  
-Score: **0.60**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: waveform-inversion, signal-processing, deep-learning
-
-Uses physics-informed deep learning for waveform inversion in ultrasound imaging, touching upon advanced signal processing methodologies.
-
----
-
-## [DQE: A Semantic-Aware Evaluation Metric for Time Series Anomaly Detection](https://arxiv.org/abs/2603.06131)
+## [Multi-objective Genetic Programming with Multi-view Multi-level Feature for Enhanced Protein Secondary Structure Prediction](https://arxiv.org/abs/2603.12293)
 *arXiv Machine Learning*  
-Score: **0.60**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: time-series, methods
+Score: **0.65**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: multilevel-feature, methods
 
-Focus on time series anomaly detection offers potential insights into advanced time-series analysis, which is relevant to signal processing.
+Although biological, this paper's focus on multi-level feature linking has potential methodological parallels to hierarchical representations in wavelet analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.06131v1 Announce Type: new Abstract: Time series anomaly detection has achieved remarkable progress in recent years. However, evaluation practices have received comparatively less attention, despite their critical importance. Existing metrics exhibit several limitations: (1) bias toward point-level coverage, (2) insensitivity or inconsistency in near-miss detections, (3) inadequate penalization of false alarms, and (4) inconsistency caused by threshold or threshold-interval selection.…
+arXiv:2603.12293v1 Announce Type: new Abstract: Predicting protein secondary structure is essential for understanding protein function and advancing drug discovery. However, the intricate sequence-structure relationship poses significant challenges for accurate modeling. To address these, we propose MOGP-MMF, a multi-objective genetic programming framework that reformulates PSSP as an automated optimization task focused on feature selection and fusion. Specifically, MOGP-MMF introduces a multi-v…
 
 </details>
 
 ---
 
-## [RAC: Rectified Flow Auto Coder](https://arxiv.org/abs/2603.05925)
-*arXiv Computer Vision*  
-Score: **0.60**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: methods, time-frequency, theory
+## [Sampling through iterated approximation: Gradient-free and multi-fidelity Bayesian inference via transport](https://arxiv.org/abs/2603.12448)
+*arXiv Math*  
+Score: **0.64**  
+Published: 2026-03-16T04:00:00+00:00
+Tags: Bayesian inference, transport, signal processing
 
-Proposes bidirectional inference within a model, aligning with multiresolution and time-domain transformations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.05925v1 Announce Type: new Abstract: In this paper, we propose a Rectified Flow Auto Coder (RAC) inspired by Rectified Flow to replace the traditional VAE: 1. It achieves multi-step decoding by applying the decoder to flow timesteps. Its decoding path is straight and correctable, enabling step-by-step refinement. 2. The model inherently supports bidirectional inference, where the decoder serves as the encoder through time reversal (hence Coder rather than encoder or decoder), reducing…
-
-</details>
-
----
-
-## [Adaptive Radial Projection on Fourier Magnitude Spectrum for Document Image Skew Estimation](https://arxiv.org/abs/2603.05942)
-*arXiv Computer Vision*  
-Score: **0.60**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: time-frequency, methods, theory
-
-Introduces a method involving Fourier analysis, relevant to frequency-domain signal processing techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.05942v1 Announce Type: new Abstract: Skew estimation is one of the vital tasks in document processing systems, especially for scanned document images, because its performance impacts subsequent steps directly. Over the years, an enormous number of researches focus on this challenging problem in the rise of digitization age. In this research, we first propose a novel skew estimation method that extracts the dominant skew angle of the given document image by applying an Adaptive Radial …
-
-</details>
-
----
-
-## [Design of a Wearable Parallel Electrical Impedance Imaging System for Healthcare](https://arxiv.org/abs/2505.19146)
-*arXiv Signal Processing*  
-Score: **0.50**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: imaging, signal-acquisition, methods
-
-Although focused on medical imaging, employs advanced signal acquisition and reconstruction techniques relevant to the researcher's expertise.
-
----
-
-## [Remote Sensing Image Classification Using Deep Ensemble Learning](https://arxiv.org/abs/2603.05844)
-*arXiv Computer Vision*  
-Score: **0.45**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: CNN, methods
-
-Involves convolutional neural networks (CNNs) relevant for signal processing in neural architectures.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.05844v1 Announce Type: new Abstract: Remote sensing imagery plays a crucial role in many applications and requires accurate computerized classification techniques. Reliable classification is essential for transforming raw imagery into structured and usable information. While Convolutional Neural Networks (CNNs) are mostly used for image classification, they excel at local feature extraction, but struggle to capture global contextual information. Vision Transformers (ViTs) address this…
-
-</details>
-
----
-
-## [Predictive Coding Graphs are a Superset of Feedforward Neural Networks](https://arxiv.org/abs/2603.06142)
-*arXiv Machine Learning*  
-Score: **0.40**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: neural-networks, methods
-
-The notion that predictive coding networks provide a mathematical superset aligns with the exploration of structured networks and mathematical frameworks linking to signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.06142v1 Announce Type: new Abstract: Predictive coding graphs (PCGs) are a recently introduced generalization to predictive coding networks, a neuroscience-inspired probabilistic latent variable model. Here, we prove how PCGs define a mathematical superset of feedforward artificial neural networks (multilayer perceptrons). This positions PCNs more strongly within contemporary machine learning (ML), and reinforces earlier proposals to study the use of non-hierarchical neural networks f…
-
-</details>
-
----
-
-## [EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition](https://arxiv.org/abs/2603.05807)
-*arXiv Computer Vision*  
-Score: **0.35**  
-Published: 2026-03-09T04:00:00+00:00
-Tags: methods
-
-Uses dynamic vision sensors potentially applicable to neural data analysis, although specific signal processing methods are unclear.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.05807v1 Announce Type: new Abstract: Dynamic vision sensors, also known as event cameras, are rapidly rising in popularity for robotic and computer vision tasks due to their sparse activation and high-temporal resolution. Event cameras have been used in robotic navigation and localization tasks where accurate positioning needs to occur on small and frequent time scales, or when energy concerns are paramount. In this work, we present EventGeM, a state-of-the-art global to local feature…
-
-</details>
+Focuses on Bayesian inference with transport methods that could relate to wavelet networks and structured filters in deep learning.
 
 ---
