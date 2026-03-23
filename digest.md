@@ -1,153 +1,211 @@
-# Weekly ToC Digest (week of 2026-03-16)
+# Weekly ToC Digest (week of 2026-03-23)
 
-Focus on relevant intersections between harmonic analysis, wavelets, and deep learning methods. The digest focuses on signal processing and machine learning advances, highlighting contributions that align with interests in wavelets, multiresolution analysis, and deep learning integration. This week's selection primarily focuses on signal processing techniques, particularly those involving multiresolution analysis and their integration with machine learning, especially deep learning architectures. Highest relevancy was given to papers that directly combined classical signal analysis with modern neural methods. Focused on papers involving wavelets, multiresolution analysis, and integrating classical signal processing with deep learning.
+Prioritized papers focusing on signal processing methods, wavelet theory, and machine learning applications relevant to user's interests. Papers focus on signal processing, wavelets, and applications of harmonic analysis to machine learning. Papers selected focus on advancements in signal processing techniques, especially those intersecting with deep learning and multiresolution analysis. Top papers selected focus on novel methods in signal processing or theoretical developments involving wavelets, multi-resolution analysis, or neural signal analysis.
 
-**Included:** 15 (score ≥ 0.35)  
-**Scored:** 15 total items
+**Included:** 19 (score ≥ 0.35)  
+**Scored:** 19 total items
 
 ---
 
-## [Bases of Steerable Kernels for Equivariant CNNs: From 2D Rotations to the Lorentz Group](https://arxiv.org/abs/2603.12459)
+## [MSNet and LS-Net: Scalable Multi-Scale Multi-Representation Networks for Time Series Classification](https://arxiv.org/abs/2603.19315)
 *arXiv Machine Learning*  
-Score: **0.95**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: equivariant-CNN, wavelets, theory
+Score: **0.90**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: MRA, time-frequency, CNN, methods
 
-This paper provides new bases for steerable kernels in CNNs, connecting symmetry groups with feature maps. This aligns with interests in wavelet design and structured neural networks.
+Presents a multi-scale convolutional framework integrating structured multi-representation inputs for time series, aligning with multiresolution analysis and CNNs.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12459v1 Announce Type: new Abstract: We present an alternative way of solving the steerable kernel constraint that appears in the design of steerable equivariant convolutional neural networks. We find explicit real and complex bases which are ready to use, for different symmetry groups and for feature maps of arbitrary tensor type. A major advantage of this method is that it bypasses the need to numerically or analytically compute Clebsch-Gordan coefficients and works directly with th…
+arXiv:2603.19315v1 Announce Type: new Abstract: Time series classification (TSC) performance depends not only on architectural design but also on the diversity of input representations. In this work, we propose a scalable multi-scale convolutional framework that systematically integrates structured multi-representation inputs for univariate time series. We introduce two architectures: MSNet, a hierarchical multi-scale convolutional network optimized for robustness and calibration, and LS-Net, a …
 
 </details>
 
 ---
 
-## [Sampling and Uniqueness Sets in Graphon Signal Processing](https://arxiv.org/abs/2401.06279)
-*arXiv Signal Processing*  
+## [PhyUnfold-Net: Advancing Remote Sensing Change Detection with Physics-Guided Deep Unfolding](https://arxiv.org/abs/2603.19566)
+*arXiv Computer Vision*  
+Score: **0.90**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: time-series, methods, multiscale
+
+The paper presents a novel deep unfolding framework that formulates change detection with a physics-guided approach, relevant for advanced time-series analysis and multiresolution techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19566v1 Announce Type: new Abstract: Bi-temporal change detection is highly sensitive to acquisition discrepancies, including illumination, season, and atmosphere, which often cause false alarms. We observe that genuine changes exhibit higher patch-wise singular-value entropy (SVE) than pseudo changes in the feature-difference space. Motivated by this physical prior, we propose PhyUnfold-Net, a physics-guided deep unfolding framework that formulates change detection as an explicit dec…
+
+</details>
+
+---
+
+## [Transformer Causality Regularization for Dynamic Inverse Problems](https://arxiv.org/abs/2603.19847)
+*arXiv Math*  
 Score: **0.85**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: signal-processing, theory, methods
+Published: 2026-03-23T04:00:00+00:00
+Tags: time-frequency, theory, methods
 
-The study extends graph signal processing principles, which supports multiresolution and time-frequency analysis, adapting them to large graph limits using graphon theory.
+Integrates transformer-based predictions with classical variational regularization for time-dependent inverse problems, connecting modern ML with signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2401.06279v3 Announce Type: replace-cross Abstract: In this work, we study the properties of sampling sets on families of large graphs by leveraging the theory of graphons and graph limits. To this end, we extend to graphon signals the notion of removable and uniqueness sets, which was developed originally for the analysis of signals on graphs. We state the formal definition of a $\Lambda-$removable set and conditions under which a bandlimited graphon signal can be represented in a unique …
+arXiv:2603.19847v1 Announce Type: new Abstract: We study the concept of including the causality principle as regularizer into the solution of linear time-dependent inverse problems. This is achieved by combining transformer-based predictions with classical variational regularization, resulting in what we call transformer causality regularization (TCR). The causality principle states that an object at time $t'$ depends only on its previous states at $t < t'$ and is independent of future states at…
 
 </details>
 
 ---
 
-## [Disentangled Latent Dynamics Manifold Fusion for Solving Parameterized PDEs](https://arxiv.org/abs/2603.12676)
+## [Deep Hilbert--Galerkin Methods for Infinite-Dimensional PDEs and Optimal Control](https://arxiv.org/abs/2603.19463)
 *arXiv Machine Learning*  
 Score: **0.85**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: signal-processing, neural-surrogates, adaptive-methods
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, theory, deep learning
 
-The paper addresses neural surrogate models for parameterized PDEs, combining signal processing (latent dynamics) with machine learning, which relates to the user's interest in signal analysis and adaptive methods.
+Develops neural operator methods for solving PDEs, connecting deep learning with traditional numerical analysis frameworks like Galerkin methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12676v1 Announce Type: new Abstract: Generalizing neural surrogate models across different PDE parameters remains difficult because changes in PDE coefficients often make learning harder and optimization less stable. The problem becomes even more severe when the model must also predict beyond the training time range. Existing methods usually cannot handle parameter generalization and temporal extrapolation at the same time. Standard parameterized models treat time as just another inpu…
+arXiv:2603.19463v1 Announce Type: new Abstract: We develop deep learning-based approximation methods for fully nonlinear second-order PDEs on separable Hilbert spaces, such as HJB equations for infinite-dimensional control, by parameterizing solutions via Hilbert--Galerkin Neural Operators (HGNOs). We prove the first Universal Approximation Theorems (UATs) which are sufficiently powerful to address these problems, based on novel topologies for Hessian terms and corresponding novel continuity ass…
 
 </details>
 
 ---
 
-## [Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions](https://arxiv.org/abs/2603.12296)
+## [K-GMRF: Kinetic Gauss-Markov Random Field for First-Principles Covariance Tracking on Lie Groups](https://arxiv.org/abs/2603.19601)
+*arXiv Computer Vision*  
+Score: **0.85**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: theory, methods, time-frequency
+
+Introduces a novel method for covariance tracking using high-order dynamics on Lie groups, focusing on time-frequency analysis and multiscale modeling.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19601v1 Announce Type: new Abstract: Tracking non-stationary covariance matrices is fundamental to vision yet hindered by existing estimators that either neglect manifold constraints or rely on first-order updates, incurring inevitable phase lag during rapid evolution. We propose K-GMRF, an online, training-free framework for covariance tracking that reformulates the problem as forced rigid-body motion on Lie groups. Derived from the Euler-Poincar\'e equations, our method interprets o…
+
+</details>
+
+---
+
+## [Deep Hilbert--Galerkin Methods for Infinite-Dimensional PDEs and Optimal Control](https://arxiv.org/abs/2603.19463)
+*arXiv Math*  
+Score: **0.80**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, theory
+
+Develops deep learning-based approximation methods leveraging Hilbert spaces, showcasing integration of deep learning with classical mathematical frameworks.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19463v1 Announce Type: cross Abstract: We develop deep learning-based approximation methods for fully nonlinear second-order PDEs on separable Hilbert spaces, such as HJB equations for infinite-dimensional control, by parameterizing solutions via Hilbert--Galerkin Neural Operators (HGNOs). We prove the first Universal Approximation Theorems (UATs) which are sufficiently powerful to address these problems, based on novel topologies for Hessian terms and corresponding novel continuity a…
+
+</details>
+
+---
+
+## [Beyond Quadratic: Linear-Time Change Detection with RWKV](https://arxiv.org/abs/2603.19606)
+*arXiv Computer Vision*  
+Score: **0.80**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, time-series, sparse
+
+Provides a new approach to remote sensing with efficient change detection using a fusion of CNN and Transformer paradigms, pertinent to multiresolution and CNN applications.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19606v1 Announce Type: new Abstract: Existing paradigms for remote sensing change detection are caught in a trade-off: CNNs excel at efficiency but lack global context, while Transformers capture long-range dependencies at a prohibitive computational cost. This paper introduces ChangeRWKV, a new architecture that reconciles this conflict. By building upon the Receptance Weighted Key Value (RWKV) framework, our ChangeRWKV uniquely combines the parallelizable training of Transformers wi…
+
+</details>
+
+---
+
+## [Neural Uncertainty Principle: A Unified View of Adversarial Fragility and LLM Hallucination](https://arxiv.org/abs/2603.19562)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, theory
+
+Connects adversarial and hallucination phenomena using a geometric framework, which might relate to invariant representation and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19562v1 Announce Type: new Abstract: Adversarial vulnerability in vision and hallucination in large language models are conventionally viewed as separate problems, each addressed with modality-specific patches. This study first reveals that they share a common geometric origin: the input and its loss gradient are conjugate observables subject to an irreducible uncertainty bound. Formalizing a Neural Uncertainty Principle (NUP) under a loss-induced state, we find that in near-bound reg…
+
+</details>
+
+---
+
+## [When both Grounding and not Grounding are Bad -- A Partially Grounded Encoding of Planning into SAT (Extended Version)](https://arxiv.org/abs/2603.19429)
 *arXiv AI*  
-Score: **0.85**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: brain-computer-interface, deep-learning, synthetic-data, EEG
-
-The paper discusses deep learning applications in brain-computer interfaces, focusing on generating synthetic neural signals, addressing data scarcity, and enhancing multiresolution techniques, which ties well with modern deep learning adaptations of signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.12296v1 Announce Type: cross Abstract: Deep learning has achieved transformative performance across diverse domains, largely driven by the large-scale, high-quality training data. In contrast, the development of brain-computer interfaces (BCIs) is fundamentally constrained by the limited, heterogeneous, and privacy-sensitive neural recordings. Generating synthetic yet physiologically plausible brain signals has therefore emerged as a compelling way to mitigate data scarcity and enhanc…
-
-</details>
-
----
-
-## [Sinkhorn-Drifting Generative Models](https://arxiv.org/abs/2603.12366)
-*arXiv Machine Learning*  
-Score: **0.80**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: spectral-methods, theory
-
-Links gradient flows with Sinkhorn divergence, relevant for multiresolution and spectral methods in generative models, aligning with the mathematical foundations of wavelet-based analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.12366v1 Announce Type: new Abstract: We establish a theoretical link between the recently proposed "drifting" generative dynamics and gradient flows induced by the Sinkhorn divergence. In a particle discretization, the drift field admits a cross-minus-self decomposition: an attractive term toward the target distribution and a repulsive/self-correction term toward the current model, both expressed via one-sided normalized Gibbs kernels. We show that Sinkhorn divergence yields an analog…
-
-</details>
-
----
-
-## [Adaptive Diffusion Posterior Sampling for Data and Model Fusion of Complex Nonlinear Dynamical Systems](https://arxiv.org/abs/2603.12635)
-*arXiv Machine Learning*  
-Score: **0.80**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: signal-processing, adaptive, nonlinear-systems
-
-Focuses on surrogate modeling for high-dimensional nonlinear systems, leveraging adaptive methods relevant to signal processing. Offers novel computational approaches for dynamical systems.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.12635v1 Announce Type: new Abstract: High-fidelity numerical simulations of chaotic, high dimensional nonlinear dynamical systems are computationally expensive, necessitating the development of efficient surrogate models. Most surrogate models for such systems are deterministic, for example when neural operators are involved. However, deterministic models often fail to capture the intrinsic distributional uncertainty of chaotic systems. This work presents a surrogate modeling formulat…
-
-</details>
-
----
-
-## [Deep Distance Measurement Method for Unsupervised Multivariate Time Series Similarity Retrieval](https://arxiv.org/abs/2603.12544)
-*arXiv Machine Learning*  
 Score: **0.75**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: time-series, deep-learning, methods
+Published: 2026-03-23T04:00:00+00:00
+Tags: theory, methods, optimization
 
-Focuses on a deep learning method for time series analysis, potentially incorporating adaptive representations akin to learnable wavelet-based methods.
-
----
-
-## [Human-AI Collaborative Autonomous Experimentation With Proxy Modeling for Comparative Observation](https://arxiv.org/abs/2603.12618)
-*arXiv Machine Learning*  
-Score: **0.75**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: modeling, optimization, machine-learning
-
-Involves proxy modeling and optimization in complex systems, intersecting with signal processing and machine learning methods for data analysis.
+Discusses a method balancing grounded and ungrounded representations pertinent to model optimization, relevant for theoretical and computational method enhancements.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12618v1 Announce Type: new Abstract: Optimization for different tasks like material characterization, synthesis, and functional properties for desired applications over multi-dimensional control parameters need a rapid strategic search through active learning such as Bayesian optimization (BO). However, such high-dimensional experimental physical descriptors are complex and noisy, from which realization of a low-dimensional mathematical scalar metrics or objective functions can be err…
+arXiv:2603.19429v1 Announce Type: new Abstract: Classical planning problems are typically defined using lifted first-order representations, which offer compactness and generality. While most planners ground these representations to simplify reasoning, this can cause an exponential blowup in size. Recent approaches instead operate directly on the lifted level to avoid full grounding. We explore a middle ground between fully lifted and fully grounded planning by introducing three SAT encodings tha…
 
 </details>
 
 ---
 
-## [Distribution-Aware GMD Transceiver Design for Probabilistic Shaping in MIMO](https://arxiv.org/abs/2603.12447)
-*arXiv Signal Processing*  
-Score: **0.72**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: signal processing, deep learning, MIMO
+## [Bounds on the determinant of an exponential matrix](https://arxiv.org/abs/2603.19900)
+*arXiv Math*  
+Score: **0.70**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: theory, methods
 
-This paper integrates signal processing with deep learning for MIMO systems, focusing on geometric-mean decomposition strategies that might overlap with multiresolution techniques.
+Provides new mathematical bounds which could influence signal processing techniques in theoretical frameworks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12447v1 Announce Type: new Abstract: Multiple-input multiple-output (MIMO) transceiver design and probabilistic shaping (PS) are key enablers for high spectral efficiency in 6G wireless networks. This work proposes a distribution-aware MIMO transceiver optimized for PS constellation symbols, including a Bayesian geometric-mean decomposition (BGMD) precoder and a maximum a posteriori-VBLAST (MAP-VBLAST) detector. BGMD precoder incorporates PS priors into the derivation and equalizes la…
+arXiv:2603.19900v1 Announce Type: new Abstract: We derive upper and lower bounds on the determinant of an exponential matrix. They can be transformed into corresponding bounds for the determinant of a univariate Gaussian matrix.
+
+</details>
+
+---
+
+## [Subspace Kernel Learning on Tensor Sequences](https://arxiv.org/abs/2603.19546)
+*arXiv Machine Learning*  
+Score: **0.70**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, theory, adaptive
+
+Introduces novel kernel framework for learning on tensor data, relevant for multi-dimensional signal processing and adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19546v1 Announce Type: new Abstract: Learning from structured multi-way data, represented as higher-order tensors, requires capturing complex interactions across tensor modes while remaining computationally efficient. We introduce Uncertainty-driven Kernel Tensor Learning (UKTL), a novel kernel framework for $M$-mode tensors that compares mode-wise subspaces derived from tensor unfoldings, enabling expressive and robust similarity measure. To handle large-scale tensor data, we propose…
+
+</details>
+
+---
+
+## [Neural Dynamics Self-Attention for Spiking Transformers](https://arxiv.org/abs/2603.19290)
+*arXiv AI*  
+Score: **0.70**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: transformers, SNN, neural
+
+This paper integrates Spiking Neural Networks (SNNs) with Transformer architectures, addressing high memory overhead and performance gaps, relevant for those exploring neural dynamics and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19290v1 Announce Type: cross Abstract: Integrating Spiking Neural Networks (SNNs) with Transformer architectures offers a promising pathway to balance energy efficiency and performance, particularly for edge vision applications. However, existing Spiking Transformers face two critical challenges: (i) a substantial performance gap compared to their Artificial Neural Networks (ANNs) counterparts and (ii) high memory overhead during inference. Through theoretical analysis, we attribute b…
 
 </details>
 
@@ -155,88 +213,119 @@ arXiv:2603.12447v1 Announce Type: new Abstract: Multiple-input multiple-output (
 
 ## [Weak Adversarial Neural Pushforward Method for Fractional Fokker-Planck Equations](https://arxiv.org/abs/2603.12869)
 *arXiv Math*  
-Score: **0.70**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: neural networks, PDE, signal processing
+Score: **0.65**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: methods, theory
 
-Involves neural network-based methods integrated with differential equations, potentially overlapping with signal decomposition techniques.
+Introduces adversarial neural network methods to handle complex differential equations, bridging ML and signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12869v1 Announce Type: new Abstract: We extend the Weak Adversarial Neural Pushforward Method (WANPM) to fractional Fokker-Planck equations (fFPE), in which the classical Laplacian diffusion operator is replaced by the fractional Laplacian $(-\Delta)^{\alpha/2}$ for $\alpha \in (0, 2]$. The solution distribution is represented not as an explicit probability density function but as the pushforward of a simple base distribution through a time-parameterized neural network $F_\vartheta(t,…
+arXiv:2603.12869v2 Announce Type: replace Abstract: We extend the Weak Adversarial Neural Pushforward Method (WANPM) to fractional Fokker-Planck equations, in which the classical Laplacian diffusion operator is replaced by the fractional Laplacian of order alpha in (0, 2]. The solution distribution is represented as the pushforward of a simple base distribution through a neural network, and the weak formulation is discretized entirely via Monte Carlo sampling without any temporal mesh. A key com…
 
 </details>
 
 ---
 
-## [Near-Optimal Low-Complexity MIMO Detection via Structured Reduced-Search Enumeration](https://arxiv.org/abs/2603.05441)
-*arXiv Signal Processing*  
-Score: **0.70**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: MIMO, methods, filter-bank
-
-Discusses a structured approach for MIMO detection, which could be relevant to filter banks and sparse coding, common in harmonic and wavelet analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.05441v2 Announce Type: replace Abstract: Maximum-likelihood (ML) detection in high-order MIMO systems is computationally prohibitive due to exponential complexity in the number of transmit layers and constellation size. In this white paper, we demonstrate that for practical MIMO dimensions (up to 8x8) and modulation orders, near-ML hard-decision performance can be achieved using a structured reduced-search strategy with complexity linear in constellation size. Extensive simulations ov…
-
-</details>
-
----
-
-## [RSONet: Region-guided Selective Optimization Network for RGB-T Salient Object Detection](https://arxiv.org/abs/2603.12685)
-*arXiv Computer Vision*  
-Score: **0.70**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: CNN, filtering, image-analysis
-
-The encoder-decoder structure with context interaction and spatial-aware fusion may relate to structured filter approaches used in CNNs, highlighting cross-domain feature extraction relevance.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.12685v1 Announce Type: new Abstract: This paper focuses on the inconsistency in salient regions between RGB and thermal images. To address this issue, we propose the Region-guided Selective Optimization Network for RGB-T Salient Object Detection, which consists of the region guidance stage and saliency generation stage. In the region guidance stage, three parallel branches with same encoder-decoder structure equipped with the context interaction (CI) module and spatial-aware fusion (S…
-
-</details>
-
----
-
-## [RUNNs: Ritz-Uzawa Neural Networks for Solving Variational Problems](https://arxiv.org/abs/2603.12982)
-*arXiv Math*  
-Score: **0.68**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: neural networks, variational, signal analysis
-
-Applies deep learning to approximate solutions for complex equations, relevant to signal analysis through neural network frameworks.
-
----
-
-## [Multi-objective Genetic Programming with Multi-view Multi-level Feature for Enhanced Protein Secondary Structure Prediction](https://arxiv.org/abs/2603.12293)
+## [A General Deep Learning Framework for Wireless Resource Allocation under Discrete Constraints](https://arxiv.org/abs/2603.19322)
 *arXiv Machine Learning*  
 Score: **0.65**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: multilevel-feature, methods
+Published: 2026-03-23T04:00:00+00:00
+Tags: optimization, methods
 
-Although biological, this paper's focus on multi-level feature linking has potential methodological parallels to hierarchical representations in wavelet analysis.
+Focuses on discrete optimization in wireless networks, potential applications for signal processing frameworks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.12293v1 Announce Type: new Abstract: Predicting protein secondary structure is essential for understanding protein function and advancing drug discovery. However, the intricate sequence-structure relationship poses significant challenges for accurate modeling. To address these, we propose MOGP-MMF, a multi-objective genetic programming framework that reformulates PSSP as an automated optimization task focused on feature selection and fusion. Specifically, MOGP-MMF introduces a multi-v…
+arXiv:2603.19322v1 Announce Type: new Abstract: While deep learning (DL)-based methods have achieved remarkable success in continuous wireless resource allocation, efficient solutions for problems involving discrete variables remain challenging. This is primarily due to the zero-gradient issue in backpropagation, the difficulty of enforcing intricate constraints with discrete variables, and the inability in generating solutions with non-same-parameter-same-decision (non-SPSD) property. To addres…
 
 </details>
 
 ---
 
-## [Sampling through iterated approximation: Gradient-free and multi-fidelity Bayesian inference via transport](https://arxiv.org/abs/2603.12448)
-*arXiv Math*  
-Score: **0.64**  
-Published: 2026-03-16T04:00:00+00:00
-Tags: Bayesian inference, transport, signal processing
+## [A Deep Learning Approach to Multipath Component Detection in Power Delay Profiles](https://arxiv.org/abs/2603.19706)
+*arXiv Signal Processing*  
+Score: **0.60**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: sparse, methods
 
-Focuses on Bayesian inference with transport methods that could relate to wavelet networks and structured filters in deep learning.
+Uses deep learning for detecting multipath components in signal profiles, relevant for channel estimation and signal processing applications.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19706v1 Announce Type: new Abstract: Power Delay Profile (PDP) plays a crucial role in wireless communications, providing information on multipath propagation and signal strength variations over time. Accurate detection of peaks within PDP is essential to identify dominant signal paths, which are critical for tasks such as channel estimation, localization, and interference management. Traditional approaches to PDP analysis often struggle with noise, low resolution, and the inherent co…
+
+</details>
+
+---
+
+## [Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification](https://arxiv.org/abs/2603.19715)
+*arXiv AI*  
+Score: **0.60**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: neuro-symbolic, proof, reasoning
+
+The paper offers a neuro-symbolic framework for proof verification, contributing to the intersection of symbolic reasoning and neural methods, essential for deep learning and signal analysis research.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19715v1 Announce Type: new Abstract: Formal verification via interactive theorem proving is increasingly used to ensure the correctness of critical systems, yet constructing large proof scripts remains highly manual and limits scalability. Advances in large language models (LLMs), especially in mathematical reasoning, make their integration into software verification increasingly promising. This paper introduces a neuro-symbolic proof generation framework designed to automate proof se…
+
+</details>
+
+---
+
+## [Learning to Disprove: Formal Counterexample Generation with Large Language Models](https://arxiv.org/abs/2603.19514)
+*arXiv AI*  
+Score: **0.50**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: reasoning, theory
+
+Focus on mathematical reasoning and counterexample generation, which introduces computational methods for logical analysis, appropriate for those interested in theoretical aspects of AI.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19514v1 Announce Type: new Abstract: Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof construction, often neglecting the equally important task of finding counterexamples. In this paper, we address this gap by fine-tuning large language models (LLMs) to reason about and generate counter…
+
+</details>
+
+---
+
+## [Pseudo-Labeling for Unsupervised Domain Adaptation with Kernel GLMs](https://arxiv.org/abs/2603.19422)
+*arXiv Stats ML*  
+Score: **0.50**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: unsupervised, kernel, GLM
+
+Introduces unsupervised domain adaptation in kernel Generalized Linear Models, relevant for statistical methods and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19422v1 Announce Type: new Abstract: We propose a principled framework for unsupervised domain adaptation under covariate shift in kernel Generalized Linear Models (GLMs), encompassing kernelized linear, logistic, and Poisson regression with ridge regularization. Our goal is to minimize prediction error in the target domain by leveraging labeled source data and unlabeled target data, despite differences in covariate distributions. We partition the labeled source data into two batches:…
+
+</details>
+
+---
+
+## [FormalEvolve: Neuro-Symbolic Evolutionary Search for Diverse and Prover-Effective Autoformalization](https://arxiv.org/abs/2603.19828)
+*arXiv AI*  
+Score: **0.50**  
+Published: 2026-03-23T04:00:00+00:00
+Tags: neuro-symbolic, search, AI
+
+Covers neuro-symbolic evolutionary search, contributing to computational methods in AI that align with theoretical elements.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.19828v1 Announce Type: new Abstract: Autoformalization aims to translate natural-language mathematics into compilable, machine-checkable statements. However, semantic consistency does not imply prover effectiveness: even semantically consistent formalizations can differ substantially in proof-search cost and success rate. In this work, we formulate autoformalization as a budgeted, test-time search for semantically consistent repertoires, and propose FormalEvolve, a compilation-gated n…
+
+</details>
 
 ---
