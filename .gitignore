@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Triage instrumentation logs (per-run JSONL, noisy and ephemeral)
+logs/

@@ -18,6 +18,7 @@ PREFILTER_KEEP_TOP = int(os.getenv("PREFILTER_KEEP_TOP", "200"))
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "50"))
 MIN_SCORE_READ = float(os.getenv("MIN_SCORE_READ", "0.65"))
 MAX_RETURNED = int(os.getenv("MAX_RETURNED", "40"))
+TRIAGE_LOG_DIR = os.getenv("TRIAGE_LOG_DIR", "logs")
 
 SCHEMA = {
     "type": "object",
@@ -227,15 +228,73 @@ def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> di
             time.sleep(min(60, 2 ** attempt))
     raise last
 
+def _approx_token_count(items: list[dict]) -> int:
+    # ~4 chars per token heuristic over the lean payload that actually scales with batch size.
+    lean = [{
+        "id": it.get("id", ""),
+        "source": it.get("source", ""),
+        "title": it.get("title", ""),
+        "link": it.get("link", ""),
+        "published_utc": it.get("published_utc"),
+        "summary": (it.get("summary") or "")[:SUMMARY_MAX_CHARS],
+    } for it in items]
+    return len(json.dumps(lean, ensure_ascii=False)) // 4
+
+
+def _score_distribution(ranked: list[dict]) -> dict:
+    scores = [r["score"] for r in ranked if isinstance(r.get("score"), (int, float))]
+    if not scores:
+        return {"count": 0, "min": None, "max": None, "mean": None, "buckets": {}}
+    buckets = {"0.0-0.2": 0, "0.2-0.4": 0, "0.4-0.6": 0, "0.6-0.8": 0, "0.8-1.0": 0}
+    for s in scores:
+        if s < 0.2:   buckets["0.0-0.2"] += 1
+        elif s < 0.4: buckets["0.2-0.4"] += 1
+        elif s < 0.6: buckets["0.4-0.6"] += 1
+        elif s < 0.8: buckets["0.6-0.8"] += 1
+        else:         buckets["0.8-1.0"] += 1
+    return {
+        "count": len(scores),
+        "min": min(scores),
+        "max": max(scores),
+        "mean": sum(scores) / len(scores),
+        "buckets": buckets,
+    }
+
+
+def _append_triage_log(log_path: str, entry: dict) -> None:
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
 def triage_in_batches(client: OpenAI, interests: dict, items: list[dict], batch_size: int) -> dict:
     week_of = datetime.now(timezone.utc).date().isoformat()
     total = math.ceil(len(items) / batch_size)
     all_ranked, notes_parts = [], []
 
+    run_ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    log_path = os.path.join(TRIAGE_LOG_DIR, f"triage-{run_ts}.jsonl")
+
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
-        print(f"Triage batch {i // batch_size + 1}/{total} ({len(batch)} items)")
+        batch_idx = i // batch_size + 1
+        print(f"Triage batch {batch_idx}/{total} ({len(batch)} items)")
+
+        approx_tokens = _approx_token_count(batch)
+        t0 = time.perf_counter()
         res = call_openai_triage(client, interests, batch)
+        elapsed = time.perf_counter() - t0
+
+        _append_triage_log(log_path, {
+            "ts": datetime.now(timezone.utc).isoformat(),
+            "batch_index": batch_idx,
+            "total_batches": total,
+            "batch_size": len(batch),
+            "approx_input_tokens": approx_tokens,
+            "wall_clock_seconds": round(elapsed, 3),
+            "score_distribution": _score_distribution(res.get("ranked", [])),
+        })
+
         if res.get("notes", "").strip():
             notes_parts.append(res["notes"].strip())
         all_ranked.extend(res.get("ranked", []))
