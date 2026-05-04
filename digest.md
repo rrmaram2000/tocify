@@ -1,221 +1,347 @@
-# Weekly ToC Digest (week of 2026-04-27)
+# Weekly ToC Digest (week of 2026-05-04)
 
-Focused on articles bridging signal processing with deep learning, especially in time-frequency analysis, wavelets, and adaptive representations. Items selected based on wavelet, multiresolution analysis, deep learning applications, signal processing methods. Prioritize items with deep learning and signal processing connections. Down weight items lacking novelty in these areas. No closely relevant papers were found within the given RSS items based on the user's core interests.
+Papers relevant to harmonic analysis, wavelet theory, and deep learning are prioritized. Papers selected based on wavelet-related and signal processing methods that intersect with modern deep learning. Prioritized papers explore novel multiresolution techniques, signal processing methods with deep learning, and adaptive representations that align with the researcher's focus. This week features a scarce selection of contributions directly tied to wavelet theory, time-frequency analysis, or neural signal processing. The relevant papers are primarily focused on theoretical methods and computational frameworks related to diffusion and flow models. There is a notable lack of materials connecting directly to wavelet design or multiresolution analysis aimed explicitly at signal processing.
 
-**Included:** 13 (score ≥ 0.35)  
-**Scored:** 15 total items
+**Included:** 20 (score ≥ 0.35)  
+**Scored:** 20 total items
 
 ---
 
-## [Virtualizing the Senses: Enabling High-Precision ISAC on Commercial Cellular Infrastructure](https://arxiv.org/abs/2604.22054)
+## [The Resurrection of Spectrum Spreading for 6G and Beyond: From Sinusoids to Chirps](https://arxiv.org/abs/2605.00249)
 *arXiv Signal Processing*  
-Score: **0.80**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: ISAC, time-frequency, methods, communications
+Score: **0.85**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: time-frequency, wavelets, methods
 
-Discusses integrated sensing using commercial infrastructure, which could intersect with wavelet-based signal processing methods for enhanced time-frequency analysis in communications.
+The paper explores advanced multicarrier techniques and spectral efficiency, aligning with the intersection of time-frequency methods and modern signal processing key to wavelet and filter bank theories.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2604.22054v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) is poised to be a defining feature of 6G networks, promising to transform cellular base stations (BSs) into ubiquitous radar sensors. However, a significant gap exists between the theoretical promise of ISAC and the commercial reality of legacy cellular communication infrastructure. Existing communication networks are constrained by fragmented spectrum, blockage-prone environments, and cost-prohibitive hi…
+arXiv:2605.00249v1 Announce Type: new Abstract: Orthogonal frequency-division multiplexing (OFDM) and its static sinusoidal subcarriers have underpinned the 4G and 5G eras, delivering high spectral efficiency and resilience to multipath fading through an efficient multicarrier architecture. However, as future systems move toward doubly dispersive environments driven by high-mobility applications and migration to mmWave/sub-THz bands, the time-invariance assumption underlying OFDM becomes increas…
 
 </details>
 
 ---
 
-## [A Unified Framework for Ambiguity Function Shaping and PAPR Control in AFDM Systems](https://arxiv.org/abs/2604.22198)
-*arXiv Signal Processing*  
-Score: **0.75**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: time-frequency, AFDM, methods, waveforms
-
-Focuses on shaping ambiguity functions in AFDM systems, aligning with time-frequency methods utilized in modern signal processing techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.22198v1 Announce Type: new Abstract: Affine frequency division multiplexing (AFDM) has emerged as a promising integrated sensing and communication (ISAC) waveform due to its intrinsic chirp signalling nature. Nevertheless, practical AFDM-based ISAC still faces two key obstacles, namely, high ambiguity function (AF) sidelobes and high peak-to-average power ratio (PAPR). By leveraging the reserved chirp-subcarrier (RCS) symbols, we develop a unified AFDM waveform design framework for AF…
-
-</details>
-
----
-
-## [H-Sets: Hessian-Guided Discovery of Set-Level Feature Interactions in Image Classifiers](https://arxiv.org/abs/2604.22045)
+## [Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking](https://arxiv.org/abs/2605.00362)
 *arXiv Computer Vision*  
-Score: **0.75**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: CNN, methods, theory
+Score: **0.85**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: time-series, methods
 
-Introduces Hessian-based methods to discover feature interactions crucial for understanding CNNs; relevant for neural network structured filters.
+Implements a novel time-series approach for complex motion modeling in multi-object tracking, relevant for advanced time-series analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2604.22045v1 Announce Type: new Abstract: Feature attribution methods explain the predictions of deep neural networks by assigning importance scores to individual input features. However, most existing methods focus solely on marginal effects, overlooking feature interactions, where groups of features jointly influence model output. Such interactions are especially important in image classification tasks, where semantic meaning often arises from pixel interdependencies rather than isolated…
+arXiv:2605.00362v1 Announce Type: new Abstract: Multi-object tracking (MOT) is critical in numerous real-world applications, including surveillance, autonomous driving, and robotics. Accurately predicting object motion is fundamental to MOT, but current methods struggle with the complexities of real-world, non-linear motion (e.g., sudden stops, sharp turns). While recent research has gravitated towards increasingly complex and computationally expensive generative models to tackle this problem, t…
 
 </details>
 
 ---
 
-## [Time-Frequency Pilot Sequence Design and LoS Delay-Doppler Estimation](https://arxiv.org/abs/2604.22478)
-*arXiv Signal Processing*  
-Score: **0.70**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: time-frequency, sensing, methods
-
-Emphasizes time-frequency domain pilot sequences and estimation, relevant for signal processing techniques in structured time-frequency analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.22478v1 Announce Type: new Abstract: We present a novel framework for line-of-sight (LoS) delay-Doppler (DD) estimation in dense scattering propagation environments. We present two time-frequency (TF) domain pilot sequences inspired by the Zadoff-Chu sequence that exhibit desirable autocorrelation properties. Further, we present a twisted convolution-based approach for LoS DD estimation directly from the TF-domain received signal, avoiding an additional TF to DD transformation, which …
-
-</details>
-
----
-
-## [Efficient approximations of matrix multiplication using truncated decompositions](https://arxiv.org/abs/2504.19308)
-*arXiv Math*  
-Score: **0.70**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: methods, decomposition, theory, signal-processing
-
-Matrix decomposition methods can be leveraged in signal processing frameworks including wavelets and adaptive representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2504.19308v4 Announce Type: replace Abstract: We exploit the truncated singular value decomposition and the recently proposed circulant decomposition for an efficient first-order approximation of the multiplication of large dense matrices. A decomposition of each matrix into a sum of a sparse matrix with relatively few dominant entries and a dense residue can also use the above approach, and we present methods for multiplication using a Fourier decomposition and a cycle decomposition-based…
-
-</details>
-
----
-
-## [Data-Free Contribution Estimation in Federated Learning using Gradient von Neumann Entropy](https://arxiv.org/abs/2604.22562)
+## [Soft-MSM: Differentiable Context-Aware Elastic Alignment for Time Series](https://arxiv.org/abs/2605.00069)
 *arXiv Machine Learning*  
+Score: **0.80**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: time-frequency, methods, theory
+
+Introduces elastic distances with alignment cost dependency, aligning with time-frequency analysis in multiresolution contexts.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00069v1 Announce Type: new Abstract: Elastic distances like dynamic time warping (DTW) are central to time series machine learning because they compare sequences under local temporal misalignment. Soft-DTW is an adaptation of DTW that can be used as a gradient-based loss by replacing the hard minimum in its dynamic-programming recursion with a smooth relaxation. However, this approach does not directly extend to elastic distances whose transition costs depend on the local alignment co…
+
+</details>
+
+---
+
+## [Adaptive anisotropic composite quadratures for residual minimisation in neural PDE approximations](https://arxiv.org/abs/2605.00308)
+*arXiv Math*  
+Score: **0.78**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods, theory
+
+Involves numerical quadrature in neural PDEs, relevant to adaptive representations and optimization in learning-based signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00308v1 Announce Type: new Abstract: We study the role of numerical quadrature in residual-minimisation methods for neural network approximation of partial differential equations. We first present an abstract error framework that separates approximation, quadrature and optimisation errors, and derive a nonlinear Strang-type estimate quantifying how inaccuracies in the discrete loss affect the final approximation. Motivated by this analysis, we propose an anisotropic adaptive composite…
+
+</details>
+
+---
+
+## [Reconstruction of the Heat Relaxation Index in the Phonon Transport Equation](https://epubs.siam.org/doi/abs/10.1137/25M1737341?af=R)
+*SIAM Journal Applied Math*  
+Score: **0.77**  
+Published: 2026-05-04T07:00:00+00:00
+Tags: methods, theory
+
+Focuses on inverse problems and spectral methods which connect to harmonic analysis and signal processing techniques in neural contexts.
+
+<details>
+<summary>RSS summary</summary>
+
+SIAM Journal on Applied Mathematics, Volume 86, Issue 3, Page 751-775, June 2026. <br /> Abstract. For nanomaterials, the concept of heat conductivity needs to be revisited. At this fine scale, heat is propagated using the phonon transport equation, an ab initio model derived from first principles. In this problem, a material’s thermal property is coded in a coefficient termed the relaxation time [math], depending on the phonon frequency. We propose a novel inverse problem in this paper that inf…
+
+</details>
+
+---
+
+## [SPLICE: Latent Diffusion over JEPA Embeddings for Conformal Time-Series Inpainting](https://arxiv.org/abs/2605.00126)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: time-frequency, methods, sparse
+
+Develops latent generative imputation with robust intervals, relevant for multiresolution and adaptive signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00126v1 Announce Type: new Abstract: Generative models for time-series imputation achieve strong reconstruction accuracy, yet provide no finite-sample reliability guarantees, a critical limitation in power systems where imputed values inform dispatch and planning. We introduce SPLICE (Self-supervised Predictive Latent Inpainting with Conformal Envelopes), a modular framework coupling latent generative imputation with distribution-free, online-adaptive prediction intervals. A JEPA enco…
+
+</details>
+
+---
+
+## [Beyond Heuristics: Learnable Density Control for 3D Gaussian Splatting](https://arxiv.org/abs/2605.00408)
+*arXiv Computer Vision*  
+Score: **0.75**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods, 3D
+
+Shifts from heuristic to learnable density control in 3D Gaussian Splatting, focusing on adaptive methods potentially linking signal processing to deep learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00408v1 Announce Type: new Abstract: While 3D Gaussian Splatting (3DGS) has demonstrated impressive real-time rendering performance, its efficacy remains constrained by a reliance on heuristic density control. Despite numerous refinements to these handcrafted rules, such methods inherently lack the flexibility to adapt to diverse scenes with complex geometries. In this paper, we propose a paradigm shift for density control from rigid heuristics to fully learnable policies. Specificall…
+
+</details>
+
+---
+
+## [HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs](https://arxiv.org/abs/2605.00820)
+*arXiv Math*  
+Score: **0.73**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods, theory
+
+Introduces modular frameworks for learning PDEs, bridging classical signal processing with deep learning, which is critical for adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00820v1 Announce Type: cross Abstract: We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closures, boundary handling) in a query-conditioned way. Rather than learning a monolithic map, HyCOP learns a policy over short programs - which module to apply and for how long - conditioned on regime features and state statistics. Modules may be numerical sub-solvers or learned components, enabling hy…
+
+</details>
+
+---
+
+## [Dynamics-Encoded Deep Learning for Robust System Identification and Parameter Estimation](https://arxiv.org/abs/2410.04299)
+*arXiv Math*  
+Score: **0.72**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: CNN, methods
+
+Combines deep learning with numerical methods for differential equations, relevant for modeling dynamical systems in signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2410.04299v2 Announce Type: replace-cross Abstract: Incorporating a priori physics knowledge into machine learning leads to more robust and interpretable algorithms. In this work, we combine deep learning techniques and classic numerical methods for differential equations to address two challenging missing physics problems in dynamical systems theory: dynamics discovery and parameter estimation. The presented methods encode available information relating to the system dynamics into deep le…
+
+</details>
+
+---
+
+## [Deep-Picard Iteration for Space-time Fractional Diffusion PDEs](https://arxiv.org/abs/2605.00456)
+*arXiv Math*  
 Score: **0.70**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: spectral, methods
-
-Utilizes spectral entropy in gradient evaluation, involving spectral methods that connect with harmonic analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.22562v1 Announce Type: new Abstract: Client contribution estimation in Federated Learning is necessary for identifying clients' importance and for providing fair rewards. Current methods often rely on server-side validation data or self-reported client information, which can compromise privacy or be susceptible to manipulation. We introduce a data-free signal based on the matrix von Neumann (spectral) entropy of the final-layer updates, which measures the diversity of the information …
-
-</details>
-
----
-
-## [CubeSounder: Low SWaP-C 180 GHz Radiometer for Atmospheric Sensing Tested on High Altitude Balloons](https://arxiv.org/abs/2602.23338)
-*arXiv Signal Processing*  
-Score: **0.65**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: sensing, signal-processing, methods
-
-Potential overlap with adaptive sensing techniques in high-frequency signal processing, albeit not directly wavelet-related.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.23338v2 Announce Type: replace Abstract: Microwave sounding is the leading driver of global numerical weather forecasting, but is limited by the scalability of such instruments. With modern machining and commercial microwave components, it is now possible to design low size, weight, power, and cost (SWaP-C) microwave spectrometers while maintaining wide bandwidth performance. Here we report on the status of CubeSounder, a spectrometer tailored for water vapor radiometry that utilizes …
-
-</details>
-
----
-
-## [Soft Anisotropic Diagrams for Differentiable Image Representation](https://arxiv.org/abs/2604.21984)
-*arXiv Computer Vision*  
-Score: **0.65**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: adaptive, methods, theory
-
-Proposes a new differentiable representation related to Apollonius diagrams, potentially connecting to adaptive signal representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.21984v1 Announce Type: new Abstract: We introduce Soft Anisotropic Diagrams (SAD), an explicit and differentiable image representation parameterized by a set of adaptive sites in the image plane. In SAD, each site specifies an anisotropic metric and an additively weighted distance score, and we compute pixel colors as a softmax blend over a small per-pixel top-K subset of sites. We induce a soft anisotropic additively weighted Voronoi partition (i.e., an Apollonius diagram) with learn…
-
-</details>
-
----
-
-## [Well-Posedness of the Linear Regularized 13-Moment Equations Using Tensor-Valued Korn Inequalities](https://arxiv.org/abs/2501.14108)
-*arXiv Math*  
-Score: **0.64**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: methods, theory, signal-processing
-
-Involves tensor methods which could relate to developing signal processing algorithms for complex data structures.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2501.14108v3 Announce Type: replace-cross Abstract: In this paper, we finally prove the well-posedness of the linearized R13 moment model, which describes, e.g., rarefied gas flows. As an extension of the classical fluid equations, moment models are robust and have been frequently used, yet they are challenging to analyze due to their additional equations. By effectively grouping variables, we identify a 2-by-2 block structure, allowing us to analyze well-posedness within the abstract LBB …
-
-</details>
-
----
-
-## [A Efficient Fast Alternating Direction Method of Multipliers Algorithm for General Nonlinear Programming](https://arxiv.org/abs/2604.22000)
-*arXiv Math*  
-Score: **0.60**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: optimization, sparse-coding, methods
-
-Provides optimization techniques useful in sparse coding and compressed sensing, important in signal processing.
-
----
-
-## [FLARE-BO: Fused Luminance and Adaptive Retinex Enhancement via Bayesian Optimisation for Low-Light Robotic Vision](https://arxiv.org/abs/2604.22093)
-*arXiv Computer Vision*  
-Score: **0.60**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: methods, Bayesian, adaptive
-
-Integrates Bayesian optimization for image enhancement, relevant for novel computational methods in signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.22093v1 Announce Type: new Abstract: Reliable visual perception under low illumination remains a core challenge for autonomous robotic systems, where degraded image quality directly compromises navigation, inspection, and various operations. A recent training free approach showed that Bayesian optimisation with Gaussian Processes can adaptively select brightness, contrast, and denoising parameters on a per-image basis, achieving competitive enhancement without any learned model. Howev…
-
-</details>
-
----
-
-## [Contrastive Semantic Projection: Faithful Neuron Labeling with Contrastive Examples](https://arxiv.org/abs/2604.22477)
-*arXiv Computer Vision*  
-Score: **0.55**  
-Published: 2026-04-27T04:00:00+00:00
+Published: 2026-05-04T04:00:00+00:00
 Tags: methods, CNN
 
-Proposes contrastive examples for refining neuron labeling, potentially useful for understanding deep learning models.
+Utilizes deep learning frameworks for fractional PDEs, relevant for advanced signal processing techniques.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2604.22477v1 Announce Type: new Abstract: Neuron labeling assigns textual descriptions to internal units of deep networks. Existing approaches typically rely on highly activating examples, often yielding broad or misleading labels by focusing on dominant but incidental visual factors. Prior work such as FALCON introduced contrastive examples -- inputs that are semantically similar to activating examples but elicit low activations -- to sharpen explanations, but it primarily addresses subsp…
+arXiv:2605.00456v1 Announce Type: new Abstract: We propose a Deep-Picard iteration framework for high-dimensional nonlinear space-time fractional diffusion equations.The method is based on a nonlinear fractional Feynman--Kac fixed-point formulation, which replaces direct discretization of the Caputo memory term and the nonlocal fractional Laplacian by Monte Carlo simulation of the associated fractional dynamics. Each Picard update is approximated by stochastic label generation and realized throu…
 
 </details>
 
 ---
 
-## [EvFlow-GS: Event Enhanced Motion Deblurring with Optical Flow for 3D Gaussian Splatting](https://arxiv.org/abs/2604.22183)
-*arXiv Computer Vision*  
-Score: **0.50**  
-Published: 2026-04-27T04:00:00+00:00
-Tags: optical-flow, methods, 3D
+## [Learning Fingerprints for Medical Time Series with Redundancy-Constrained Information Maximization](https://arxiv.org/abs/2605.00130)
+*arXiv Machine Learning*  
+Score: **0.70**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: EEG, sparse, methods
 
-Event camera integration and optical flow usage relate to high-resolution signal processing methods.
+Insightful approach to noise handling in EEG/ECG signals using deep learning, connected to sparse coding.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2604.22183v1 Announce Type: new Abstract: Achieving sharp 3D reconstruction from motion-blurred images alone becomes challenging, motivating recent methods to incorporate event cameras, benefiting from microsecond temporal resolution. However, they suffer from residual artifacts and blurry texture details due to misleading supervision from inaccurate event double integral priors and noisy, blurry events. In this study, we propose EvFlow-GS, a unified framework that leverages event streams …
+arXiv:2605.00130v1 Announce Type: new Abstract: Learning meaningful representations from medical time series (MedTS) such as ECG or EEG signals is a critical challenge. These signals are often high-dimensional, variable-length and rife with noise. Existing self-supervised approaches, such as Masked Autoencoders (MAEs) are highly effective for pre-training general-purpose encoders. However, they do not explicitly learn compact and semantically interpretable latent representations, typically relyi…
+
+</details>
+
+---
+
+## [AIDA-ReID: Adaptive Intermediate Domain Adaptation for Generalizable and Source-Free Person Re-Identification](https://arxiv.org/abs/2605.00111)
+*arXiv Computer Vision*  
+Score: **0.70**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: adaptive, methods
+
+Introduces adaptive domain adaptation relevant to learnable basis functions and adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00111v1 Announce Type: new Abstract: Person re-identification (Re-ID) aims to match images of the same individual across non-overlapping camera views and remains challenging due to domain shifts caused by variations in illumination, background, camera characteristics, and population distributions. Although supervised models perform well under matched training and testing conditions, their performance degrades significantly when deployed in unseen environments. Existing intermediate do…
+
+</details>
+
+---
+
+## [From Cursed to Competitive: Closing the ZO-FO Gap via Input-to-State Stability](https://arxiv.org/abs/2604.25372)
+*arXiv Math*  
+Score: **0.68**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods
+
+Discusses optimization and stability in learning frameworks, crucial for adaptive signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2604.25372v2 Announce Type: replace-cross Abstract: While it is generally understood that zeroth-order (ZO) algorithms have an extra dependency on their number of iterations for any choice of parameters, compared to their first-order (FO) counterparts, in this work, we show that under several conditions, in expectation, ZO methods do not suffer from extra dimension dependencies in their convergence rates with respect to their FO counterparts. We look at optimisation algorithms from the dyn…
+
+</details>
+
+---
+
+## [AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain for AI-Native 6G](https://arxiv.org/abs/2605.00020)
+*arXiv Signal Processing*  
+Score: **0.67**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: time-frequency, methods
+
+Focuses on delay-Doppler processing methods, which are foundational in time-frequency analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00020v1 Announce Type: cross Abstract: The success of large foundation models is catalyzing a new paradigm for AI-native 6G network design: wireless foundation models for physical layer design. However, existing models often operate on channel state information (CSI) in the space-time-frequency (STF) domain, where distinct multipath components are inherently superimposed and structurally entangled. This hinders the learning of universal channel representation. Meanwhile, their relianc…
+
+</details>
+
+---
+
+## [MAEPose: Self-Supervised Spatiotemporal Learning for Human Pose Estimation on mmWave Video](https://arxiv.org/abs/2605.00242)
+*arXiv Computer Vision*  
+Score: **0.65**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: spatiotemporal, methods
+
+Focuses on self-supervised spatiotemporal learning, which aligns with multiresolution and adaptive processing interests.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00242v1 Announce Type: new Abstract: Millimetre-wave (mmWave) radar offers a more privacy-preserving alternative to RGB-based human pose estimation. However, existing methods typically rely on pre-extracted intermediate representations such as sparse point clouds or spectrogram images, where the rich spatiotemporal information naturally present in radar video streams is discarded for model learning, while such signal processing adds system complexity. In addition, existing solutions a…
+
+</details>
+
+---
+
+## [SIMON: Saliency-aware Integrative Multi-view Object-centric Neural Decoding](https://arxiv.org/abs/2605.00401)
+*arXiv Computer Vision*  
+Score: **0.60**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: multi-view, EEG
+
+Integrates multi-view neural decoding, which relates to signal processing and adaptive representation development.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00401v1 Announce Type: new Abstract: Recent EEG-to-image retrieval methods leverage pretrained vision encoders and foveation-inspired priors, but typically assume a fixed, center-focused view. This center bias conflicts with content-driven human attention, creating a geometric-semantic dissociation between visual features and EEG responses. We propose SIMON, a saliency-aware multi-view framework for zero-shot EEG-to-image retrieval. SIMON combines foreground segmentation and saliency …
+
+</details>
+
+---
+
+## [Adaptive Geodesic Conformal Prediction for Egocentric Camera Pose Estimation](https://arxiv.org/abs/2605.00233)
+*arXiv Computer Vision*  
+Score: **0.55**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: adaptive, methods
+
+Introduces adaptive methods for improving pose estimation, potentially applicable to motion and signal representation.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00233v1 Announce Type: new Abstract: Egocentric pose estimation for Augmented Reality (AR) and assistive devices requires not just accurate predictions but guaranteed uncertainty regions. Conformal prediction (CP) provides such guarantees without retraining, but we show that standard CP with a single fixed threshold achieves nominal 90% overall coverage while covering only ~60% of the hardest 25% of frames (Q4) -- a ~30 percentage-point conditional coverage gap consistent across 12 pa…
+
+</details>
+
+---
+
+## [LIMSSR: LLM-Driven Sequence-to-Score Reasoning under Training-Time Incomplete Multimodal Observations](https://arxiv.org/abs/2605.00434)
+*arXiv Computer Vision*  
+Score: **0.50**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods, adaptive
+
+Addresses sequence-to-score reasoning under incomplete observations, connecting signal processing with deep learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00434v1 Announce Type: new Abstract: Real-world multimodal learning is often hindered by missing modalities. While Incomplete Multimodal Learning (IML) has gained traction, existing methods typically rely on the unrealistic assumption of full-modal availability during training to provide reconstruction supervision or cross-modal priors. This paper tackles the more challenging setting of IML under training-time incomplete observations, which precludes reliance on a ``God's eye view'' o…
+
+</details>
+
+---
+
+## [A unified perspective on fine-tuning and sampling with diffusion and flow models](https://arxiv.org/abs/2605.00229)
+*arXiv Stats ML*  
+Score: **0.45**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: methods, theory, machine learning
+
+This paper discusses training of diffusion and flow generative models, which are useful in advanced signal processing tasks. The use of stochastic optimal control methods aligns with interests in signal decomposition.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00229v1 Announce Type: new Abstract: We study the problem of training diffusion and flow generative models to sample from target distributions defined by an exponential tilting of a base density; a formulation that subsumes both sampling from unnormalized densities and reward fine-tuning of pre-trained models. This problem can be approached from a stochastic optimal control (SOC) perspective, using adjoint-based or score matching methods, or from a non-equilibrium thermodynamics persp…
+
+</details>
+
+---
+
+## [Information-geometric adaptive sampling for graph diffusion](https://arxiv.org/abs/2605.00250)
+*arXiv Stats ML*  
+Score: **0.35**  
+Published: 2026-05-04T04:00:00+00:00
+Tags: theory, machine learning
+
+Presents a diffusion model from an information-geometric perspective, introducing adaptive sampling on Riemannian manifolds, relevant to advanced signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.00250v1 Announce Type: new Abstract: Standard diffusion models for graph generation typically rely on uniform time-stepping, an approach that overlooks the non-homogeneous dynamics of distributional evolution on complex manifolds. In this paper, we present an information-geometric framework that reinterprets the diffusion sampling trajectory as a parametric curve on a Riemannian manifold. Our key observation is that the Fisher-Rao metric provides a principled measure of the intrinsic …
 
 </details>
 
