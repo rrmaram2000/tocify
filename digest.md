@@ -1,222 +1,218 @@
-# Weekly ToC Digest (week of 2026-05-18)
+# Weekly ToC Digest (week of 2026-05-25)
 
-Papers focusing on wavelet theory, multiresolution, and signal processing integration with deep learning were prioritized. This week's agenda includes several papers of interest at the intersection of deep learning and signal processing, with notable contributions in time-frequency analysis and novel neural network architectures. Prioritized items discussing EEG analysis, spectral methods, multiscale signal representations, or connections between deep learning and classical signal processing such as wavelets. A quiet week for harmonic analysis and wavelet theory, but new papers on signal processing and scientific computing methods are of potential interest.
+Prioritized papers related to advanced signal processing methods such as wavelet theory, time-frequency analysis, and deep learning integration with classical techniques. Emphasis was on multiresolution approaches and adaptive representations. Evaluated papers based on alignment with harmonic analysis, wavelet theory, and deep learning. No highly relevant papers were found for harmonic analysis, wavelet theory, or deep learning intersections.
 
-**Included:** 13 (score ≥ 0.35)  
+**Included:** 14 (score ≥ 0.35)  
 **Scored:** 16 total items
 
 ---
 
-## [Spectral Priors vs. Attention: Investigating the Utility of Attention Mechanisms in EEG-Based Diagnosis](https://arxiv.org/abs/2605.15433)
-*arXiv Machine Learning*  
-Score: **0.95**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: EEG, spectral, time-frequency, methods
+## [Topological Signal Processing: An Application-Oriented Tutorial](https://arxiv.org/abs/2605.22853)
+*arXiv Signal Processing*  
+Score: **0.86**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: methods, signal-processing, topology
 
-This paper tackles EEG time-series analysis using a spectral approach, which aligns with interests in signal processing methods for neural data and time-frequency decompositions.
+Introduces topological methods for complex datasets, potentially aligning with multiresolution and adaptive approaches in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.15433v1 Announce Type: new Abstract: Electroencephalograph (EEG) timeseries signals are characterized by significant noise and coarse spatial resolution, which complicates the classification of neurodegenerative diseases. Even SOTA deep learning architectures struggle to distinguish between healthy controls and diseased subjects, or between different disease types, due to high intergroup similarity. In this paper, we show that a spectrally selective approach to feature construction en…
+arXiv:2605.22853v1 Announce Type: new Abstract: Many modern datasets are large and carry complex structural relationships. Graph-based methods have traditionally been used to represent networked data, modeling individual elements as nodes and pairwise interactions as edges. Furthermore, Graph Signal Processing (GSP) has been developed to analyze signals on graph nodes, such as temperature measurements (node signals) across different regions of a country represented as a graph. Topological Signal…
 
 </details>
 
 ---
 
-## [Sampling pseudospectrum for data-driven matrices](https://arxiv.org/abs/2605.15234)
-*arXiv Math*  
+## [Classification of IED-free EEG Responses for Assisted Epilepsy Diagnosis](https://arxiv.org/abs/2605.22858)
+*arXiv Signal Processing*  
 Score: **0.85**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: spectral, time-frequency, methods
+Published: 2026-05-25T04:00:00+00:00
+Tags: wavelet, EEG, methods, time-frequency
 
-Relevant due to its focus on spectral decomposition of matrices, a core component in many signal processing techniques, connecting to deep learning for complex systems.
+Applies machine learning to EEG data, incorporating spectral, wavelet features—relevant for signal processing of neural data.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.15234v1 Announce Type: new Abstract: Many complex systems can be reduced to their key components through spectrally decomposing matrices that capture their dynamics. These matrices can in turn be constructed from data, often by least-squares fitting: examples of algorithms to do this include Dynamical Mode Decomposition and variants, subspace identification and eigenvalue realisation algorithms. Typical outputs of these algorithms include a range of isolated, peripheral eigenvalues ca…
+arXiv:2605.22858v1 Announce Type: new Abstract: Diagnosing epilepsy is challenging when routine EEGs lack interictal epileptiform discharges (IEDs). Intermittent photic stimulation (IPS) and hyperventilation (HV) can increase diagnostic yield, but their interpretation is subjective. We propose a reproducible pipeline that classifies EEG recordings acquired during stimulation procedures, using machine-learning features spanning temporal, spectral, wavelet, and connectivity domains, and a stacked …
 
 </details>
 
 ---
 
-## [Time-Varying Deep State Space Models for Sequences with Switching Dynamics](https://arxiv.org/abs/2605.15311)
-*arXiv Machine Learning*  
+## [Broad learning system with robust adaptive kernel](https://arxiv.org/abs/2605.23495)
+*arXiv Signal Processing*  
 Score: **0.85**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: time-frequency, SSM, neural-networks, methods
+Published: 2026-05-25T04:00:00+00:00
+Tags: methods, theory, signal-processing
 
-Proposes a state-space model using learnable time-varying dynamics, beneficial for model-based signal processing with potential applications in time-frequency analysis.
+Focuses on improving generalization with adaptive kernel, aligning with interest in adaptive signal representations and robust methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.23495v1 Announce Type: new Abstract: For the performance degradation problem of broad learning system (BLS) in non-Gaussian noise environment, the variant of BLS based on M-estimator shows good robust performance. However, in most cases, the determination of the optimal loss function is often very time-consuming due to the lack of prior knowledge of the sample data. Therefore, this paper constructs a variant of BLS based on adaptive robust kernel (AR-BLS) to improve the generalization…
+
+</details>
 
 ---
 
-## [Universal Approximation of Nonlinear Operators and Their Derivatives](https://arxiv.org/abs/2605.15285)
+## [World Machine: Towards Generative World Modeling for Time-Series](https://arxiv.org/abs/2605.23025)
 *arXiv Machine Learning*  
+Score: **0.85**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: time-series, transformer, methods
+
+This paper introduces a transformer-based architecture for time-series modeling using latent states, demonstrating improvements over traditional models. It relates to time-frequency decomposition and generative transformations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.23025v1 Announce Type: new Abstract: World models represent a paradigm shift in generative AI, pursuing predictive understanding and controllable simulation of environments in a structured and generalizable way. We present World Machine, a generative world-modeling architecture for time series. It is a transformer-based architecture with latent states that enables adaptation to different amounts of observed data and contexts. This shows an improvement over traditional transformers, wh…
+
+</details>
+
+---
+
+## [Sparse Coding with Structured Dictionaries for Robust Signal Decomposition](https://arxiv.org/abs/2605.23001)
+*arXiv Signal Processing*  
+Score: **0.83**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: sparse, wavelets, signal-processing
+
+Explores structured dictionaries in sparse coding, relevant to wavelet-based sparse representations.
+
+---
+
+## [VAMP-Diff: VampPrior Latent Diffusion for Photoplethysmography Modeling](https://arxiv.org/abs/2605.22851)
+*arXiv Signal Processing*  
 Score: **0.82**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: theory, methods, deep-learning
+Published: 2026-05-25T04:00:00+00:00
+Tags: methods, signal-modeling, latent-representation
 
-Discusses Universal Approximation Theorems for nonlinear operators, relevant to learning representations in signal processing using neural networks.
+Proposes novel signal modeling techniques, integrating latent diffusion, aligning with time-frequency and representation learning interests.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.15285v1 Announce Type: new Abstract: Derivative-Informed Operator Learning (DIOL), i.e. learning a (nonlinear) operator and its derivatives, is an open research frontier at the foundations of the influential field of Operator Learning (OL). In particular, Universal Approximation Theorems (UATs) of nonlinear operators and their derivatives are foundational open questions and delicate problems in nonlinear functional analysis. In this manuscript, we prove the first UATs of non-linear $k…
+arXiv:2605.22851v1 Announce Type: new Abstract: Photoplethysmography (PPG) has become a ubiquitous physiological signal; however, current generative models still struggle to preserve realistic waveform morphology and learn a latent structure that captures cardiac and respiratory physiology. PPG generators trained with adversarial losses can produce plausible waveforms, but provide no inference path from a real signal to a latent representation. Variational autoencoders, on the other hand, map th…
 
 </details>
 
 ---
 
-## [Neural Preconditioned Born Series: A Metric-Matched Framework for Learning-based Preconditioners](https://arxiv.org/abs/2603.18527)
+## [Mode-Shape Expansion Using Physics-Constrained Gaussian Process Regression](https://arxiv.org/abs/2605.23101)
 *arXiv Math*  
 Score: **0.80**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: deep learning, methods, neural
+Published: 2026-05-25T04:00:00+00:00
+Tags: methods, signal-reconstruction, adaptive
 
-Integrates deep learning with classical iterative methods for wavefield prediction, aligning with signal processing and neural network research.
+Utilizes signal reconstruction for spatial data through advanced statistical methods, relevant to adaptive signal processing and interpolation.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.18527v4 Announce Type: replace Abstract: High-frequency Helmholtz problems in heterogeneous media remain challenging for both classical iterative methods and end-to-end neural PDE solvers. We propose Neural Preconditioned Born Series (NPBS), a learned iterative preconditioning framework that operates in preconditioned residual coordinates induced by the Convergent Born Series (CBS). Existing learned Born-series methods primarily use Born-style unrolling for forward wavefield predictio…
+arXiv:2605.23101v1 Announce Type: new Abstract: This paper addresses the challenge of reconstructing full-field structural mode shapes from sparse sensor data. While Gaussian Process Regression (GPR) offers a robust non-parametric framework for spatial interpolation and uncertainty quantification, standard formulations often yield physically inconsistent mode-shape reconstructions under sparse sensing conditions. A Physics-Constrained Single-Output Gaussian Process (CONS-SOGP) framework is deriv…
 
 </details>
 
 ---
 
-## [Endpoint-singularity-preserving spectral approximation theory for weakly singular integral equations](https://arxiv.org/abs/2605.15825)
+## [Stochastic Generalized Sampling](https://arxiv.org/abs/2605.23421)
 *arXiv Math*  
 Score: **0.78**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: spectral, theory, methods
+Published: 2026-05-25T04:00:00+00:00
+Tags: sparse, signal-recovery, methods
 
-Focuses on spectral approximation, crucial for time-frequency and signal processing applications, preserving endpoint singularities.
+Addresses sampling in signal processing, offering advanced frameworks for higher dimensional data recovery, aligning with sparse and adaptive methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.15825v1 Announce Type: new Abstract: We introduce a fractional approximation framework for functions with limited regularity near the terminal point. The proposed basis is constructed by composing classical Jacobi polynomials with an endpoint algebraic mapping, thereby incorporating the terminal singular structure directly into the approximation space. The main structural properties of the fractional polynomials are established, including orthogonality relations, derivative identities…
+arXiv:2605.23421v1 Announce Type: cross Abstract: Reconstructing an infinite-dimensional signal from a finite set of measurements is a fundamental problem in approximation theory and signal processing. While the generalized sampling (GS) framework provides a robust methodology for recovering elements in arbitrary separable Hilbert spaces, deterministic approaches suffer from severe basis-dependent dimensionality constraints, often requiring a quadratic sample complexity $m \gtrsim n^2$ to avoid …
 
 </details>
 
 ---
 
-## [LPDS: Evaluating LLM Robustness Through Logic-Preserving Difficulty Scaling](https://arxiv.org/abs/2605.15393)
-*arXiv Machine Learning*  
-Score: **0.78**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: methods, deep-learning, neural-networks
-
-Introduces a robustness evaluation method for LLMs, aligning with interests in understanding underlying signal structures.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.15393v1 Announce Type: new Abstract: As large language models (LLMs) are increasingly deployed to perform tasks with minimal human oversight, it is crucial that these models operate robustly. In particular, a model that can solve a given problem should not fail simply because certain entities$\unicode{x2013}$such as names, numbers, or other contextual details$\unicode{x2013}$have changed while the underlying problem logic remains the same. Prior work suggests that current LLMs still s…
-
-</details>
-
----
-
-## [RIDE: Retinex-Informed Decoupling for Exposing Concealed Objects](https://arxiv.org/abs/2605.15450)
-*arXiv Computer Vision*  
-Score: **0.78**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: wavelet, decomposition, methods
-
-Involves analysis using Fourier and wavelet decompositions, relevant for interests in wavelets and multiresolution analysis in signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.15450v1 Announce Type: new Abstract: Concealed Object Segmentation (COS) encompasses a family of dense-prediction tasks, including camouflaged object detection, polyp segmentation, transparent object detection, and industrial defect inspection, where targets are visually entangled with their surroundings through different physical mechanisms. Existing methods either operate directly on RGB images or employ \emph{heterogeneous} decompositions (\eg, Fourier, wavelet) that redistribute s…
-
-</details>
-
----
-
-## [Spectral Impact of Mismatches in Interleaved ADCs](https://arxiv.org/abs/2603.24338)
+## [A comprehensive evaluation of pretraining strategies for channel-agnostic contrastive self-supervision of biosignals](https://arxiv.org/abs/2410.19842)
 *arXiv Signal Processing*  
-Score: **0.76**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: spectral, methods, signal-processing
+Score: **0.78**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: learning, methods, biosignals
 
-Focuses on spectral analysis critical for ADCs, important for advanced time-frequency based signal processing.
+Addresses signal representation learning with contrastive methods, a crossover of deep learning and signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2603.24338v2 Announce Type: replace Abstract: Interleaved ADCs are critical for applications requiring multi-gigasample per second (GS/s) rates, but their performance is often limited by offset, gain, and timing skew mismatches across the sub-ADCs. We propose exact but compact expressions that describe the impact of each of those non-idealities on the output spectrum. We derive the distribution of the power of the induced spurs and replicas, critical for yield-oriented derivation of sub-AD…
+arXiv:2410.19842v2 Announce Type: replace Abstract: Contrastive learning yields impressive results for self-supervision in computer vision. The approach relies on the creation of positive pairs, something which is often achieved through augmentations. However, for multivariate time series effective augmentations can be difficult to design. Additionally, the number of input channels for biosignal datasets often varies from application to application, limiting the usefulness of large self-supervis…
 
 </details>
 
 ---
 
-## [Exact conservation and the Onsager threshold: a discrete exterior calculus theory for incompressible Navier-Stokes Equations](https://arxiv.org/abs/2605.13048)
-*arXiv Math*  
+## [Generalized Stochastic Approximation of the Log-Likelihood Ratio for Robust Sequential Change-Point Detection](https://arxiv.org/abs/2605.23419)
+*arXiv Signal Processing*  
 Score: **0.75**  
-Published: 2026-05-18T04:00:00+00:00
+Published: 2026-05-25T04:00:00+00:00
+Tags: methods, time-series
+
+Presents robust methods for non-Gaussian processes, aligning with advanced time-series analysis techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.23419v1 Announce Type: cross Abstract: Sequential change-point detection in non-Gaussian stochastic processes is challenging because the underlying densities are rarely known in real time. Classical parametric procedures such as CUSUM lose optimality under distributional mismatch, whereas nonparametric alternatives often react slowly. We develop a unified framework that approximates the log-likelihood ratio (LLR) on a generalized stochastic basis -- polynomial, logarithmic, or fractio…
+
+</details>
+
+---
+
+## [CALAD: Channel-Aware Contrastive Learning for Multivariate Time Series Anomaly Detection](https://arxiv.org/abs/2605.23139)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: time-series, contrastive, methods
+
+Focuses on time-series analysis and introduces a channel-aware framework for anomaly detection, aligning with signal processing innovation in analyzing complex datasets.
+
+---
+
+## [Outlier-Robust unscented Kalman filter based on generalized correntropy induced](https://arxiv.org/abs/2605.23499)
+*arXiv Signal Processing*  
+Score: **0.70**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: filter, robustness, signal-processing
+
+Focuses on robust filtering techniques under non-Gaussian noise, intersecting with interests in advanced signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2605.23499v1 Announce Type: new Abstract: Conventional Kalman filtering (KF) approaches exhibit significant limitations in addressing nonlinear state estimation problems contaminated by non-Gaussian noise disturbances. To overcome these challenges, this work proposes a robust iterative square root unscented Kalman Filter based on the generalized correntropy induced (SR-GCI-IUKF). While sharing the maximum correntropy criterion's (MCC) ability to characterize higher-order noise statistics, …
+
+</details>
+
+---
+
+## [A mathematical theory of balancing relational generalization and memorization](https://arxiv.org/abs/2605.22972)
+*arXiv Machine Learning*  
+Score: **0.60**  
+Published: 2026-05-25T04:00:00+00:00
+Tags: theory, methods
+
+Presents a mathematical framework addressing generalization and memorization, potentially enhancing understanding of neural networks' behavior in signal processing contexts.
+
+---
+
+## [Empirical Bayes Conformal Prediction for Vision and Language Models](https://arxiv.org/abs/2605.23189)
+*arXiv Machine Learning*  
+Score: **0.55**  
+Published: 2026-05-25T04:00:00+00:00
 Tags: methods, theory
 
-Addresses algebraic conservation using discrete exterior calculus, relevant for wavelet-like hierarchical decompositions.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.13048v2 Announce Type: replace-cross Abstract: We develop a rigorous theory for a structure-preserving discretisation of the incompressible Euler and Navier--Stokes equations, based on discrete exterior calculus on prismatic Delaunay--Voronoi meshes over closed Riemannian manifolds. The central result is a selection principle: exact algebraic conservation at the discrete level is not merely a fidelity property but rules out entire classes of weak solutions that other discretisations r…
-
-</details>
-
----
-
-## [Learning Normalized Energy Models for Linear Inverse Problems](https://arxiv.org/abs/2605.15487)
-*arXiv Machine Learning*  
-Score: **0.75**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: methods, sparse, imaging
-
-Proposes energy-based models for imaging inverse problems, connected to topics like sparse coding and signal processing in imaging.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.15487v1 Announce Type: new Abstract: Generative diffusion models can provide powerful prior probability models for inverse problems in imaging, but existing implementations suffer from two key limitations: $(i)$ the prior density is represented implicitly, and $(ii)$ they rely on likelihood approximations that introduce sampling biases. We address these challenges by introducing a new energy-based model trained for denoising with a covariance-based regularization term that enforces co…
-
-</details>
-
----
-
-## [Position: Ideas Should be the Center of Machine Learning Research](https://arxiv.org/abs/2605.15253)
-*arXiv Machine Learning*  
-Score: **0.73**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: methods, theory, neural-networks
-
-Advocates for idea-centric research, which aligns with innovative approaches in combining deep learning and signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.15253v1 Announce Type: new Abstract: Machine learning research increasingly bifurcates into two disconnected modes: benchmark-driven engineering that prioritizes metrics over understanding, and idealized theory that often fails to transfer to modern systems. In this position paper, we argue that the field focuses too heavily on these endpoints, neglecting the central scientific object: the idea. We propose an Ideas First framework in which ideas are valued for the behavioral signature…
-
-</details>
-
----
-
-## [Amortized Energy-Based Bayesian Inference](https://arxiv.org/abs/2605.15407)
-*arXiv Math*  
-Score: **0.70**  
-Published: 2026-05-18T04:00:00+00:00
-Tags: methods, neural, adaptive
-
-Uses a transport-based approach for parameter estimation, relevant for adaptive signal representations and machine learning integration.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.15407v1 Announce Type: new Abstract: We consider amortized Bayesian inference for nonlinear inverse problems in settings where only samples from the joint distribution of parameters and observations are available. Classical methods such as Markov chain Monte Carlo require solving a new inference problem for each observation, which can be computationally prohibitive when inference must be repeated many times. We propose a transport-based approach that learns an observation-dependent ma…
-
-</details>
+Discusses a conformal prediction technique, which includes statistical methodologies potentially applicable to signal analysis in vision-related tasks.
 
 ---
