@@ -1,317 +1,208 @@
-# Weekly ToC Digest (week of 2026-06-01)
+# Weekly ToC Digest (week of 2026-06-08)
 
-Papers have been scored based on their relevance to signal processing, particularly around harmonic analysis, wavelet theory, and deep learning. Prioritized papers utilize advanced signal processing techniques in line with harmonic analysis, wavelet theory, and deep learning. The selection focuses on papers exploring novel intersections of harmonic analysis, wavelet theory, and deep learning. Computational methods for signal processing in various applications were prioritized based on user interests. Prioritized papers were those with a clear signal processing or mathematical basis connecting wavelets or time-frequency analysis with deep learning methodologies.
+Prioritized papers focusing on novel signal processing methods and connections to deep learning. Papers prioritized include those focusing on wavelet theory, multiresolution techniques, and deep learning applications in signal processing. The RSS entries were evaluated based on their alignment with the specified interests in harmonic analysis, wavelet theory, and modern deep learning, particularly focusing on signal processing methods relevant to deep learning and wavelet applications. No RSS items this week directly matched research interests. No items scored highly enough to be prioritized.
 
-**Included:** 19 (score ≥ 0.35)  
-**Scored:** 19 total items
-
----
-
-## [DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.30863)
-*arXiv Computer Vision*  
-Score: **0.90**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: time-frequency, methods
-
-The paper presents dynamic decomposition, relating to time-frequency analysis and computationally efficient methods, aligning with multiresolution methods.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30863v1 Announce Type: new Abstract: Dynamic scene reconstruction and novel view synthesis are fundamental to next-generation visual intelligence applications such as virtual reality, robotics, and digital twins. However, high-fidelity reconstruction of complex, time-varying scenes from arbitrary viewpoints remains a significant challenge. Existing dynamic 3DGS methods suffer from computational inefficiency, since they model all Gaussians as dynamic components. While recent decomposit…
-
-</details>
+**Included:** 13 (score ≥ 0.35)  
+**Scored:** 13 total items
 
 ---
 
-## [Functional MRI Time Series Generation via Wavelet-Based Image Transform and Spectral Flow Matching for Brain Disorder Identification](https://arxiv.org/abs/2605.30387)
-*arXiv Signal Processing*  
+## [Adaptive multiscale model reduction for linear elasticity equation in perforated domains](https://arxiv.org/abs/2606.06839)
+*arXiv Math*  
 Score: **0.85**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: wavelets, MRA, fMRI, scattering
+Published: 2026-06-08T04:00:00+00:00
+Tags: multiscale, finite-elements, MRA, methods
 
-This paper incorporates wavelet-based image transform techniques for fMRI data which align with interests in wavelet theory and multiresolution analysis.
+Develops multiscale methods using finite element approaches relevant to harmonic analysis and multiresolution interests.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30387v1 Announce Type: cross Abstract: Functional Magnetic Resonance Imaging (fMRI) provides non-invasive access to dynamic brain activity by measuring blood oxygen level-dependent (BOLD) signals over time. However, the resource-intensive nature of fMRI acquisition limits the availability of high-fidelity samples required for data-driven brain analysis models. While modern generative models can synthesize fMRI data, they often remain challenging in replicating their inherent non-stati…
+arXiv:2606.06839v1 Announce Type: new Abstract: In this paper, we develop a Constraint Energy Minimizing Generalized Multiscale Finite Element Method (CEM-GMsFEM) for solving linear elasticity problems in heterogeneous perforated domains. The presence of numerous perforations introduces multiple scales into the computational domain, making direct fine-grid simulations computationally expensive. The proposed method follows the standard offline--online decomposition of CEM-GMsFEM. In the offline s…
 
 </details>
 
 ---
 
-## [Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation](https://arxiv.org/abs/2605.30855)
-*arXiv Computer Vision*  
-Score: **0.85**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: time-frequency, CNN
+## [Multiscale Nudging: From Macroscopic Observations to Microscopic Dynamics](https://arxiv.org/abs/2606.06809)
+*arXiv Math*  
+Score: **0.82**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: multiscale, methods, theory
 
-Focuses on visual consistency over latent representations, relevant to wavelet-inspired decompositions and learning structures.
+Introduces a novel framework for connecting macroscopic and microscopic dynamics, relevant for multiscale signal processing and modeling.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30855v1 Announce Type: new Abstract: Frame-wise action-controlled image-to-video generation is a promising paradigm for interactive world simulation, where each control signal should elicit an immediate visual response. However, maintaining visual fidelity and 3D consistency over long autoregressive rollouts remains challenging. Existing 3D-aware methods often suffer from catastrophic drift due to two impediments: information loss from \textit{Latent--RGB Cycling}, where generated lat…
+arXiv:2606.06809v1 Announce Type: new Abstract: We introduce a measure-based nudging framework for assimilating macroscopic observations into microscopic mean-field particle dynamics. The central difficulty is a representation mismatch: the forecast is a labeled particle system, while the observations specify only a smoothed, permutation-invariant density. To address this mismatch, we define the forecast-observation discrepancy as a quadratic functional on probability measures after applying the…
 
 </details>
 
 ---
 
-## [Hamiltonian-Inspired Attention Mechanism for Scalable RF Transmitter Fingerprinting](https://arxiv.org/abs/2605.30364)
+## [A Unified DeepONet Framework for Logarithmically Stable Infinite-Dimensional Inverse Problems](https://arxiv.org/abs/2606.07122)
+*arXiv Math*  
+Score: **0.80**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: deep-learning, inverse-problems, methods
+
+Uses neural networks for inverse problems, bridging machine learning with mathematical frameworks, relevant for signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2606.07122v1 Announce Type: new Abstract: We develop a unified DeepONet framework for logarithmically stable infinite-dimensional inverse problems, with inverse acoustic scattering as a model application. The framework is formulated at the operator level by separating the learned inverse map into measurement encoding, finite-dimensional neural approximation, and functional reconstruction components. For inverse maps satisfying a logarithmic stability estimate, we establish quantitative a p…
+
+</details>
+
+---
+
+## [Optimized Sampling of Angle-Resolved Scatterometry Data Using End-to-End Compressed Learning Model for Nanograss Deficiency Detection](https://arxiv.org/abs/2606.07050)
 *arXiv Signal Processing*  
 Score: **0.80**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: signal processing, structured filters, RF
+Published: 2026-06-08T04:00:00+00:00
+Tags: compressed-sensing, methods, sparse
 
-This paper presents a Hamiltonian Transformer with structured filters to maintain norm-preserving dynamics, aligning with structured approaches in neural networks and signal processing.
+The paper proposes a compressed learning framework, offering a novel approach to data acquisition aligning with compression and sparse coding methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30364v1 Announce Type: new Abstract: Radio-frequency (RF) fingerprinting identifies wire-less transmitters using hardware-induced imperfections present in baseband I/Q signals. However, deep learning models often degrade under receiver and channel distribution shifts, particularly as transmitter populations grow. This work proposes the Hamiltonian Transformer, a physics-informed attention architecture that enforces norm preserving value dynamics within each attention head using a lear…
+arXiv:2606.07050v1 Announce Type: new Abstract: Reliable inspection of nanosurfaces is essential to ensure the quality of nanostructure manufacturing. Angle-resolved scatterometry provides a non-invasive inspection method that can be used in-line but often suffers from long acquisition times due to dense angular sampling. This paper addresses the data acquisition challenge by proposing an end-to-end compressed learning framework for 5-level vacancy deficiency detection in zinc oxide nanograss us…
 
 </details>
 
 ---
 
-## [Counterfactual Evaluation Reveals Hidden Capability Profiles in Clinical LLMs and Agents](https://arxiv.org/abs/2605.30590)
-*arXiv Machine Learning*  
-Score: **0.80**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: methods, EEG
-
-The paper involves sophisticated signal analysis methods to evaluate AI model capabilities, which align with interests in neural signal analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30590v1 Announce Type: new Abstract: Two clinical AI systems can score nearly identically on coverage-based rubrics yet behave radically differently when their patient inputs change: one updates its recommendations to match the new clinical signal, while the other produces the same output regardless. We introduce the Causal Sensitivity Score (CSS), a pre-registered interventional metric that mutates oncology tumor-board cases along five clinically meaningful dimensions - biomarker fli…
-
-</details>
-
----
-
-## [MergeTok: Unified Continuous and Discrete Visual Tokenization via Token Merging](https://arxiv.org/abs/2605.30904)
+## [JA-SIREN: Deterministic Initialization for Sinusoidal Networks via Spectral Matching](https://arxiv.org/abs/2606.06671)
 *arXiv Computer Vision*  
 Score: **0.80**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: sparse, theory
+Published: 2026-06-08T04:00:00+00:00
+Tags: wavelets, scattering, CNN
 
-Explores tokenization as a form of representation learning, relevant to sparse coding and adaptive representations.
+This paper proposes a deterministic initialization method for sinusoidal neural networks, which is relevant to learning structured filters and representations akin to wavelet decompositions.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30904v1 Announce Type: new Abstract: Most visual tokenizers for image generation are bifurcated into two families with complementary limitations: continuous VAEs offer high-fidelity reconstruction but suffer from dense, entangled latents that are poorly suited for semantic control, whereas discrete VQ-based models enable autoregressive generation yet struggle with gradient sparsity, unstable training, and codebook collapse. In this work, we introduce MergeTok, a unified tokenizer that…
+arXiv:2606.06671v1 Announce Type: new Abstract: Existing implicit neural representation (INR) approaches suffer from stochastic initialization that does not guarantee consistent or high-quality performance across runs, with variations reaching more than 2.5 dB (78%) in image regression. This variation is problematic for scientific computing and simulation, where result reproducibility is crucial. To address this problem, we present Jacobi-Anger Sinusoidal Representation Network (JA-SIREN), a det…
 
 </details>
 
 ---
 
-## [SCALMU: Synthetically-trained Coupling of Adaptive Learned Multiplicative Updates for Hyperspectral-Multispectral Fusion](https://arxiv.org/abs/2605.30973)
+## [SEMIKHORN: Globally balanced affinities for mmWave Localization in MU mMIMO systems](https://arxiv.org/abs/2606.06640)
 *arXiv Signal Processing*  
-Score: **0.77**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: sparse, CNN, methods
+Score: **0.78**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: signal-processing, methods, MIMO
 
-Focus on adaptive learning in hyperspectral imaging ties to sparse coding and deep learning methodologies.
+Introduces globally balanced affinities for localization, utilizing advanced signal processing techniques in MIMO systems.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30973v1 Announce Type: cross Abstract: HyperSpectral-MultiSpectral Image (HSI-MSI) fusion enables high-resolution hyperspectral imaging by combining the rich spectral information of low-spatial-resolution hyperspectral images with the detailed spatial structure of multispectral images. Classical methods such as Coupled Nonnegative Matrix Factorization (CNMF) benefit from a strong physical interpretability but suffer from inferior results compared to their deep-learning counterparts. T…
+arXiv:2606.06640v1 Announce Type: new Abstract: This work conceives SEMIKHORN, a semisupervised channel charting (CC) framework for mmWave localization, which leverages t-SNEkhorn, a doubly stochastic variant of t-distributed Stochastic Neighbor Embedding (t-SNE) that utilizes entropic optimal transport to construct pairwise similarities. Unlike standard t-SNE, which normalizes affinities independently for each data point, t-SNEkhorn generates globally balanced similarities ensuring consistent n…
 
 </details>
 
 ---
 
-## [PRISM: Progressive Reasoning through Iterative Slot Memory for Vision](https://arxiv.org/abs/2605.30942)
-*arXiv Computer Vision*  
+## [Deep Learning Based Sparse Array Design with Pre-Steering for Adaptive Beamforming](https://arxiv.org/abs/2606.06723)
+*arXiv Signal Processing*  
 Score: **0.75**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: wavelets, MRA, methods
+Published: 2026-06-08T04:00:00+00:00
+Tags: sparse, deep-learning, signal-processing
 
-Iterative refinement over slot memory enhances representation, connecting to multiscale wavelet transform principles.
-
----
-
-## [Unicorn: Scaling High-Dimensional Time Series Forecasting via Universal Correlation Modeling](https://arxiv.org/abs/2605.30376)
-*arXiv Machine Learning*  
-Score: **0.72**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: time-series, MRA, methods
-
-The paper discusses novel time-series forecasting methods relating to multiresolution analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30376v1 Announce Type: new Abstract: Modern time series architectures face a fundamental trade-off: channel-independent models scale well with increasing data volume but ignore critical inter-channel dependencies, while channel-dependent models are expressive but remain ``dimension-bounded'', struggling to generalize across heterogeneous datasets.To bridge this gap, we introduce Unicorn (Universal Correlation Network), a framework for scalable, multi-dataset pretraining on high-dimens…
-
-</details>
+Combines deep learning with sparse arrays for adaptive beamforming, relevant for advanced signal processing techniques.
 
 ---
 
-## [Functional Multi-Target Detection via Bispectrum Inversion](https://arxiv.org/abs/2605.31579)
+## [Smooth Hard-Thresholding for Singular Values with Stein's Unbiased Risk Estimate](https://arxiv.org/abs/2606.06632)
 *arXiv Signal Processing*  
-Score: **0.70**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: methods, time-frequency
+Score: **0.60**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: sparse-coding, methods, theory
 
-Presents methodologically advanced signal processing techniques which could be applicable in wavelet theory.
+Focuses on singular value hard-thresholding, relevant for sparse coding and potentially useful in signal decomposition tasks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.31579v1 Announce Type: new Abstract: This paper develops a functional theory for multi-target detection, where a compactly supported signal is recovered from a single noisy observation containing many unknown translations of the signal. Our formulation allows continuous, off-grid translations and correlated stationary Gaussian process noise, extending beyond the discrete, grid-aligned, white-noise models common in prior work. We analyze two uninitialized recovery algorithms based on a…
+arXiv:2606.06632v1 Announce Type: cross Abstract: Low-rank matrix denoising is a central primitive in patch-based image restoration and many other inverse problems. Classical SVD-based image denoising methods often choose a truncation rank by matching residual singular-value energy with an estimated noise energy, but this rule is not a finite-sample risk principle because a fitted low-rank approximation inevitably absorbs part of the noise. This paper develops a mathematically rigorous alternati…
 
 </details>
 
 ---
 
-## [Foundation VAEs for 3D CT Reconstruction, Augmentation, and Generation](https://arxiv.org/abs/2605.30893)
-*arXiv Computer Vision*  
-Score: **0.70**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: MRA, methods
-
-The compact latent representations are akin to wavelet-based multi-resolution analysis for CT data processing.
-
----
-
-## [The Fast Mixing Mechanism for Differential Privacy](https://arxiv.org/abs/2605.30600)
+## [Principles and Practice of Deep Representation Learning: or a Mathematical Theory of Memory](https://arxiv.org/abs/2606.06624)
 *arXiv Machine Learning*  
-Score: **0.65**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: filter-bank, methods
+Score: **0.60**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: representation-learning, theory
 
-Focuses on structured matrices for efficient computation, relevant to filter banks and sparse representation, connecting to wavelet methods.
+Explores deep representation learning with mathematical focus, useful for bridging traditional signal processing and deep learning frameworks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.30600v1 Announce Type: new Abstract: Randomized sketching is a central tool for compressing large-scale optimization problems while preserving accuracy. In particular, sketches that are based on structured matrices, such as the Hadamard matrix, can be applied efficiently and often yield solutions that approximate those of the original problem at much lower computational cost. In differential privacy (DP), Gaussian sketching has been used to solve DP linear regression, beginning with \…
+arXiv:2606.06624v1 Announce Type: new Abstract: In the current era of deep learning and especially generative models, there is significant investment in training very large generative models. Thus far, such models have been "black boxes" that are difficult to understand in the sense that they have opaque internal mechanisms, leading to difficulties in interpretability, reliability, and control. Naturally, this lack of understanding has led to both hype and fear. This book is an attempt to "open …
 
 </details>
 
 ---
 
-## [DTG-Restore: Training-Free Diffusion Refinement for Generative Video Super-Resolution](https://arxiv.org/abs/2605.30431)
-*arXiv Computer Vision*  
-Score: **0.65**  
-Published: 2026-06-01T04:00:00+00:00
+## [Architecture Shapes Transfer Specificity in Implicit Neural Representations](https://arxiv.org/abs/2606.06827)
+*arXiv Machine Learning*  
+Score: **0.60**  
+Published: 2026-06-08T04:00:00+00:00
 Tags: time-frequency, methods
 
-Uses time-decoupled signals which relate to time-frequency analysis, relevant for multiresolution methods in video signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30431v1 Announce Type: new Abstract: Recent progress in video diffusion models has enabled remarkable generative fidelity, yet leveraging these priors for restoration remains limited by the strong coupling between conditional and unconditional branches in standard classifier-free guidance. We introduce a training-free framework that enhances distorted and low-resolution videos by decoupling these signals in time. Our proposed Decoupled Time Guidance (DTG) evaluates the unconditional b…
-
-</details>
+Discusses implicit neural representations using Fourier features, overlapping with interests in frequency-based methods and signal processing in neural contexts.
 
 ---
 
-## [On the Application of Hybrid Mixed Domain Decomposition Methods to Permanent Magnet Synchronous Machines](https://arxiv.org/abs/2605.31032)
-*arXiv Math*  
-Score: **0.60**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: methods, adaptive representations
-
-The mixed domain decomposition method shares mathematical frameworks with structured signal processing techniques, offering a innovative application that could inspire further development in adaptive representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.31032v1 Announce Type: cross Abstract: In this work, we study the application of a hybrid mixed domain decomposition (HMDD) method for the rotor-stator coupling of a permanent magnet synchronous machine. For this, we derive a variational formulation on the electric machine inspired by hybridized discontinuous Galerkin methods using a mixed magnetostatics problem, an affine material law and boundary conditions respecting the symmetry of the motor. We are then able to locate the resulti…
-
-</details>
-
----
-
-## [Algebraic and FFT-Based Methods for Discrete-Time Matrix Convolutions with Applications to Semi-Markov Models](https://arxiv.org/abs/2605.30379)
-*arXiv Math*  
-Score: **0.60**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: FFT, convolution, methods
-
-FFT-accelerated convolution methods are of interest due to their relevance in computational signal processing. These methods could intersect with wavelet theory in time-frequency analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30379v1 Announce Type: new Abstract: We study the convolution product of matrix-valued sequences and its role in the computation of Markov renewal equations. Explicit representations and recursive formulae for the convolutional inverse are derived and used to construct FFT-accelerated convolution and Newton-type inversion schemes, together with a Gauss--Jordan alternative in truncated power-series rings. The proposed framework is also applied to discrete approximations of matrix Stiel…
-
-</details>
-
----
-
-## [Bridging the Gap Between Natural Language and Market Dynamics via High-Dimensional Representation Learning](https://arxiv.org/abs/2605.30652)
+## [WAV: Multi-Resolution Block Residual Routing for Deep Decoder-Only Transformers](https://arxiv.org/abs/2606.06564)
 *arXiv Machine Learning*  
-Score: **0.60**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: sparse, methods
-
-Involves high-dimensional learning strategies which could be related to sparse coding and signal representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30652v1 Announce Type: new Abstract: Traditional multi-modal financial forecasting often relies on scalar sentiment scores, which fail to capture the nuances of financial news. To address this information loss, this paper explores high-dimensional representation learning by replacing discrete polarity ratings with dense FinBERT embeddings within a Transformer-based forecasting architecture. We benchmarked various embedding strategies on the FNSPID dataset, including raw embeddings, at…
-
-</details>
-
----
-
-## [Mathematical Morphology in Machine Learning](https://arxiv.org/abs/2605.30700)
-*arXiv Computer Vision*  
-Score: **0.55**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: methods, theory
-
-Explores a visual computing theory that intersects with morphological analysis, potentially linking to wavelet theory in structure perception.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2605.30700v1 Announce Type: new Abstract: This work introduces mathematical morphology-an established visual computing theory-into machine learning to exploit shape and density aspects often overlooked by standard techniques. We propose a fast clustering algorithm based on morphological reconstruction that accurately preserves cluster shapes and density. This scheme offers unique features: an intrinsic sense of maximal clusters, cost-free noise removal, and diverse growth patterns controll…
-
-</details>
-
----
-
-## [A holomorphic neural network framework for 3D boundary value problems governed by harmonic potentials](https://arxiv.org/abs/2605.31231)
-*arXiv Math*  
 Score: **0.50**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: neural networks, harmonic analysis
+Published: 2026-06-08T04:00:00+00:00
+Tags: MRA, CNN, deep-learning
 
-Leverages neural networks to solve boundary problems using harmonic potentials, reminiscent of how harmonic analysis can be applied to neural network problems.
+Introduces a multi-resolution approach in transformer networks, correlating with multiresolution analysis themes from wavelet theory.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.31231v1 Announce Type: new Abstract: We present a neural-network-based framework for the solution of three-dimensional boundary value problems where the solution is expressible in terms of harmonic potentials. The approach leverages the Whittaker integral formula, which allows representing the solution through functions that are holomorphic with respect to a suitable complex variable. These functions are subsequently approximated using holomorphic neural networks, which guaranty fulfi…
+arXiv:2606.06564v1 Announce Type: new Abstract: Residual connections are central to training deep Transformers, but standard PreNorm residual streams aggregate sublayer updates with fixed unit weights. Recent Attention Residuals replace this fixed accumulation with content-dependent depth-wise routing, and Block Attention Residuals make the mechanism efficient by routing over block-level residual summaries. However, a single block summary stores only the low-frequency total residual displacement…
 
 </details>
 
 ---
 
-## [Deep Adaptive Dimension Reduction for Bayesian Inference in Inverse Problems](https://arxiv.org/abs/2605.29373)
-*arXiv Math*  
-Score: **0.40**  
-Published: 2026-06-01T04:00:00+00:00
-Tags: deep learning, dimension reduction
+## [Multiscale POD of Transformer Attention Fields: Scale-Selective Analysis via Morlet Scalogram](https://arxiv.org/abs/2606.06573)
+*arXiv Signal Processing*  
+Score: **0.50**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: wavelets, deep-learning, MRA
 
-This paper explores deep learning approaches in dimension reduction, which may offer insights into adaptive signal processing.
+Utilizes wavelet transforms for analyzing transformer networks' attention, combining time-frequency analysis with deep learning structures.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.29373v2 Announce Type: replace-cross Abstract: Solving high-dimensional PDE-governed inverse problems is often challenging due to complex non-Gaussian posterior distributions, expensive forward model evaluations, and misspecified prior information. To address these issues, we propose a deep adaptive dimension-reduction Bayesian inference framework based on the Variational Flow (VF) model. Since standard normalizing flows are restricted by bijective mappings and cannot directly reduce …
+arXiv:2606.06573v1 Announce Type: cross Abstract: We introduce scale-selective Proper Orthogonal Decomposition (POD) for transformer attention fields, inspired by the use of POD for extracting energetically dominant modes from turbulent flow ensembles. The Morlet continuous wavelet transform identifies dominant temporal scales in the attention lag structure across a document ensemble; POD then extracts the energetically dominant modes at each scale from the ensemble of attention fields. The resu…
 
 </details>
+
+---
+
+## [CF-JEPA: Mask-free forward prediction with asymmetric encoder utilization for time-series representation learning](https://arxiv.org/abs/2606.07031)
+*arXiv Machine Learning*  
+Score: **0.50**  
+Published: 2026-06-08T04:00:00+00:00
+Tags: time-series, methods
+
+Focuses on time-series representation learning, which could intersect with multiresolution analysis techniques.
 
 ---
