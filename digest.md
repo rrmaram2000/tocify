@@ -1,308 +1,278 @@
-# Weekly ToC Digest (week of 2026-07-13)
+# Weekly ToC Digest (week of 2026-07-20)
 
-Prioritized items demonstrate significant intersections with harmonic analysis, wavelet theory, and modern deep learning, focusing on signal processing innovations, multiresolution techniques, or relevant deep learning integrations. Prioritize methods integrating wavelets, CNNs, signal processing with ML, and multiresolution analysis. No papers directly addressing harmonic analysis or wavelet theory with deep learning. Focus grouped on papers involving advanced signal processing methods and neural data analysis. This week's notable papers highlight advancements in signal processing and deep learning methods relevant to the user's research interests, focusing on novel computational techniques and frameworks.
-
-No entries directly matched foundational wavelet or scattering transform topics this week.
+Prioritizing signal processing and deep learning approaches, particularly those involving wavelets and related techniques. Prioritized items involve advancements in signal processing methods, specifically in areas integrating classical techniques with machine learning innovations. Prioritized based on wavelet theory, signal processing methods, and links between classical analysis and deep learning. Selected papers focus on connections between classical signal processing methods like wavelets and modern deep learning approaches, emphasizing multiresolution techniques and adaptive representations.
 
 **Included:** 18 (score ≥ 0.35)  
-**Scored:** 18 total items
+**Scored:** 19 total items
 
 ---
 
-## [Two-Dimensional Deep ReLU CNN Approximation for Korobov Functions: A Constructive Approach](https://epubs.siam.org/doi/abs/10.1137/25M1728831?af=R)
-*SIAM Journal Applied Math*  
-Score: **0.95**  
-Published: 2026-07-13T07:00:00+00:00
-Tags: deep-learning, CNN, theory, methods
-
-This paper explores the approximation capabilities of 2D deep CNNs, with relevance to structured filters and potential connections to harmonic analysis and structured representations, aligning closely with user interests in CNNs with structured filters and theoretical advancements.
-
-<details>
-<summary>RSS summary</summary>
-
-SIAM Journal on Applied Mathematics, Volume 86, Issue 4, Page 1698-1727, August 2026. <br /> Abstract. This paper investigates approximation capabilities of 2D deep convolutional neural networks (CNNs), with Korobov functions serving as a benchmark. We focus on 2D CNNs, comprising multichannel convolutional layers with zero-padding and rectified linear unit activations, followed by a fully connected layer. We propose a fully constructive approach for building 2D CNNs to approximate Korobov funct…
-
-</details>
-
----
-
-## [Spatial Neighboring Scattering Transform: A Cross-Channel Amplitude Coupling Measure for EEG Connectivity](https://arxiv.org/abs/2607.08855)
-*arXiv Signal Processing*  
-Score: **0.95**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: wavelets, scattering, EEG, signal processing
-
-Introduces an extension to wavelet scattering transform for EEG, enhancing amplitude coupling analysis—aligns with wavelet and signal processing in neuro-data.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08855v1 Announce Type: cross Abstract: The functional organization of the brain relies on coordinated activity across spatially distributed regions, making the analysis of inter-regional dependencies fundamental. Existing connectivity measures address this predominantly through phase synchronization, which is vulnerable to volume conduction artifacts and discards amplitude-domain coupling. This study introduces the Spatial Neighboring Scattering Transform, which extends the wavelet sc…
-
-</details>
-
----
-
-## [Loss Function Design for Deep Unfolded Sparse Signal Recovery: Supervised and Unsupervised Learning](https://arxiv.org/abs/2509.01331)
-*arXiv Signal Processing*  
+## [Trainable Spline Representations for Physics-Informed Learning](https://arxiv.org/abs/2607.15751)
+*arXiv Math*  
 Score: **0.85**  
-Published: 2026-07-13T04:00:00+00:00
+Published: 2026-07-20T04:00:00+00:00
 Tags: sparse, theory, methods
 
-Examines loss function in deep unfolded sparse recovery methods, relevant for sparse coding and signal processing related to deep learning.
+Introduces Physics-Informed Splines that bridge neural networks and structured basis functions, closely aligning with adaptive representations and learnable bases.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2509.01331v3 Announce Type: replace Abstract: This paper investigates the impact of loss function design in deep unfolding techniques for sparse signal recovery algorithms. We focus on deep unfolded versions of the fundamental iterative shrinkage thresholding algorithm (ISTA) and the iterative hard thresholding algorithm (IHT). To obtain a guideline for the loss function design, we examine the effect of supervised learning using mean squared error and unsupervised learning using the object…
+arXiv:2607.15751v1 Announce Type: cross Abstract: This work introduces Physics-Informed Splines (PI-Splines), a structured spline-based architecture for physics-informed learning. Instead of representing the solution of a differential equation with a neural network, PI-Splines directly parametrize the unknown field through a tensor-product B-spline expansion with trainable control coefficients. This formulation preserves the residual-based training paradigm of Physics-Informed Neural Networks wh…
 
 </details>
 
 ---
 
-## [Matched Generators for the Karhunen--Lo\`eve Transform: A Double-Commutator Eigenvalue Theory](https://arxiv.org/abs/2607.08788)
-*arXiv Math*  
-Score: **0.82**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: spectral, theory, methods
-
-The study of how classical transforms reduce and the spectral decomposition through symmetry commutants ties into spectral methods and signal decomposition, relevant for time-frequency analysis and structure identification.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08788v1 Announce Type: cross Abstract: The Karhunen--Lo\`eve transform (KLT) diagonalizes the covariance of a second-order process and is optimal for mean-square truncation. Which classical transform it reduces to is governed by the symmetry commutant of the covariance: when the kernel commutes with a group action, the KLT eigenfunctions are the irreducible representation functions of that group, recovering the Fourier, cosine, Mellin, and spherical-harmonic systems. We study the inve…
-
-</details>
-
----
-
-## [Matched Generators for the Karhunen--Lo\`eve Transform: A Double-Commutator Eigenvalue Theory](https://arxiv.org/abs/2607.08788)
-*arXiv Signal Processing*  
-Score: **0.82**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: spectral, methods, theory
-
-This arXiv entry focuses on KLT, exploring its diagonalization properties akin to wavelets and harmonic functions, thus fitting strongly within the user's interest in spectral and time-frequency methods.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08788v1 Announce Type: new Abstract: The Karhunen--Lo\`eve transform (KLT) diagonalizes the covariance of a second-order process and is optimal for mean-square truncation. Which classical transform it reduces to is governed by the symmetry commutant of the covariance: when the kernel commutes with a group action, the KLT eigenfunctions are the irreducible representation functions of that group, recovering the Fourier, cosine, Mellin, and spherical-harmonic systems. We study the invers…
-
-</details>
-
----
-
-## [Weaving Light and Time: Unified Harmonic-Geometric Representation Learning for Dense RGB-Event Parsing](https://arxiv.org/abs/2607.09143)
-*arXiv Computer Vision*  
-Score: **0.82**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: signal-processing, event-stream, harmonic-analysis
-
-Integrates RGB frames with event streams using harmonic representations, a key method in signal processing, aligning with interests in bridging signal processing and machine learning.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.09143v1 Announce Type: new Abstract: Fusing standard RGB frames with asynchronous event streams has emerged as a definitive paradigm for robust perception in degraded environments. Although unified backbones have recently gained traction in multi-modal vision, adapting them to the RGB-Event domain remains fundamentally challenging. Existing architectures either resort to decoupled dual encoders that double computational overhead, or adopt generic unified designs that fail to resolve i…
-
-</details>
-
----
-
-## [Group Invariant Spectral Embedding](https://arxiv.org/abs/2607.08987)
-*arXiv Math*  
-Score: **0.78**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: spectral, invariant, theory, methods
-
-Incorporating symmetries into spectral embeddings can lead to improved invariant representations, linking closely to wavelet design and harmonic analysis themes.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08987v1 Announce Type: cross Abstract: Spectral embedding methods are widely used for dimensionality reduction and clustering of high-dimensional datasets with intrinsic low-dimensional structures. Although many datasets of practical interest exhibit invariance under symmetries such as rotations, standard spectral embedding methods do not account for this, treating symmetry-related data points as unrelated. Our approach to this problem is to incorporate the symmetries directly into th…
-
-</details>
-
----
-
-## [What Pixels Are Enough? SEAMS: Sufficiency Saliency via MSE-Preservation Soft-Masks](https://arxiv.org/abs/2607.09164)
-*arXiv Computer Vision*  
-Score: **0.75**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: sparse, signal-analysis, methods
-
-Proposes a saliency method using soft masks for model outputs, relevant for sparse coding and efficient representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.09164v1 Announce Type: new Abstract: Saliency maps are most useful when they identify the image regions that are sufficient to preserve a model's behaviour. We introduce SEAMS, a sufficiency-based saliency method that directly optimises a soft mask using a preservation objective. Given a frozen differentiable model output, such as a class probability, CLS embedding, or token representation, SEAMS searches for a compact mask that preserves the selected output. The approach relies on a …
-
-</details>
-
----
-
-## [Construction and Optimization of Summation-by-Parts Operators for General Function Spaces Using an Improved Generalized Gaussian Quadrature Algorithm](https://arxiv.org/abs/2607.08934)
-*arXiv Math*  
-Score: **0.70**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: methods, numerical, theory
-
-The focus on generalized quadrature rules and operator optimization intersects with time-frequency analysis and numerical approximation techniques, relevant for adaptive representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08934v1 Announce Type: new Abstract: We construct optimized summation-by-parts (SBP) operators for general function spaces with provably minimal degrees of freedom on open, closed, and half-open nodal distributions. These operators rely on generalized Gaussian quadrature rules, for which we present an improved algorithm that is flexible, efficient, and provably convergent. In cases where free parameters are available, we further introduce two operator optimization strategies. We test …
-
-</details>
-
----
-
-## [Equivariant Filter for High Performance Image Tracking using an Event Camera](https://arxiv.org/abs/2607.09103)
-*arXiv Computer Vision*  
-Score: **0.70**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: filter-bank, event-camera, methods
-
-Focuses on equivariant filter design—a method often aligned with structured signal processing relevant to user's interest areas.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.09103v1 Announce Type: new Abstract: Image tracking is the problem of estimating the transformation that relates a moving image of a scene to an original reference image. The problem is important in control of autonomous vehicles or robots, where the image encodes information about the motion of the camera or environment, as well as in pure computer vision applications. In this paper, we present an equivariant filter design for high performance tracking of planar image transformations…
-
-</details>
-
----
-
-## [MultiView-Bench: A Diagnostic Benchmark for World-Centric Multi-View Integration in VLMs](https://arxiv.org/abs/2607.08970)
-*arXiv Computer Vision*  
-Score: **0.68**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: time-frequency, multimodal, methods
-
-Benchmarks multi-view integration which can involve spectral or time-frequency analysis methods relevant to signal processing interests.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08970v1 Announce Type: new Abstract: Recent benchmarks for VLMs largely assess single- or limited-view perception, leaving untested the core cognitive ability to integrate observations across viewpoints into a coherent, world-centric (allocentric) 3D mental model. We introduce MultiView-Bench, a diagnostic benchmark expressly designed to evaluate multi-view integration for holistic 3D scene comprehension. Unlike existing datasets that focus on pixel-level mapping or camera-relative na…
-
-</details>
-
----
-
-## [Interval Certifications for Multilayered Perceptrons via Lattice Traversal](https://arxiv.org/abs/2607.08773)
-*arXiv AI*  
-Score: **0.68**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: methods, theory
-
-Presents a theoretical framework relevant to neural network robustness, which could be extended to structured filters and model evaluations involving harmonic analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08773v1 Announce Type: new Abstract: In this work we present a rigorous theoretical framework to a foundational problem of AI safety, namely adversarial robustness. In particular, we show that the adversarial robustness problem can be reduced to a lattice traversal problem. Each element of this lattice corresponds to an interval, i.e., an axis-aligned hyper-rectangle, containing an input point $\mathbf{x}$. Consider a multilayered perceptron classifier (MLP). An interval $I$ constitut…
-
-</details>
-
----
-
-## [Reward Transport: Property Control in Flow Matching via Noise-Space Alignment](https://arxiv.org/abs/2607.08781)
-*arXiv AI*  
-Score: **0.67**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: methods, theory, adaptive
-
-Introduces a method for embedding controllable structures in flow fields, potentially useful for adaptive representations in signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.08781v1 Announce Type: cross Abstract: The coupling in flow matching -- the rule pairing noise vectors with data points -- is typically treated as a computational choice. We show that this coupling can instead serve as an alignment interface: by matching noise and data according to a target molecular property, it embeds controllable structure directly into the learned flow field. Building on this view, we introduce Reward Transport, which uses optimal transport coupling at training ti…
-
-</details>
-
----
-
-## [Variable-Length Generative Protein Design via Generalized Poisson Flow](https://arxiv.org/abs/2607.09039)
+## [Structure of the Circular-Dyadic Convolution Error](https://arxiv.org/abs/2607.15293)
 *arXiv Machine Learning*  
-Score: **0.60**  
-Published: 2026-07-13T04:00:00+00:00
+Score: **0.85**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: convolution, wavelets, theory
+
+The paper discusses convolution operations, directly linking to wavelet theory and harmonic analysis, relevant for designing efficient algorithms in deep learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15293v1 Announce Type: new Abstract: Dyadic and circular convolution can both be computed in $O(N\log N)$ time using the Hadamard transform and the FFT-computed discrete Fourier transform (DFT), respectively. The Hadamard transform is preferable for its real-valued sign flips, yet its substitution for the DFT introduces algebraic error. We present three complementary results that characterize this error. First, we identify exact error cancellation: two input and two output positions a…
+
+</details>
+
+---
+
+## [Structure of the Circular-Dyadic Convolution Error](https://arxiv.org/abs/2607.15293)
+*arXiv AI*  
+Score: **0.85**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: wavelets, MRA, filter-bank, theory
+
+Explores convolution computation optimization, potentially applicable to multiresolution methods like wavelets.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15293v1 Announce Type: cross Abstract: Dyadic and circular convolution can both be computed in $O(N\log N)$ time using the Hadamard transform and the FFT-computed discrete Fourier transform (DFT), respectively. The Hadamard transform is preferable for its real-valued sign flips, yet its substitution for the DFT introduces algebraic error. We present three complementary results that characterize this error. First, we identify exact error cancellation: two input and two output positions…
+
+</details>
+
+---
+
+## [Optimal Sampling and Reconstruction of Graph Signals in the Fractional Fourier Domain](https://arxiv.org/abs/2607.15602)
+*arXiv Signal Processing*  
+Score: **0.80**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: time-frequency, methods, theory
+
+Focuses on signal processing with adaptations in the fractional Fourier domain, relevant to adaptive analysis and spectral methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15602v1 Announce Type: new Abstract: Graph signal sampling and reconstruction are commonly formulated in the graph Fourier transform (GFT) domain. However, the reconstruction performance may be limited when practical graph signals are not sufficiently concentrated in the GFT spectrum. To address this issue, this paper proposes a graph signal sampling and reconstruction framework based on the graph fractional Fourier transform (GFRFT) domain. The fractional order is introduced as an ad…
+
+</details>
+
+---
+
+## [Boosted Enhanced Quantile Regression Neural Networks with Spatiotemporal Permutation Entropy for Complex System Prognostics](https://arxiv.org/abs/2507.14194)
+*arXiv Signal Processing*  
+Score: **0.76**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: time-frequency, entropy, neural networks, methods
+
+Incorporates spatiotemporal entropy with neural networks, relevant for time-frequency analysis.
+
+---
+
+## [Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes](https://arxiv.org/abs/2607.15799)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: time-series, methods, time-frequency
+
+Focuses on multivariate time series anomaly detection, potentially involving sophisticated time-series analysis and graph neural networks which could intersect with signal decomposition.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15799v1 Announce Type: new Abstract: Industrial processes often generate complex, interdependent time-series data from multiple sensors across multiple stages, forming complex dependencies among variables and process stages. Effective monitoring and timely anomaly detection of these time series through multivariate time series anomaly detection (MTAD) is crucial for preventing failures and ensuring the reliability of automated systems. Graph neural networks (GNNs) have advanced MTAD b…
+
+</details>
+
+---
+
+## [CoG-Guided Weight Correction for Fault-Tolerant Deep Neural Networks](https://arxiv.org/abs/2607.15753)
+*arXiv Machine Learning*  
+Score: **0.72**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: neural networks, adaptive, methods
+
+Discusses weight correction in neural networks, relevant for adaptive representations and learning-based signal processing.
+
+---
+
+## [The $hp$-FEM does not suffer from the pollution effect for piecewise-smooth Helmholtz problems with Gevrey regularity at boundaries](https://arxiv.org/abs/2607.16073)
+*arXiv Math*  
+Score: **0.70**  
+Published: 2026-07-20T04:00:00+00:00
 Tags: methods, theory
 
-Focuses on generative models using new mathematical frameworks, echoing principles in adaptive representations.
+Looks at Helmholtz problems with FEM approaches that avoid 'pollution,' relevant for multiresolution analysis and spectral methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.09039v1 Announce Type: new Abstract: The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative…
+arXiv:2607.16073v1 Announce Type: new Abstract: We consider the $hp$-FEM applied to the Helmholtz scattering problem with wavenumber $k$, truncated with a perfectly-matched layer. The scatterer consists of a combination of Dirichlet, Neumann, and penetrable obstacles together with variable coefficients. Provided that the Helmholtz solution operator is polynomially bounded in $k$, all coefficients are piecewise smooth, all boundary surfaces are Gevrey and all coefficients restricted to boundary s…
 
 </details>
 
 ---
 
-## [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions](https://arxiv.org/abs/2607.08774)
+## [ASK-NN: An Asymmetric Nearest-Neighbor Test that detects Distribution Drifts in Natural Language](https://arxiv.org/abs/2607.15607)
+*arXiv Machine Learning*  
+Score: **0.68**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: methods, statistical, signal analysis
+
+Introduces statistical measures for detecting distribution drifts, tying into broader topics of signal processing and analysis.
+
+---
+
+## [(MPO)$^2$: Multivariate Polynomial Optimization based on Matrix Product Operators](https://arxiv.org/abs/2607.15916)
+*arXiv Machine Learning*  
+Score: **0.65**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: methods, theory
+
+Introduces polynomial models in signal processing, relevant to learning complex relationships which might link classical signal analysis to deep learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15916v1 Announce Type: new Abstract: Central to machine learning and signal processing is the ability to perform universal function approximation and learn complex input-output relationships from limited numbers of observations. Multivariate polynomial models offer a natural way to express such relationships through multiplicative feature interactions, but their coefficient tensors grow exponentially in size with the polynomial degree. Existing tensorized polynomial models reduce this…
+
+</details>
+
+---
+
+## [Modularized Dynamic-Granularity Video LLM for Multi-Event Long Video Understanding](https://arxiv.org/abs/2607.15778)
+*arXiv Computer Vision*  
+Score: **0.65**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: CNN, filter-bank, time-frequency
+
+Modular processing framework may inspire structured filter design in CNNs with ties to traditional signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15778v1 Announce Type: new Abstract: Video Large Language Models (Video LLMs) have made significant advancements in various video understanding tasks. However, long-video scenarios remain challenging due to the tension between limited visual token budgets and the need to capture multiple key events. Existing approaches typically process long videos in two stages, i.e., i) select keyframes and ii) perform detailed perception, which exhibit limitations: they lack a modular mechanism for…
+
+</details>
+
+---
+
+## [Strategic Persuasion Through Information Timeliness](https://arxiv.org/abs/2607.15939)
+*arXiv Signal Processing*  
+Score: **0.60**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: signal processing, time dynamics
+
+Explores dynamic systems influenced by information timing, drawing parallels with signal timing and processing strategies.
+
+---
+
+## [MGDT: MLLM-Guided Diffusion Transformer with Relation-Adaptive Mixture-of-Experts for Multimodal Knowledge Graph Completion](https://arxiv.org/abs/2607.15592)
 *arXiv AI*  
 Score: **0.60**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: theory, methods, AI
+Published: 2026-07-20T04:00:00+00:00
+Tags: time-frequency, methods, MRA
 
-Relevance for signal processing frameworks in AI, enhancing interpretability, aligning with structured deep learning models.
+Novel use of diffusion techniques relates to time-frequency analysis methods. Potential connection through adaptive representation.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.08774v1 Announce Type: new Abstract: Reliability in large language model (LLM) systems is typically framed as a function of model capability. We challenge this by demonstrating that reliability is significantly influenced by \emph{inference-time control} -- the computational layer governing task framing and context selection. We introduce \emph{CogniConsole}, an architectural instantiation that externalizes this control into a structured interface combining programmatic coordination w…
+arXiv:2607.15592v1 Announce Type: new Abstract: Multimodal Knowledge Graph Completion (MKGC) requires inferring missing entities from structural, textual, and visual cues. Existing diffusion-based MKGC methods usually denoise directly on raw multimodal features. Such a design forces the denoiser to simultaneously perform relation-dependent cue selection, cross-modal semantic alignment, and structure-aware entity generation, which introduces noisy and semantically inconsistent conditions for diff…
 
 </details>
 
 ---
 
-## [PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG](https://arxiv.org/abs/2607.09662)
-*arXiv Signal Processing*  
+## [Global and local helicity-preservation in the finite element discretization of magnetic relaxation](https://arxiv.org/abs/2603.12134)
+*arXiv Math*  
 Score: **0.55**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: EEG, time-frequency
+Published: 2026-07-20T04:00:00+00:00
+Tags: methods, theory
 
-Uses novel topological methods for EEG analysis, integrating sophisticated signal decomposition approaches.
+Discusses structure-preserving numerical methods in magnetic relaxation, touching upon advanced mathematical frameworks valuable in signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2603.12134v2 Announce Type: replace Abstract: Magnetic relaxation drives plasma toward lower-energy equilibria under helicity constraints. In ideal magnetohydrodynamics (MHD), helicity is locally conserved, while resistive theories such as Taylor relaxation preserve only global helicity. This distinction has important implications for structure-preserving numerical methods. We compare three finite element formulations: an unconstrained scheme that does not conserve helicity, a mixed method…
+
+</details>
 
 ---
 
-## [Director: Accelerating Distributed MoE Serving via Online Proactive Expert Placement](https://arxiv.org/abs/2607.08782)
+## [Data-driven Video Codec with Implicit Neural Representations](https://arxiv.org/abs/2607.15298)
 *arXiv AI*  
 Score: **0.55**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: methods, theory, distributed
+Published: 2026-07-20T04:00:00+00:00
+Tags: sparse, video, methods
 
-Optimizes expert placement in MoE models, relevant to scaling signal processing computations within distributed systems.
+Implicit neural representations could inform wavelet networks or sparse coding for video compression.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.08782v1 Announce Type: cross Abstract: Expert parallelism has become the prevailing paradigm to serve Mixture-of-Experts (MoE) models. Its efficiency depends on the communication and computation latencies of the GPUs, which are linked to the placement of experts in the GPUs. Existing works for optimizing expert placement focus on leveraging past requests' expert activation patterns. However, they demonstrate deficiencies facing diverse and rapidly changing request patterns, calling fo…
+arXiv:2607.15298v1 Announce Type: cross Abstract: A conventional codec stores a video as compressed pixel data. We instead store the video, together with its audio track, as the weights of a single sinusoidal representation network (SIREN) that maps space-time coordinates to RGB values and audio amplitudes. The network uses separate audio and video initialization layers, a stack of shared fully connected hidden layers, and three output branches: one for video and two Siamese audio branches whose…
 
 </details>
 
 ---
 
-## [Multi-UE Identification and Localization in LAWN via an Autonomous Non-Serving UAV](https://arxiv.org/abs/2511.13171)
-*arXiv Signal Processing*  
-Score: **0.40**  
-Published: 2026-07-13T04:00:00+00:00
-Tags: methods, time-frequency
+## [Lightweight return-mapping surrogates for multiscale plasticity: a practical guide](https://arxiv.org/abs/2607.15931)
+*arXiv Math*  
+Score: **0.50**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: sparse, methods
 
-Involves signal processing techniques for localization using UAVs, which could relate to time-series analysis applications.
+Applies neural network surrogates in multiscale simulations, relevant for adaptive and sparse methods in signal representation.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2511.13171v3 Announce Type: replace Abstract: This paper presents an autonomous sensing framework for identifying and localizing multiple User Equipments (UEs) in Fifth Generation (5G) cellular networks using a non-serving Unmanned Aerial Vehicle (UAV). A complete onboard processing chain is developed to perform synchronization, multi-UE identification, and localization directly from standard 3GPP-compliant uplink Sounding Reference Signals (SRS). Unlike conventional UAV-assisted approache…
+arXiv:2607.15931v1 Announce Type: new Abstract: This paper presents a practical guide to building lightweight neural-network surrogates for the plastic return-mapping process in concurrent multiscale (FE2) simulations. Rather than proposing a new architecture, we show how a deliberately simple feed-forward network, structured to mirror the classical return-mapping update, can replace the prohibitively expensive nested fine-scale solves that dominate the cost of conventional FE2 schemes based on …
+
+</details>
+
+---
+
+## [Knowledge-Guided Cross-Modal Fusion for Adult-to-Pediatric ECG Transfer via Label-Conditioned Contrastive Alignment](https://arxiv.org/abs/2607.15928)
+*arXiv Machine Learning*  
+Score: **0.40**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: methods, time-series
+
+Focus on ECG signals suggests exploration of time-series analysis which can relate to signal processing methods, though primarily biologically focused.
+
+---
+
+## [In-context learning of closed form solution to simple linear regression task using transformer with linear self-attention](https://arxiv.org/abs/2607.15819)
+*arXiv Machine Learning*  
+Score: **0.35**  
+Published: 2026-07-20T04:00:00+00:00
+Tags: methods, theory
+
+Examines in-context learning and regression with transformers, possibly touching on methods relevant to learning structured representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.15819v1 Announce Type: new Abstract: In-context learning is a remarkable property of transformers and has recently received a lot of interest. In many studies of in-context learning, it has been shown that transformers are capable of implementing solver for linear and non-linear regression problems, in which the most of them implement gradient descent algorithm. However, it is still unclear whether those implementations have actually been acquired through training. In this paper, we c…
 
 </details>
 
