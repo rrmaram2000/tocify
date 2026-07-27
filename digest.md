@@ -1,278 +1,384 @@
-# Weekly ToC Digest (week of 2026-07-20)
+# Weekly ToC Digest (week of 2026-07-27)
 
-Prioritizing signal processing and deep learning approaches, particularly those involving wavelets and related techniques. Prioritized items involve advancements in signal processing methods, specifically in areas integrating classical techniques with machine learning innovations. Prioritized based on wavelet theory, signal processing methods, and links between classical analysis and deep learning. Selected papers focus on connections between classical signal processing methods like wavelets and modern deep learning approaches, emphasizing multiresolution techniques and adaptive representations.
+This week's selection focuses on signal processing advancements, particularly involving wavelet theory, MRA, and their intersections with deep learning techniques. Papers were triaged based on the research interests surrounding wavelet theory, harmonic analysis, and deep learning methodologies, particularly those bridging classical signal processing techniques with modern machine learning approaches. Triaged based on user interests in harmonic analysis, wavelet theory, and deep learning methodologies. RSS feed insights aligned with a focus on harmonic analysis, wavelet theory, and deep learning.
 
-**Included:** 18 (score ≥ 0.35)  
-**Scored:** 19 total items
+**Included:** 23 (score ≥ 0.35)  
+**Scored:** 23 total items
 
 ---
 
-## [Trainable Spline Representations for Physics-Informed Learning](https://arxiv.org/abs/2607.15751)
-*arXiv Math*  
-Score: **0.85**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: sparse, theory, methods
+## [Advances in Wavelet Denoising for Communication Signals: From Parameter Selection Toward Data-Driven Optimization](https://arxiv.org/abs/2607.21825)
+*arXiv Signal Processing*  
+Score: **0.95**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: wavelets, MRA
 
-Introduces Physics-Informed Splines that bridge neural networks and structured basis functions, closely aligning with adaptive representations and learnable bases.
+This paper reviews recent advances in wavelet denoising for communications. It emphasizes parameter selection and data-driven optimization, both critical to enhancing MRA and wavelet theory—core interests for the user.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15751v1 Announce Type: cross Abstract: This work introduces Physics-Informed Splines (PI-Splines), a structured spline-based architecture for physics-informed learning. Instead of representing the solution of a differential equation with a neural network, PI-Splines directly parametrize the unknown field through a tensor-product B-spline expansion with trainable control coefficients. This formulation preserves the residual-based training paradigm of Physics-Informed Neural Networks wh…
+arXiv:2607.21825v1 Announce Type: new Abstract: Wavelet denoising suppresses nonstationary, impulsive, and interference-like disturbances in communication signals, but its effectiveness depends on jointly selecting the transform family, mother wavelet, decomposition level, thresholding rule, and shrinkage function. This review synthesises studies published during 2020--2025 across ten sources using a PRISMA-aligned protocol and classifies them by parameter-selection focus and application domain.…
 
 </details>
 
 ---
 
-## [Structure of the Circular-Dyadic Convolution Error](https://arxiv.org/abs/2607.15293)
+## [Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes](https://arxiv.org/abs/2607.22508)
+*arXiv Signal Processing*  
+Score: **0.90**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: EEG, sparse, wavelets
+
+This paper presents a framework for interpretable EEG analysis using spatial and temporal waveform dictionaries, closely aligning with wavelet and sparse coding techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22508v1 Announce Type: cross Abstract: Electroencephalography (EEG) is widely used to diagnose neurological conditions, but its analysis usually relies on either predefined spectral features or deep neural networks. Predefined features carry a strong bias, since they fix in advance what counts as informative, while deep neural networks and foundation models are hard to interpret and need large amounts of data and compute. We present bag-of-waves, an interpretable framework that learns…
+
+</details>
+
+---
+
+## [Energy Manifold Natural Gradient Descent: Riemannian Optimization for Neural PDE Solvers](https://arxiv.org/abs/2607.22004)
 *arXiv Machine Learning*  
-Score: **0.85**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: convolution, wavelets, theory
+Score: **0.90**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, PDE, optimization, theory
 
-The paper discusses convolution operations, directly linking to wavelet theory and harmonic analysis, relevant for designing efficient algorithms in deep learning.
+The paper introduces a manifold optimization framework relevant to PDE solving with Riemannian manifolds, aligning well with interests in mathematical frameworks and optimization methods.
+
+---
+
+## [Deep Sigma Point Processes for RCS Modeling in Spaceborne SAR Imagery](https://arxiv.org/abs/2607.21745)
+*arXiv Signal Processing*  
+Score: **0.85**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: CNN, methods, theory
+
+Introduces deep learning methods for RCS modeling in SAR imagery, illustrating neural networks for complex signal representations. This aligns with integrating wavelet analysis into deep learning frameworks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15293v1 Announce Type: new Abstract: Dyadic and circular convolution can both be computed in $O(N\log N)$ time using the Hadamard transform and the FFT-computed discrete Fourier transform (DFT), respectively. The Hadamard transform is preferable for its real-valued sign flips, yet its substitution for the DFT introduces algebraic error. We present three complementary results that characterize this error. First, we identify exact error cancellation: two input and two output positions a…
+arXiv:2607.21745v1 Announce Type: new Abstract: Radar cross-section (RCS) modeling is foundational to advancing the utility and sensitivity of spaceborne radar systems. This study introduces a deep sigma-point process (DSPP) model for predicting RCS in synthetic aperture radar (SAR) imagery using a RADARSAT-2 dataset containing 208,191 verified ships. The DSPP model not only strives for predictive accuracy but also characterizes the uncertainty inherent in the intricate relationships among radar…
 
 </details>
 
 ---
 
-## [Structure of the Circular-Dyadic Convolution Error](https://arxiv.org/abs/2607.15293)
-*arXiv AI*  
+## [Characterization of the Basin of Convexity for Multi-Snapshot Spike Deconvolution via Variable Projection](https://arxiv.org/abs/2607.09593)
+*arXiv Signal Processing*  
 Score: **0.85**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: wavelets, MRA, filter-bank, theory
+Published: 2026-07-27T04:00:00+00:00
+Tags: sparse, signal-decomp
 
-Explores convolution computation optimization, potentially applicable to multiresolution methods like wavelets.
+The study of multi-snapshot deconvolution using variable projection tackles sparse recovery, which is pertinent for sparse coding and signal decomposition.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15293v1 Announce Type: cross Abstract: Dyadic and circular convolution can both be computed in $O(N\log N)$ time using the Hadamard transform and the FFT-computed discrete Fourier transform (DFT), respectively. The Hadamard transform is preferable for its real-valued sign flips, yet its substitution for the DFT introduces algebraic error. We present three complementary results that characterize this error. First, we identify exact error cancellation: two input and two output positions…
+arXiv:2607.09593v2 Announce Type: replace-cross Abstract: The problem of multi-snapshot spike deconvolution is studied, where the goal is to recover the locations of sparse impulses from their noisy convolution with a known point spread function (PSF) across multiple snapshots. A variable-projection formulation is adopted, in which the amplitudes are eliminated in closed form, thereby reducing the task to a nonconvex least-squares problem over the spike locations alone. This formulation is refer…
 
 </details>
 
 ---
 
-## [Optimal Sampling and Reconstruction of Graph Signals in the Fractional Fourier Domain](https://arxiv.org/abs/2607.15602)
+## [ReLU$^k$ Neural de Rham Complexes](https://arxiv.org/abs/2607.22478)
+*arXiv Math*  
+Score: **0.80**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: theory, methods
+
+Examines the use of ReLU neural networks for de Rham complexes, showcasing a mathematical foundation for integrating neural networks with harmonic analysis concepts.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22478v1 Announce Type: new Abstract: We construct finite-dimensional de Rham subcomplexes generated by fixed-neuron shallow ReLU$^k$ neural networks, a class of spaces known to provide optimal approximation rates. For neurons of the form $s_i(x)=\omega_i\cdot x+b_i$, we introduce spaces of neural differential forms: differential $p$-forms whose coefficients are the ReLU$^k$ ridge functions $\sigma_{k-p}(s_i)$. These spaces are compatible with the exterior derivative because differenti…
+
+</details>
+
+---
+
+## [Depthwise Separable CNN for D-MIMO Indoor Localization with Data Reduction](https://arxiv.org/abs/2607.22217)
 *arXiv Signal Processing*  
 Score: **0.80**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: time-frequency, methods, theory
+Published: 2026-07-27T04:00:00+00:00
+Tags: CNN, sparse, filter-bank
 
-Focuses on signal processing with adaptations in the fractional Fourier domain, relevant to adaptive analysis and spectral methods.
+This paper explores CNNs with structured filter approaches, relevant for wavelet networks and structured convolutional architectures.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15602v1 Announce Type: new Abstract: Graph signal sampling and reconstruction are commonly formulated in the graph Fourier transform (GFT) domain. However, the reconstruction performance may be limited when practical graph signals are not sufficiently concentrated in the GFT spectrum. To address this issue, this paper proposes a graph signal sampling and reconstruction framework based on the graph fractional Fourier transform (GFRFT) domain. The fractional order is introduced as an ad…
+arXiv:2607.22217v1 Announce Type: new Abstract: Indoor localization using Distributed Multiple-Input Multiple-Output (D-MIMO) and machine learning (ML) achieves sub-centimeter accuracy but faces midhaul capacity bottlenecks when transmitting raw Channel State Information (CSI) in Open Radio Access Networks (O-RAN) architectures. To address this, we propose a lightweight, distributed ML framework that shifts initial processing to the network edge. By deploying localized models as dApps on Distrib…
 
 </details>
 
 ---
 
-## [Boosted Enhanced Quantile Regression Neural Networks with Spatiotemporal Permutation Entropy for Complex System Prognostics](https://arxiv.org/abs/2507.14194)
-*arXiv Signal Processing*  
-Score: **0.76**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: time-frequency, entropy, neural networks, methods
+## [On the Convergence of Stochastic Low-Rank Adaptation](https://arxiv.org/abs/2607.21975)
+*arXiv Machine Learning*  
+Score: **0.80**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, sparse, optimization
 
-Incorporates spatiotemporal entropy with neural networks, relevant for time-frequency analysis.
+Focuses on stochastic low-rank adaptation which may contribute to understanding learnable basis functions and adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.21975v1 Announce Type: new Abstract: Low-rank adaptation (LoRA) optimizes $J(B,A)=\mathcal L(W_\mathrm{base}+sBA)$ over two adapters $B \in \mathbb{R}^{m \times r}$ and $A \in \mathbb{R}^{r \times n}$ that form a low-rank update to a frozen pretrained weight matrix $W_\mathrm{base} \in \mathbb{R}^{m \times n}$. The prior analysis shows LoRA-GD takes $\exp\{\mathcal{O}(\epsilon^{-2})\}$ oracle calls to find an $\epsilon$-stationary point such that $\|\nabla J(B,A)\|\leq \epsilon$ in th…
+
+</details>
 
 ---
 
-## [Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes](https://arxiv.org/abs/2607.15799)
+## [Energy Manifold Natural Gradient Descent: Riemannian Optimization for Neural PDE Solvers](https://arxiv.org/abs/2607.22004)
+*arXiv Machine Learning*  
+Score: **0.80**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, PDE, optimization, theory
+
+This paper aligns with interests in optimization methods for neural PDE solvers, with a focus on manifold optimization.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22004v1 Announce Type: new Abstract: Energy natural gradient descent (ENGD) aligns parameter updates with the curvature of an underlying function-space energy, but existing formulations assume an unconstrained Euclidean parameter domain. We introduce \EMNGDfull{}, a manifold optimization framework for physics-informed and variational neural PDE solvers whose parameters lie on a Riemannian manifold. EMNGD restricts the energy-induced quadratic model to feasible tangent directions and u…
+
+</details>
+
+---
+
+## [Learning What Matters: Supervising Sparse Attention Routing with Causal Evidence Sets](https://arxiv.org/abs/2607.21692)
 *arXiv Machine Learning*  
 Score: **0.75**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: time-series, methods, time-frequency
+Published: 2026-07-27T04:00:00+00:00
+Tags: sparse, learning, methods
 
-Focuses on multivariate time series anomaly detection, potentially involving sophisticated time-series analysis and graph neural networks which could intersect with signal decomposition.
+Explores sparse attention in neural networks, tying into sparse coding and adaptive representation themes.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15799v1 Announce Type: new Abstract: Industrial processes often generate complex, interdependent time-series data from multiple sensors across multiple stages, forming complex dependencies among variables and process stages. Effective monitoring and timely anomaly detection of these time series through multivariate time series anomaly detection (MTAD) is crucial for preventing failures and ensuring the reliability of automated systems. Graph neural networks (GNNs) have advanced MTAD b…
+arXiv:2607.21692v1 Announce Type: new Abstract: Sparse attention reduces the cost of long contexts by allowing each query to read only selected parts of the input. These selectors are often trained by distilling the attention patterns of a dense teacher, assuming that attention reveals which context the teacher actually uses. We test that assumption on retrieval tasks where the evidence for each answer is known exactly. By masking parts of the context and measuring whether the answer changes, we…
 
 </details>
 
 ---
 
-## [CoG-Guided Weight Correction for Fault-Tolerant Deep Neural Networks](https://arxiv.org/abs/2607.15753)
-*arXiv Machine Learning*  
+## [From level set evolution to threshold optimization: A grayscale level set framework for image segmentation](https://arxiv.org/abs/2607.22255)
+*arXiv Computer Vision*  
 Score: **0.72**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: neural networks, adaptive, methods
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, MRA, wavelets
 
-Discusses weight correction in neural networks, relevant for adaptive representations and learning-based signal processing.
+Introduces a novel grayscale level set framework reducing computational costs and improving stability, which could be relevant to multiresolution analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22255v1 Announce Type: new Abstract: The segmentation of multiple degradations has been a challenging problem in the field of image segmentation. Existing level set approaches commonly adopt a length regularization term to constrain the geometric shape of the segmentation contour. However, the introduction of the length term often results in numerical instability and high computational cost. In this paper, we show that the length term is not essential under certain smoothness constrai…
+
+</details>
 
 ---
 
-## [The $hp$-FEM does not suffer from the pollution effect for piecewise-smooth Helmholtz problems with Gevrey regularity at boundaries](https://arxiv.org/abs/2607.16073)
+## [Singular value soft-thresholding via the polar decomposition](https://arxiv.org/abs/2607.22484)
 *arXiv Math*  
 Score: **0.70**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, theory
-
-Looks at Helmholtz problems with FEM approaches that avoid 'pollution,' relevant for multiresolution analysis and spectral methods.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.16073v1 Announce Type: new Abstract: We consider the $hp$-FEM applied to the Helmholtz scattering problem with wavenumber $k$, truncated with a perfectly-matched layer. The scatterer consists of a combination of Dirichlet, Neumann, and penetrable obstacles together with variable coefficients. Provided that the Helmholtz solution operator is polynomially bounded in $k$, all coefficients are piecewise smooth, all boundary surfaces are Gevrey and all coefficients restricted to boundary s…
-
-</details>
-
----
-
-## [ASK-NN: An Asymmetric Nearest-Neighbor Test that detects Distribution Drifts in Natural Language](https://arxiv.org/abs/2607.15607)
-*arXiv Machine Learning*  
-Score: **0.68**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, statistical, signal analysis
-
-Introduces statistical measures for detecting distribution drifts, tying into broader topics of signal processing and analysis.
-
----
-
-## [(MPO)$^2$: Multivariate Polynomial Optimization based on Matrix Product Operators](https://arxiv.org/abs/2607.15916)
-*arXiv Machine Learning*  
-Score: **0.65**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, theory
-
-Introduces polynomial models in signal processing, relevant to learning complex relationships which might link classical signal analysis to deep learning.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.15916v1 Announce Type: new Abstract: Central to machine learning and signal processing is the ability to perform universal function approximation and learn complex input-output relationships from limited numbers of observations. Multivariate polynomial models offer a natural way to express such relationships through multiplicative feature interactions, but their coefficient tensors grow exponentially in size with the polynomial degree. Existing tensorized polynomial models reduce this…
-
-</details>
-
----
-
-## [Modularized Dynamic-Granularity Video LLM for Multi-Event Long Video Understanding](https://arxiv.org/abs/2607.15778)
-*arXiv Computer Vision*  
-Score: **0.65**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: CNN, filter-bank, time-frequency
-
-Modular processing framework may inspire structured filter design in CNNs with ties to traditional signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.15778v1 Announce Type: new Abstract: Video Large Language Models (Video LLMs) have made significant advancements in various video understanding tasks. However, long-video scenarios remain challenging due to the tension between limited visual token budgets and the need to capture multiple key events. Existing approaches typically process long videos in two stages, i.e., i) select keyframes and ii) perform detailed perception, which exhibit limitations: they lack a modular mechanism for…
-
-</details>
-
----
-
-## [Strategic Persuasion Through Information Timeliness](https://arxiv.org/abs/2607.15939)
-*arXiv Signal Processing*  
-Score: **0.60**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: signal processing, time dynamics
-
-Explores dynamic systems influenced by information timing, drawing parallels with signal timing and processing strategies.
-
----
-
-## [MGDT: MLLM-Guided Diffusion Transformer with Relation-Adaptive Mixture-of-Experts for Multimodal Knowledge Graph Completion](https://arxiv.org/abs/2607.15592)
-*arXiv AI*  
-Score: **0.60**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: time-frequency, methods, MRA
-
-Novel use of diffusion techniques relates to time-frequency analysis methods. Potential connection through adaptive representation.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.15592v1 Announce Type: new Abstract: Multimodal Knowledge Graph Completion (MKGC) requires inferring missing entities from structural, textual, and visual cues. Existing diffusion-based MKGC methods usually denoise directly on raw multimodal features. Such a design forces the denoiser to simultaneously perform relation-dependent cue selection, cross-modal semantic alignment, and structure-aware entity generation, which introduces noisy and semantically inconsistent conditions for diff…
-
-</details>
-
----
-
-## [Global and local helicity-preservation in the finite element discretization of magnetic relaxation](https://arxiv.org/abs/2603.12134)
-*arXiv Math*  
-Score: **0.55**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, theory
-
-Discusses structure-preserving numerical methods in magnetic relaxation, touching upon advanced mathematical frameworks valuable in signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2603.12134v2 Announce Type: replace Abstract: Magnetic relaxation drives plasma toward lower-energy equilibria under helicity constraints. In ideal magnetohydrodynamics (MHD), helicity is locally conserved, while resistive theories such as Taylor relaxation preserve only global helicity. This distinction has important implications for structure-preserving numerical methods. We compare three finite element formulations: an unconstrained scheme that does not conserve helicity, a mixed method…
-
-</details>
-
----
-
-## [Data-driven Video Codec with Implicit Neural Representations](https://arxiv.org/abs/2607.15298)
-*arXiv AI*  
-Score: **0.55**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: sparse, video, methods
-
-Implicit neural representations could inform wavelet networks or sparse coding for video compression.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2607.15298v1 Announce Type: cross Abstract: A conventional codec stores a video as compressed pixel data. We instead store the video, together with its audio track, as the weights of a single sinusoidal representation network (SIREN) that maps space-time coordinates to RGB values and audio amplitudes. The network uses separate audio and video initialization layers, a stack of shared fully connected hidden layers, and three output branches: one for video and two Siamese audio branches whose…
-
-</details>
-
----
-
-## [Lightweight return-mapping surrogates for multiscale plasticity: a practical guide](https://arxiv.org/abs/2607.15931)
-*arXiv Math*  
-Score: **0.50**  
-Published: 2026-07-20T04:00:00+00:00
+Published: 2026-07-27T04:00:00+00:00
 Tags: sparse, methods
 
-Applies neural network surrogates in multiscale simulations, relevant for adaptive and sparse methods in signal representation.
+Presents computational methods for singular value soft-thresholding, utilizing polar decompositions—a technique relevant to sparse coding and signal representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15931v1 Announce Type: new Abstract: This paper presents a practical guide to building lightweight neural-network surrogates for the plastic return-mapping process in concurrent multiscale (FE2) simulations. Rather than proposing a new architecture, we show how a deliberately simple feed-forward network, structured to mirror the classical return-mapping update, can replace the prohibitively expensive nested fine-scale solves that dominate the cost of conventional FE2 schemes based on …
+arXiv:2607.22484v1 Announce Type: new Abstract: Singular value soft-thresholding can be computed via a reduction to the matrix polar decomposition, which allows one to exploit GPU-friendly algorithms for computing the polar decomposition. Empirically, there is a significant speed-up on GPUs compared to the standard approach using the SVD. We leave the investigation of robustness to future work, but note that due to the discontinuous nature of the sign function, the reduction to the polar decompo…
 
 </details>
 
 ---
 
-## [Knowledge-Guided Cross-Modal Fusion for Adult-to-Pediatric ECG Transfer via Label-Conditioned Contrastive Alignment](https://arxiv.org/abs/2607.15928)
-*arXiv Machine Learning*  
-Score: **0.40**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, time-series
+## [Bayesian decomposition using Besov priors](https://arxiv.org/abs/2506.18846)
+*arXiv Math*  
+Score: **0.70**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: wavelets, sparse
 
-Focus on ECG signals suggests exploration of time-series analysis which can relate to signal processing methods, though primarily biologically focused.
-
----
-
-## [In-context learning of closed form solution to simple linear regression task using transformer with linear self-attention](https://arxiv.org/abs/2607.15819)
-*arXiv Machine Learning*  
-Score: **0.35**  
-Published: 2026-07-20T04:00:00+00:00
-Tags: methods, theory
-
-Examines in-context learning and regression with transformers, possibly touching on methods relevant to learning structured representations.
+Discusses Bayesian decomposition techniques with Besov priors, illustrating methods that connect classical wavelet theory with modern statistical approaches.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2607.15819v1 Announce Type: new Abstract: In-context learning is a remarkable property of transformers and has recently received a lot of interest. In many studies of in-context learning, it has been shown that transformers are capable of implementing solver for linear and non-linear regression problems, in which the most of them implement gradient descent algorithm. However, it is still unclear whether those implementations have actually been acquired through training. In this paper, we c…
+arXiv:2506.18846v3 Announce Type: replace-cross Abstract: In many inverse problems, the unknown is composed of multiple components with different regularities, for example, in imaging problems, where the unknown can have both rough and smooth features. We investigate linear Bayesian inverse problems, where the unknown consists of two components: one smooth and one piecewise constant. We model the unknown as a sum of two components and assign individual priors on each component to impose the assu…
+
+</details>
+
+---
+
+## [Variational Low-rank Tensor Decomposition for Multisubject Spatiotemporal Data Analysis](https://arxiv.org/abs/2607.22262)
+*arXiv Signal Processing*  
+Score: **0.70**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: tensor, signal-decomp, methods
+
+Targets low-rank tensor decompositions, relevant for signal processing in spatiotemporal domains, potentially using multiresolution analysis techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22262v1 Announce Type: cross Abstract: Modeling shared and subject-specific structure in multisubject spatiotemporal data remains challenging, particularly in neuroimaging, where both spatial and temporal patterns exhibit rich variability across subjects. Existing matrix and tensor decompositions provide interpretable factorizations, but rely on fixed multilinear structures or coupling schemes that may limit their flexibility in capturing complex variability. In this work, we introduc…
+
+</details>
+
+---
+
+## [RateCount: Learning-Free Device Counting by Wi-Fi Probe Listening](https://arxiv.org/abs/2507.03873)
+*arXiv Signal Processing*  
+Score: **0.65**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, sparse, signal
+
+While not focused on wavelets or neural networks, the underlying principles could relate to sparse coding applications.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2507.03873v2 Announce Type: replace-cross Abstract: Counting Wi-Fi devices within access point (AP) coverage by listening to their probe request frames (PRFs) is a well-established research problem, fundamental to many Internet of Things (IoT) applications such as crowd management and public transportation scheduling. While commendable counting accuracy has been reported, existing approaches fall short in deployment convenience due to their reliance on machine learning, which necessitates …
+
+</details>
+
+---
+
+## [General Value Functions for Remaining Useful Life and Failure-Mode Prediction](https://arxiv.org/abs/2607.22268)
+*arXiv Stats ML*  
+Score: **0.65**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: time-series, methods
+
+Proposes a novel time-series prediction approach using vector General Value Function, relevant to time-frequency analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22268v1 Announce Type: new Abstract: Remaining useful life (RUL) prediction and failure-mode classification are central tasks in predictive maintenance. Many data-driven pipelines use fixed-window supervised learning with complete terminal labels; such routes do not naturally encode the temporal recursion linking successive degradation-state predictions when observations are partial or unit identities are unavailable. We formulate prognostics as vector General Value Function (GVF) pre…
+
+</details>
+
+---
+
+## [Ultra-wideband statistical propagation channel model for implant sensors in the human chest](https://arxiv.org/abs/2607.22210)
+*arXiv Signal Processing*  
+Score: **0.60**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, analysis, time-frequency
+
+Discusses UWB models which could indirectly tie to time-frequency analysis methods such as wavelets.
+
+---
+
+## [Remedying Coarsening-Based GNN Training under Heterophily via Adaptive Complementary Enhancement](https://arxiv.org/abs/2607.21885)
+*arXiv Machine Learning*  
+Score: **0.60**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, GNN, sparse
+
+Focuses on GNNs with coarsening-based training, potentially touching on sparse methods and adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.21885v1 Announce Type: new Abstract: Coarsening-based training for graph neural networks (GNNs), i.e.\ training on coarsened graphs rather than the original large ones, has become a promising direction for scaling GNNs to massive graphs. However, prior work has been evaluated almost exclusively on \textit{homophilic} graphs, leaving the more challenging \textit{heterophilic} settings underexplored. We show, both empirically and theoretically, that existing coarsening-based training me…
+
+</details>
+
+---
+
+## [Simulation-Based Empirical Bayes](https://arxiv.org/abs/2607.21843)
+*arXiv Stats ML*  
+Score: **0.60**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, theory
+
+Introduces simulation-based inference methods relevant to Bayesian frameworks, potentially useful for deep learning with signal processing techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.21843v1 Announce Type: new Abstract: Empirical Bayes (EB) performs simultaneous inference across many related latent variables. Classical EB assumes that the likelihood p(x | z) is tractable. In many scientific applications, however, the likelihood is available only through a simulator. This paper develops EB for such implicit likelihoods. We introduce simulation-based empirical Bayes (SBEB), which connects nonparametric EB to simulation-based inference (SBI). SBEB computes EB estimat…
+
+</details>
+
+---
+
+## [AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment](https://arxiv.org/abs/2607.22241)
+*arXiv Computer Vision*  
+Score: **0.57**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: methods, deep-learning
+
+Advanced video generation using implicit representations aligns with wavelet-based feature extraction and representation learning.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22241v1 Announce Type: new Abstract: Recent advances in video diffusion models have spurred interest in human-object interaction (HOI) video generation, which demands fine-grained control over interaction logic beyond single-subject animation. However, existing HOI methods rely heavily on explicit motion control, limiting scalability and generalization across diverse objects and interactions. In this study, we propose AgentHOI, a text-driven HOI video generation following a thinking-b…
+
+</details>
+
+---
+
+## [A Framework for Individual Tree Growth Reconstruction Using Multi-Platform Laser Scanning](https://arxiv.org/abs/2607.22129)
+*arXiv Computer Vision*  
+Score: **0.55**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: MRA, methods
+
+Employs laser scanning which might implement wavelet analysis for signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.22129v1 Announce Type: new Abstract: Accurate tree-level forest monitoring using laser scanning data requires reliable tree delineation, consistent tree correspondence across multitemporal point clouds, and accurate estimation of tree attributes and their change. Reconstructing tree growth in boreal forests is challenging due to the scarcity of historical stem-level data, propagation of errors from older sensors into change estimation, and growth rates with a magnitude of measurement …
+
+</details>
+
+---
+
+## [Variance-Reduced Q-Learning over Static and Time-Varying Networks](https://arxiv.org/abs/2607.21876)
+*arXiv Machine Learning*  
+Score: **0.50**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: time-series, RL, methods
+
+Explores novel RL methods with potential applications in time-series analysis, of moderate relevance to the user's interests.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.21876v1 Announce Type: new Abstract: We investigate a decentralized reinforcement learning problem involving multiple agents that interact with the same Markov Decision Process (MDP). The agents can exchange information over a network to collectively learn the optimal state-action value function. For this setting, we introduce a novel epoch-based distributed $Q$-learning algorithm called VRDQ, where within each epoch, agents locally estimate the Bellman optimality operator and diffuse…
+
+</details>
+
+---
+
+## [Searching the Space of Feed-Forward Neural-Network Weight-Update Rules with Fixed Depth Symbolic Regression](https://arxiv.org/abs/2607.21855)
+*arXiv Machine Learning*  
+Score: **0.50**  
+Published: 2026-07-27T04:00:00+00:00
+Tags: optimization, theory
+
+Relevant due to the exploration of neural network optimization, though lacking a direct link to signal processing methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2607.21855v1 Announce Type: new Abstract: We investigate whether symbolic regression can discover explicit neural network weight-update rules that outperform standard hand-designed optimizers on small symbolic regression benchmarks. Candidate update rules are represented as fixed-depth symbolic expressions over operands derived from common optimizers, including gradient, momentum, adaptive-gradient, and moment-estimate quantities. Across 30 benchmark/neural network combinations, the symbol…
 
 </details>
 
