@@ -1,299 +1,340 @@
-# Weekly ToC Digest (week of 2026-08-31)
+# Weekly ToC Digest (week of 2026-09-07)
 
-Focusing on signal processing methods linked to wavelets, time-frequency analysis, deep learning, and mathematical frameworks bridging classical techniques with modern methods. This week's selection includes notable contributions in wavelet and spectral methods as well as advancements in deep learning. Top picks focus on signal processing innovations, wavelet use, deep learning integration, and sophisticated time-series methods. No papers are directly relevant, but a few align loosely with signal processing or multiscale methods.
+This week's selection focuses on papers involving wavelet theory, multiresolution analysis, and their applications in deep learning and signal processing. Here are the top relevant papers for research interests in harmonic analysis, wavelet theory, and deep learning, with scoring based on their methodological contributions and connections to signal processing. Prioritized papers involving signal processing innovations at the intersection of deep learning, with emphases on wavelet theory, time-frequency analysis, and methodologies relevant to the user's interests. The selected papers integrate mathematical and computational methodologies from wavelets, time-frequency analysis, and deep learning relevant to the user's research domain.
 
-**Included:** 18 (score ≥ 0.35)  
-**Scored:** 18 total items
+**Included:** 20 (score ≥ 0.35)  
+**Scored:** 22 total items
 
 ---
 
-## [Beyond Pairwise Graphs in Science: Hypergraph Adaptive Wavelet Operators for Parametric PDEs](https://arxiv.org/abs/2608.27883)
+## [Fast Gauss Sums via Flash Attention](https://arxiv.org/abs/2609.04910)
 *arXiv Machine Learning*  
-Score: **0.95**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: wavelets, PDEs, methods
-
-Introduces hypergraph adaptive wavelet operators for PDEs, merging wavelet and deep learning techniques for unstructured data.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2608.27883v1 Announce Type: new Abstract: Physical systems are often modeled by solution operators that map input fields, parameters, geometries, or past states to steady or future physical states. Learning these maps is difficult, especially for time-dependent systems that must assimilate history and remain stable under autoregressive rollout. Many neural operators work best on regular, structured grids, while realistic simulations often require unstructured meshes or point clouds to reso…
-
-</details>
-
----
-
-## [Learning to Difference: Adaptive Reversible Differencing (AdaRDiff) for Time Series Forecasting](https://arxiv.org/abs/2608.28134)
-*arXiv Machine Learning*  
-Score: **0.95**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: time-series, methods, deep learning
-
-The paper offers a novel adaptive differencing method for time-series forecasting, aligning with interests in time-frequency analysis and enhancing deep learning models with classical time-series techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2608.28134v1 Announce Type: new Abstract: Reliable long-horizon time series forecasting is an important yet difficult problem. Trends and seasonality introduce complex temporal structure that challenges learning-based forecasting models. Differencing, which subtracts nearby past values to remove such structure, is the classical remedy, but its reliance on hand-picked orders and periods has kept it largely absent from recent deep architectures. We propose \textbf{\underline{Ada}}ptive \text…
-
-</details>
-
----
-
-## [The Adaptive Solution of High-Frequency Helmholtz Equations via Multi-Grade Deep Learning](https://arxiv.org/abs/2602.20719)
-*arXiv Math*  
-Score: **0.90**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: wavelets, MRA, deep learning, methods
-
-Integrates finite difference discretizations with Multi-Grade Deep Learning to resolve high-frequency wavefields, relevant for wave-related signal processing methods.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2602.20719v2 Announce Type: replace Abstract: The Helmholtz equation is fundamental for modeling wave propagation in acoustics, electromagnetics, and geophysics; however, high-frequency regimes remain notoriously difficult due to the severe numerical ``pollution effect.'' We propose FD-MGDL, an adaptive framework that synergizes finite difference discretizations with Multi-Grade Deep Learning (MGDL) to efficiently resolve high-frequency wavefields. Unlike standard physics-informed neural n…
-
-</details>
-
----
-
-## [The Approximation Rank of Softmax Attention: Sharp Geometric Laws and Robust Interaction Dimension](https://arxiv.org/abs/2608.28150)
-*arXiv Machine Learning*  
-Score: **0.85**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: theory, deep learning, sparse
-
-Explores geometric control of softmax attention rank, relevant to structured representations and sparse coding in deep learning systems.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2608.28150v1 Announce Type: new Abstract: Which geometry controls the rank complexity of normalized softmax attention? We study maximum-row-$\ell_1$ approximation rank, exactly the least unrestricted rank preserving every bounded vector-valued output. Two sharp worst-case laws isolate support geometry: for fixed $d$ and error $\varepsilon$, spherical self-attention has rank $\Theta_{d,\varepsilon}(\min\{n,(1+\beta)^{(d-1)/2}\})$, while full-ball geometry adds one radial degree and, for $\b…
-
-</details>
-
----
-
-## [WINO: A Weak-Form Physics Informed Neural Operator for Hyperelasticity on Variable Domains](https://arxiv.org/abs/2605.24651)
-*arXiv Math*  
 Score: **0.80**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: methods, deep learning, theory
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods, time-frequency, kernel
 
-Combines neural operators with $0$-finite element methods in a flexible signal processing approach, exploring integration of deep learning and traditional techniques.
-
----
-
-## [Exact Risk Ratios for Weighted Data Selection in Linear Regression](https://arxiv.org/abs/2608.28007)
-*arXiv Machine Learning*  
-Score: **0.75**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: methods, theory, sparse
-
-Focuses on data selection and weighting in regression, useful for applications in signal processing models and theory development.
+The paper discusses the use of flash attention to efficiently compute Gaussian kernel sums, relevant to kernel methods used in various signal processing tasks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28007v1 Announce Type: new Abstract: Hanneke, Moran, Shlimovich and Yehudayoff (COLT 2025) posed the following open problem. A selector sees a finite dataset $D \subseteq \mathbb{R}^d \times \mathbb{R}$, picks at most $n$ examples together with nonnegative weights, and hands the weighted least squares objective to the minimum-norm ERM. Writing $F_w(d,n)$ for the worst-case ratio between the loss of the returned predictor on all of $D$ and the optimal loss, they proved $F_w(d,n)=\infty…
+arXiv:2609.04910v1 Announce Type: new Abstract: Gaussian kernel sums are the computational core of maximum mean discrepancies (MMDs), kernel gradient flows, Stein variational gradient descent (SVGD), and many other kernel methods. At the same time, softmax attention has received an extraordinary amount of hardware-aware code engineering, culminating in flash attention. We show that Gauss kernel sums with arbitrary, signed weights can be evaluated via flash attention: two small input augmentation…
 
 </details>
 
 ---
 
-## [A Massively Parallel Hybridizable Discontinuous Galerkin Solver for Direct Numerical Simulation of Compressible Flows on GPUs](https://arxiv.org/abs/2608.27863)
+## [A simple shallow neural network for emulating the solution to singularly perturbed problems](https://arxiv.org/abs/2609.05180)
+*arXiv Math*  
+Score: **0.75**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: NN, time-frequency, methods
+
+This paper uses neural networks with decomposition strategies, aligning with signal decomposition and adaptive representations in differential equations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.05180v1 Announce Type: new Abstract: We consider (feed-forward) Neural Networks (NNs) for the emulation of the solution to singularly perturbed second order boundary value problems, with two small parameters. We describe a shallow NN which exploits available asymptotic expansions for the solution. These additive decompositions into smooth and layer components, allow for derivative estimates which are explicit in the order of differentiation as well as the singular perturbation paramet…
+
+</details>
+
+---
+
+## [TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image](https://arxiv.org/abs/2609.04911)
+*arXiv Computer Vision*  
+Score: **0.75**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: MRA, methods, theory
+
+This paper develops an online framework by initializing world models from a single image, potentially leveraging multiresolution analysis in image processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.04911v1 Announce Type: new Abstract: Interactive visual world models must distinguish observation from physical intervention. Camera motion reveals new surfaces, whereas intervention changes object motion, contact, and deformation. Current video world models are largely driven by appearance priors and often lose physical or spatial consistency over long horizons. We present TourPhysics, an online framework initialized from a single image and a declarative physical configuration. TourP…
+
+</details>
+
+---
+
+## [Shallow neural network approximation in mixed Sobolev spaces](https://arxiv.org/abs/2609.05263)
 *arXiv Math*  
 Score: **0.70**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: methods, computational, theory
+Published: 2026-09-07T04:00:00+00:00
+Tags: NN, theory
 
-Focuses on high-order accuracy and computational efficiency, which can be relevant for time-series and signal processing approaches in neural data.
+Discusses neural network approximation in Sobolev spaces with ties to Fourier and functional analysis, relevant to signal processing frameworks.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.05263v1 Announce Type: new Abstract: We investigate the best $L_2$ approximation of mixed Sobolev spaces by shallow neural networks with $n$ neurons and general activation functions. We first establish an activation-independent Fourier-block principle: if an activation has univariate approximation order $\rho$ in the sense of the Fourier-block property, then the global approximation rate has algebraic order $\min\{\alpha,\rho\}$ for target functions of mixed smoothness $\alpha$, up to…
+
+</details>
 
 ---
 
-## [Distributed Cross-Layer Optimization for Covert Multi-Hop, Multi-Modal Networks: Exponentially Fast Convergence and Robust Tracking](https://arxiv.org/abs/2608.28469)
+## [Data-Driven Generator Transient Prediction for Digital Twin Decision Support](https://arxiv.org/abs/2609.05356)
 *arXiv Signal Processing*  
 Score: **0.70**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: methods, networks
+Published: 2026-09-07T04:00:00+00:00
+Tags: time-frequency, methods
 
-Presents novel optimization methods relevant for signal processing in wireless networks, focusing on layered signal analysis.
+The paper introduces a novel transient forecasting model using Hankel Dynamic Mode Decomposition, combining advanced command-event memory and sparse transition dynamics, aligning with interests in time-series analysis and adaptive representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28469v1 Announce Type: cross Abstract: This paper develops the first distributed cross-layer algorithm for joint congestion control, routing, scheduling, and power control in covert multi-hop, multi-modal wireless networks, where adversarial wardens (Willies) monitor radio modalities via energy detection. The Detection Error Probability (DEP), the probability that a Willie fails to reliably detect ongoing transmissions, is generally non-concave in the transmit powers, making DEP-based…
+arXiv:2609.05356v1 Announce Type: cross Abstract: This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. The proposed event-conditioned Hankel Dynamic Mode Decomposition with Control (Hankel-DMDc) model combines delay-coordinate lifting, command-event memory features, and an event-weighted Hankel basis so that sparse load-transition dynamics in…
 
 </details>
 
 ---
 
-## [Comparing Classical and Quantum Machine Learning for Regression in High Energy Physics Collision Data](https://arxiv.org/abs/2608.28084)
+## [From Deep to Shallow: Unconstrained and Efficient Layer Merging Strategy](https://arxiv.org/abs/2609.04881)
 *arXiv Machine Learning*  
 Score: **0.70**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: CNN, methods, deep learning
+Published: 2026-09-07T04:00:00+00:00
+Tags: CNN, methods
 
-Includes evaluations of convolutional neural networks, bridging signal processing and machine learning approaches.
+Focuses on layer merging strategies in DNNs, reducing computational demands, potentially applicable to structured neural networks with ties to filter bank designs.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28084v1 Announce Type: new Abstract: The classification and regression of particle collision events constitute a persistent computational challenge in experimental high energy physics, where large volumes of simulated data must be processed with both speed and precision. This work carries out a systematic comparison of four classical machine learning architectures, support vector machines (SVM), artificial neural networks (ANN), convolutional neural networks (CNN), and long short-term…
+arXiv:2609.04861v1 Announce Type: new Abstract: Bidirectional discrete diffusion model appears naturally suited to genomic modeling because it can reconstruct missing sequence from both flanks. We developed GenDA (Genomic Density-optimized Absorbing Diffusion) under the additional hypothesis that entropy-guided span placement would concentrate reconstruction pressure on compositionally complex regions, improving both downstream variant-effect prediction and functional sequence generation. Our re…
 
 </details>
 
 ---
 
-## [ODMA-based MIMO Massive Unsourced Random Access with Soft-Output Polar Codes](https://arxiv.org/abs/2608.28085)
+## [A Neural-network-based multiscale Hybridizable Discontinuous Galerkin method for solving PDEs in porous media](https://arxiv.org/abs/2608.25850)
+*arXiv Math*  
+Score: **0.68**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: NN, MRA, methods
+
+Integrates neural networks with multiscale methods, showing potential in multiresolution and adaptive representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2608.25850v2 Announce Type: replace Abstract: We develop a neural-network-accelerated multiscale hybridizable discontinuous Galerkin method for elliptic problems with heterogeneous coefficients. The method preserves the standard MsHDG local-to-global structure: fine-scale HDG problems on coarse blocks define discrete Dirichlet-to-Neumann operators, which are assembled through the standard MsHDG global skeleton equations. To reduce the cost of constructing these local operators, we train a …
+
+</details>
+
+---
+
+## [RadarFuseNet: Phase-Weighted Complex-Valued Cross-Attention Fusion for Radar Signal Classification](https://arxiv.org/abs/2512.11537)
 *arXiv Signal Processing*  
 Score: **0.65**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: MIMO, methods
+Published: 2026-09-07T04:00:00+00:00
+Tags: CNN, methods
 
-Discusses signal processing advancements in MIMO systems with new coding schemes, connecting spectral efficiency with neural processing models.
+Focuses on complex-valued deep learning approaches to extract information from radar signals, relevant for exploring structured filters in CNNs and complex signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28085v1 Announce Type: cross Abstract: This paper investigates the design of the on-off division multiple access (ODMA) transmission scheme for multiple-input multiple-output (MIMO) massive unsourced random access (URA) systems with soft-output (SO) polar codes. First, a three-segment pilot-uncoupled coding scheme is introduced under the ODMA framework, which reduces the coding rate of the data segment without increasing the transmission overhead, improving the overall system performa…
+arXiv:2512.11537v3 Announce Type: replace Abstract: Millimeter-wave (mmWave) radar is a compact sensing technology that is particularly well suited for perception tasks in situations where vision-based sensors are limited, such as under adverse environmental conditions or occlusion. The complex-valued and nonlinear nature of mmWave radar IQ signals makes complex-valued deep learning a natural choice for extracting relevant information from in-phase and quadrature (IQ) data. However, progress in …
 
 </details>
 
 ---
 
-## [Joint User Association and Pilot Assignment via Phase-Shifted Pilots for Scalable Cell-Free mMIMO](https://arxiv.org/abs/2608.27614)
-*arXiv Signal Processing*  
-Score: **0.60**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: time-frequency, methods, signal processing
+## [One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation](https://arxiv.org/abs/2609.04921)
+*arXiv Computer Vision*  
+Score: **0.65**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods, time-frequency, theory
 
-Involves channel estimation, which ties into methods for designing signal representations and decompositions.
+Focus on multi-modal distributions aligns with time-frequency approaches relevant to trajectory prediction.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.27614v1 Announce Type: new Abstract: Cell-free massive multiple-input multiple-output (CF-mMIMO) promises uniform service across the coverage area, and this service relies on accurate channel estimation for every user equipment (UE). These estimates are obtained from orthogonal pilot sequences, whose number is bounded by the channel coherence block. As a result, the sequences are reused as the UE density increases and the resulting pilot contamination limits the scalability. This pape…
+arXiv:2609.04921v1 Announce Type: new Abstract: Diffusion probabilistic models can capture the multi-modal, interaction-rich distribution of joint future trajectories in driving scenes. We show that a single pretrained diffusion traffic model can serve two complementary roles in the autonomous driving development loop: as an ego motion planner, and as a controllable generator of safety-critical scenarios for stress-testing the planners. On the planning side, we introduce a Single-Stream Dual-Str…
 
 </details>
 
 ---
 
-## [Conditioning and interpolation error bounds for second-order Stiefel retractions with closed-form inverses](https://arxiv.org/abs/2608.28073)
+## [Computing accurate singular values using a mixed-precision one-sided Jacobi algorithm](https://arxiv.org/abs/2602.18134)
 *arXiv Math*  
 Score: **0.60**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: theory, methods
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods
 
-Relates to manifolds and mapping, which can cross over into signal decomposition and adaptive representations.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2608.28073v1 Announce Type: new Abstract: Retractions provide a computationally efficient alternative to the Riemannian exponential and logarithm maps for practical data-processing tasks on manifolds. In particular, second-order retractions with closed-form inverse are well-suited for interpolation problems on manifolds. On the Stiefel manifold of orthogonal frames, there are only two retractions of this type: the Cayley retraction, which is second-order accurate under the canonical metric…
-
-</details>
+Focuses on computational linear algebra relevant for signal processing, although not directly tied to wavelets or deep learning.
 
 ---
 
-## [When Muon Meets Task Interference: A Spectral Perspective on Continual Learning and Model Merging](https://arxiv.org/abs/2608.27518)
-*arXiv Machine Learning*  
+## [Methane Detection On Board Satellites from Unorthorectified Imagery](https://arxiv.org/abs/2609.04906)
+*arXiv Computer Vision*  
 Score: **0.60**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: spectral, learning
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods, spectral
 
-Applies spectral methods to address task interference in continual learning, aligning with interests in time-frequency analysis in learning models.
+While focused on methane detection, utilizes signal processing techniques that may have transferable methods for other spectral analysis applications.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.27518v1 Announce Type: new Abstract: Continual learning (CL) and model merging (MM) both aim to obtain a single model that performs well across multiple tasks, challenged respectively by catastrophic forgetting and weight-disentanglement error. In the literature, these difficulties are merely treated separately and mitigated through a variety of solutions, while the geometry induced by the base optimizer is treated as an implementation detail. In this work, we show that the two diffic…
+arXiv:2609.04906v1 Announce Type: new Abstract: As a potent greenhouse gas, methane is a major driver of climate change. Its effective mitigation relies on timely detection. Conventional detection methods rely on orthorectification to correct geometric distortions and matched filters to enhance plume signals, which are steps designed for ground processing and poorly suited to onboard execution. We introduce UnorthoDOS, a dataset and approach for training machine learning models directly on unort…
 
 </details>
 
 ---
 
-## [Conditional Diffusion Models for Energy-Efficient Driving](https://arxiv.org/abs/2608.28142)
-*arXiv Machine Learning*  
+## [LensStyle: Learning the Optical Aesthetics for Controllable Stylized Lens Effect Rendering](https://arxiv.org/abs/2609.04939)
+*arXiv Computer Vision*  
 Score: **0.60**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: methods, deep learning
+Published: 2026-09-07T04:00:00+00:00
+Tags: MRA, filter-bank, methods
 
-Conditional diffusion framework relevant for domain adaptation, may inspire applications in signal processing.
+Explores optical effects in images, which may relate to structured filters and multiresolution analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28142v1 Announce Type: new Abstract: Electrification of commercial delivery fleets is shifting fleet routing from distance- and time-based optimization toward energy-aware decision-making. Existing sequence models primarily provide deterministic point estimates or limited uncertainty summaries, which do not capture the range of plausible energy-consumption trajectories required for operational decision-making. In this work, we introduce a conditional diffusion framework that generates…
+arXiv:2609.04939v1 Announce Type: new Abstract: The visual aesthetics of photographs are deeply influenced by lens characteristics such as aperture shape, optical vignetting and optical diffraction, which together define a camera's unique optical style. Existing lens effect rendering methods primarily focus on accurately simulating the blur transition from small to large apertures but overlook the stylistic aspects of lens effects. As a result, they fail to produce diverse bokeh effects under la…
 
 </details>
 
 ---
 
-## [Towards a mathematical theory of superposition](https://arxiv.org/abs/2608.27540)
-*arXiv Stats ML*  
-Score: **0.60**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: multiscale, MRA, theory
+## [Emotion Recognition from Physiological Signals Using Machine Learning Algorithms Under Controlled Emotional Stimuli](https://arxiv.org/abs/2609.05256)
+*arXiv Signal Processing*  
+Score: **0.58**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: EEG, sparse, methods
 
-Explores superposition in neural networks using tools from frame theory and compressed sensing, which could relate abstractly to multiresolution analysis.
+Applies machine learning to signal analysis of physiological data, touching on time-frequency analysis aspects.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.27540v1 Announce Type: new Abstract: We develop a mathematical theory of superposition in neural networks using tools from frame theory and compressed sensing. In our model, a sparse binary vector \(x\) of active features is encoded through an overcomplete dictionary \(W\), and feature recovery is performed by applying \(\operatorname{ReLU}(W^\top W x+b)\) with an appropriate bias vector \(b\). We prove several recovery theorems for this model. In the random-support setting, we establ…
+arXiv:2609.05256v1 Announce Type: new Abstract: Emotion recognition using physiological signals plays a crucial role in well-being analysis, affective computing and human-computer interaction. This study investigates the performance of multiple machine learning models in classifying targets such as discrete emotions with varying granularity, valence and arousal using physiological signals such as Electrocardiogram (ECG) and Galvanic Skin Response (GSR). In here, we extracted various time- and fr…
 
 </details>
 
 ---
 
-## [Quantization-Triggered Backdoors in Language Models: Cross-Quantizer Transferability and the Validation--Deployment Gap](https://arxiv.org/abs/2608.27512)
-*arXiv Machine Learning*  
+## [Hierarchical Codebook Design and Low-Overhead Beam Training for Near-Field Communications With Uniform Circular Arrays](https://arxiv.org/abs/2609.04836)
+*arXiv Signal Processing*  
+Score: **0.56**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: MRA, filter-bank
+
+Involves multiresolution beam training strategies, indirectly relating to multiscale and adaptive signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.04836v1 Announce Type: new Abstract: Extremely large-scale multiple-input multiple-output (XL-MIMO) enables near-field location-specific beam focusing for sixth-generation (6G) communications. Uniform circular arrays (UCAs), with rotational symmetry and uniform azimuth coverage, have emerged as a key enabling architecture for near-field XL-MIMO systems. In this paper, we propose a resolution-aware hierarchical codebook for near-field UCA systems, along with an efficient two-stage beam…
+
+</details>
+
+---
+
+## [EXAONE Forecast for Finance](https://arxiv.org/abs/2609.04239)
+*arXiv AI*  
 Score: **0.55**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: quantization, learning
+Published: 2026-09-07T04:00:00+00:00
+Tags: time-frequency, methods, theory
 
-Explores quantization techniques in language models, highlighting potential for adaptive representation in signal processing contexts.
+The focus on time-series analysis may involve advanced signal decomposition methods relevant to the user's interests.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge deployment of Large Language Models. When a full-precision source checkpoint is evaluated and quantization is applied downstream without equivalent re-evaluation, this workflow creates a structural validation--deployment gap: because quantization is a many-to-one mapping over parameter space, source-precision certification does not guarantee behavioral equiv…
+arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. However, they are primarily developed for general-domain TS and largely rely on self-attention backbones whose computational cost grows quadratically with sequence length and variate count. Moreover, they…
 
 </details>
 
 ---
 
-## [Generalized Splines and Gaussian Processes](https://arxiv.org/abs/2608.28446)
-*arXiv Stats ML*  
+## [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients](https://arxiv.org/abs/2609.04659)
+*arXiv Math*  
 Score: **0.50**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: wavelets, theory, splines
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods
 
-Discusses extensions to infinite-dimensional settings involving splines, which could loosely tie into wavelet methods.
+Resolution of a conjecture in foundational numerical methods; peripheral but underpinning computational aspects in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.28446v1 Announce Type: cross Abstract: For finite-dimensional linear inverse problems where the variables are Gaussian, it is well-known that the minimum-mean-square error estimator takes the form of a regularized least-squares data fit. In this chapter, we show that this equivalence extends to a much broader infinite-dimensional setting where generalized splines take the role of linear regressors and generalized Gaussian processes on a nuclear space $S$ are the counterpart of Gaussia…
+arXiv:2609.04659v1 Announce Type: new Abstract: Forsythe's conjecture, published in 1968, asserts that for each restart length $s$, every exact-arithmetic restarted conjugate-gradient iteration on a real symmetric positive definite problem either terminates or has normalised residuals that converge separately along the even and odd restart subsequences. Apart from the classical steepest-descent case, this asymptotic question remained unresolved in full generality for nearly six decades. We give …
 
 </details>
 
 ---
 
-## [The role of parameter Jacobians in the stability of network outputs](https://arxiv.org/abs/2608.27748)
-*arXiv Stats ML*  
+## [Screening bolt loosening in a four-bolt plate with global FRF correlation and local FRAC maps from full-field laser Doppler vibrometry](https://arxiv.org/abs/2609.05218)
+*arXiv Signal Processing*  
 Score: **0.50**  
-Published: 2026-08-31T04:00:00+00:00
-Tags: theory, networks
+Published: 2026-09-07T04:00:00+00:00
+Tags: MRA, methods
 
-Focuses on linear network dynamics and operator theory, which might relate abstractly to structured neural networks.
+This work extends methods for frequency response function analysis, offering insights into multiresolution analysis techniques applicable in structural health monitoring.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2608.27748v1 Announce Type: cross Abstract: In the framework of network dynamics, learning models, and neural tangent kernels (NTK), we show that the corresponding linearized dynamics leads naturally to a semigroup formulation. More precisely, in our analysis of input/output models, the time-dynamics is presented via special semigroups of linear operators on Hilbert spaces, together with an associated class of semigroup perturbations. In this context, we then present new and explicit a pri…
+arXiv:2609.05218v1 Announce Type: cross Abstract: Full-field laser Doppler vibrometry (LDV) can reveal how bolt torque loss redistributes a frequency response function (FRF) over an entire structure rather than only at a few sensor positions. This work presents a screening procedure for a four-bolt aluminum plate using pointwise amplitude and phase exports of scanned H1 FRFs. Candidate resonances were selected from the all-tight spatial RMS spectrum and tracked in four single-bolt 0 Nm cases. Se…
+
+</details>
+
+---
+
+## [Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation](https://arxiv.org/abs/2609.04298)
+*arXiv AI*  
+Score: **0.50**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods, theory
+
+While not directly related, the robust evaluation of benchmarks could be pertinent to adaptive representation methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work makes three contributions. First, we develop benchmark adapters that port more than 80 benchmarks to evaluate arbitrary agents, and validate them through rigorous code review and parity experiments. Secon…
+
+</details>
+
+---
+
+## [A Robust Watermark-based Fingerprint Framework for GNNs Ownership Verification](https://arxiv.org/abs/2609.04772)
+*arXiv Machine Learning*  
+Score: **0.40**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: sparse, methods
+
+Discusses methodology for GNN verification which could be adapted for models handling complex signals, intersecting sparse coding and network analysis interests.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.04772v1 Announce Type: new Abstract: The high training cost of Graph Neural Networks (GNNs) has raised growing concerns regarding model ownership infringement, such as model stealing and unauthorized misuse. To verify model ownership and prevent significant economic losses, two groups of GNN Ownership Verification (OV) methods have been proposed: watermark-based methods and fingerprint-based methods. However, these methods typically face three limitations: (1) the performance degradat…
+
+</details>
+
+---
+
+## [An Energy-Based Conservative-Dissipative Latent Neural Evolution Operator for Magnetization Dynamics](https://arxiv.org/abs/2609.04530)
+*arXiv Machine Learning*  
+Score: **0.35**  
+Published: 2026-09-07T04:00:00+00:00
+Tags: methods, time-frequency
+
+Develops an energy-based model with structural latent variable ODEs, relevant for multiresolution and adaptive methods in signal processing for dynamic systems.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2609.04530v1 Announce Type: new Abstract: We develop an energy-based reduced-order model for micromagnetic magnetization dynamics that couples a convolutional autoencoder to a structured latent neural ordinary differential equation. Motivated by the precessional-dissipative structure of the Landau-Lifshitz-Gilbert equation, the latent vector field is generated from the gradient of a learned scalar potential through an antisymmetric operator and a symmetric positive-semidefinite dissipative…
 
 </details>
 
