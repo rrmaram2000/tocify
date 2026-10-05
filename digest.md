@@ -1,272 +1,289 @@
-# Weekly ToC Digest (week of 2026-09-28)
+# Weekly ToC Digest (week of 2026-10-05)
 
-This week's selection focuses on neural networks incorporating signal processing techniques, adaptive representations, and novel time-frequency analysis methods. High scoring entries address topics bridging wavelets, neural networks, and signal processing innovations. Prioritized wavelet and multiresolution analysis papers, especially those integrating deep learning. Prioritized based on relevance to harmonic analysis, wavelet theory, and modern deep learning. Focusing on creating a prioritized list of papers that align with interests at the intersection of signal processing and deep learning methods, especially those involving multi-resolution techniques and neural data analysis.
+The items selected focus on signal processing methods relevant to wavelet theory, time-frequency analysis, and connections with deep learning. This week's top paper relates wavelets to spiking encodings, offering a significant contribution to signal processing representation methods. Prioritize methodologically focused articles linking harmonic analysis, wavelet theory, and deep learning. Prioritized papers intersecting harmonic analysis, wavelets, and deep learning, emphasizing methodological contributions.
 
-**Included:** 16 (score ≥ 0.35)  
-**Scored:** 20 total items
+**Included:** 17 (score ≥ 0.35)  
+**Scored:** 17 total items
 
 ---
 
-## [Frame bounds and bandwidth tiling for time-causal bandpass wavelets](https://arxiv.org/abs/2609.17201)
+## [Encoding and Decoding Temporal Signals with Spiking Bandpass Wavelets](https://arxiv.org/abs/2605.09770)
 *arXiv Signal Processing*  
 Score: **0.95**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: wavelets, MRA, time-frequency
+Published: 2026-10-05T04:00:00+00:00
+Tags: wavelets, sparse, signal-representation, theory
 
-Extends wavelet analysis to time-causal systems with exact reconstruction, matching interests in wavelets and multiresolution analysis.
+The paper connects spiking encodings with multiscale wavelet frames, enhancing sparse signal representations with time-causal overcomplete wavelet frameworks.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.17201v2 Announce Type: replace Abstract: Wavelets and frames that provide strong guarantees for signal representations are a cornerstone in signal processing theory, but have long been restricted to non-causal settings. Recent work extended wavelet analysis to time-causal systems that operate on streaming signals, with exact reconstruction and time-recursive implementations. However, the frame guarantees that make such representations reliable under noise and quantization are uncharac…
+arXiv:2605.09770v2 Announce Type: replace-cross Abstract: Spike-based encodings are sparse and energy-efficient. However, previous theory for such spiking representations is largely disconnected from most signal processing literature and does not extend to multi-scale frames. We recast spike-encoders as time-causal overcomplete wavelet frames with closed-form bandwidth tiling and reconstruction error bounds. We show that scale covariance, frame bounds, and reconstruction guarantees hold for any …
 
 </details>
 
 ---
 
-## [Adaptive multi-resolution Gaussian processes: Scalable exact inference with naturally data-sparse covariance matrices](https://arxiv.org/abs/2609.30348)
-*arXiv Stats ML*  
-Score: **0.95**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: MRA, theory
-
-Presents an adaptive multi-resolution Gaussian processes framework with scalable and exact inference which uses data-sparse covariance matrices and adaptive multi-resolution basis functions. It aligns with interests in multi-resolution analysis and Gaussian processes.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2609.30348v1 Announce Type: new Abstract: Gaussian processes constitute a cornerstone of probabilistic machine learning, yet scaling them to large datasets typically forces a trade-off between computational efficiency and model fidelity. This work bridges this gap by presenting an adaptive multi-resolution Gaussian process framework that is both scalable and exact. Our key innovation is constructing a naturally data-sparse covariance matrix with adaptive multi-resolution basis functions. T…
-
-</details>
-
----
-
-## [Exact Factorisation and Fast Computation of Invertible Constant-Q Transforms](https://arxiv.org/abs/2609.29119)
-*arXiv Math*  
+## [LiteEMG-FM: An Efficient and Deployable Foundation Model for Robust EMG Sensing](https://arxiv.org/abs/2610.02497)
+*arXiv Machine Learning*  
 Score: **0.90**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: time-frequency, filter-bank, methods
+Published: 2026-10-05T04:00:00+00:00
+Tags: CNN, time-frequency, EMG, methods
 
-Presents a fast computation method for the constant-Q transform, relevant for time-frequency analysis, aligning with interests in spectral methods and filter banks.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2609.29119v1 Announce Type: cross Abstract: The constant-Q transform (CQT) represents audio on a logarithmic frequency axis. Its nonstationary Gabor formulation is exactly invertible, but the unequal numbers of time coefficients in its bands complicate GPU computation. An exact factorisation combines spectral selection, conjugation, windowing, and reordering into a fixed map between one packed Fourier transform and the shorter band inverse transforms. The factors give waveform reconstructi…
-
-</details>
+This paper presents an efficient hybrid CNN-Transformer model for electromyography, leveraging time-frequency characteristics, relevant for signal processing expertise in time-series analysis.
 
 ---
 
-## [Frame bounds and bandwidth tiling for time-causal bandpass wavelets](https://arxiv.org/abs/2609.17201)
+## [A Physics-Driven Multiscale Method for High-Frequency Helmholtz Equations](https://arxiv.org/abs/2610.03144)
 *arXiv Math*  
-Score: **0.85**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: wavelets, time-frequency, methods
+Score: **0.82**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: multiscale, time-frequency, wavelets, methods
 
-Extends wavelet analysis to time-causal systems, crucial for advancing wavelet theory and signal representation techniques.
+The paper presents a multiscale method for the Helmholtz equation, constructing reduced approximation spaces that capture oscillatory behavior. This is relevant for time-frequency analysis and multiresolution methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.17201v2 Announce Type: replace-cross Abstract: Wavelets and frames that provide strong guarantees for signal representations are a cornerstone in signal processing theory, but have long been restricted to non-causal settings. Recent work extended wavelet analysis to time-causal systems that operate on streaming signals, with exact reconstruction and time-recursive implementations. However, the frame guarantees that make such representations reliable under noise and quantization are un…
+arXiv:2610.03144v1 Announce Type: new Abstract: We develop and analyze a physics-driven multiscale method for model reduction of the Helmholtz equation at high frequency. The method constructs a reduced approximation space from local wave responses within a mixed finite element formulation with velocity elimination. These responses are computed by solving Helmholtz problems with boundary excitations on oversampled regions, giving snapshots that incorporate the oscillatory behavior and propagatio…
 
 </details>
 
 ---
 
-## [Unrolling Lanczos for Ideal Low-pass Graph Filter Approximation](https://arxiv.org/abs/2609.29086)
-*arXiv Signal Processing*  
-Score: **0.85**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: filter-bank, sparse
-
-Improves graph filter approximations with unrolling, applicable to learnable basis functions.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2609.29086v2 Announce Type: replace Abstract: Low-pass (LP) filtering is a fundamental operation in graph signal processing (GSP). Among finite-order nodal-domain methods, Lanczos-based filtering provides more accurate approximations of ideal LP filters than Chebyshev polynomial methods. We show that the approximation of Lanczos filtering can be further improved through algorithm unrolling and data-driven parameter learning. The key insight is that, because ideal LP filtering is a projecti…
-
-</details>
-
----
-
-## [Sparsely connected rank-inspired neural network](https://arxiv.org/abs/2609.30750)
-*arXiv Math*  
+## [EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling](https://arxiv.org/abs/2610.02298)
+*arXiv Computer Vision*  
 Score: **0.80**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: sparse, CNN, theory
+Published: 2026-10-05T04:00:00+00:00
+Tags: 3D, sequence, methods
 
-Introduces structured sparse connectivity in neural networks, linking sparse coding with neural architecture for PDEs, relevant to the user's interests in combining signal processing and deep learning.
+Although focused on 3D editing, the emphasis on sequence and iterative learning may interest those exploring hierarchical signal analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.30750v1 Announce Type: new Abstract: We propose a Sparsely Connected Rank-Inspired Neural Network (SCRINN) for function approximation and the numerical solution of partial differential equations (PDEs). By introducing a structured sparse connectivity architecture and an orthogonality- and normalization-guided loss function, SCRINN constructs an approximately orthonormal neural basis while promoting progressive rank growth of its evaluation matrix and reducing the number of trainable p…
+arXiv:2610.02298v1 Announce Type: new Abstract: 3D editing methods are usually tested on a single edit, yet an asset is built through a long sequence of revisions, each of which must implement the requested change while leaving everything else unchanged. We introduce EditHero, to our knowledge the first benchmark for long-horizon, part-level 3D editing, with natural-language instructions and target images for both geometry and texture. A deterministic assembly engine produces the exact target af…
 
 </details>
 
 ---
 
-## [Tracking Dynamic Simplicial Complexes via Constrained State-Space Estimation](https://arxiv.org/abs/2609.30930)
-*arXiv Signal Processing*  
-Score: **0.75**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: methods, theory
-
-Introduces a novel state-space model for tracking higher-order interactions in mathematical data structures, which is relevant for elegant signal processing techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2609.30930v1 Announce Type: new Abstract: Simplicial complexes (SCs) extend graphs to represent higher-order interactions, but couple their simplex levels through the inclusion property. While static SC inference is an emerging research direction, tracking time-varying SCs remains largely unexplored. A central challenge in tracking SCs is to account for the inclusion property. To this end, we build a nonlinear state-space model tailored to SCs. For prediction, we introduce a closure-aware …
-
-</details>
-
----
-
-## [CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADCs](https://arxiv.org/abs/2604.07150)
-*arXiv Signal Processing*  
-Score: **0.75**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: methods, theory
-
-Introduces new waveform optimization methods for signal estimation, relevant for advanced filtering techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2604.07150v2 Announce Type: replace Abstract: This paper studies the transmit waveform optimization for a quantized multiple-input multiple-output (MIMO) integrated sensing and communication (ISAC) system, where one-bit analog-to-digital converters (ADCs) are employed to enable a low-cost and power-efficient hardware implementation. Focusing on the parameter estimation task, we propose two novel Cram\'er-Rao bounds (CRBs) for both point-like target (PT) and extended target (ET) to characte…
-
-</details>
-
----
-
-## [Anatomical Connectivity from Tractography-free Diffusion Tensor Imaging and Its Application to EEG Brain Imagin](https://arxiv.org/abs/2609.31410)
+## [Convergence analysis of Anderson acceleration for nonlinear equations with H\"older continuous derivatives](https://arxiv.org/abs/2507.15322)
 *arXiv Math*  
 Score: **0.70**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: EEG, methods, sparse
+Published: 2026-10-05T04:00:00+00:00
+Tags: sparse, methods, nonlinear-equations
 
-Enhances EEG analysis using DTI data with Kalman filtering, touching on adaptive methods for neural data processing.
+Explores convergence of Anderson acceleration applicable to nonlinear PDEs, with potential implications for sparse coding and compressed sensing in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.31410v1 Announce Type: new Abstract: This proof-of-concept paper demonstrates how the Kalman filter, as a brain imaging method, can be enhanced by incorporating raw diffusion tensor imaging (DTI) data without tractography, in addition to EEG recordings. An efficient algorithm is designed to streamline the otherwise tedious process of inferring connectivity between brain regions from DTI data. The DTI-based evolution model is applied to the Kalman filter and the Standardized Kalman fil…
+arXiv:2507.15322v2 Announce Type: replace Abstract: This work investigates the local convergence behavior of Anderson acceleration in solving nonlinear systems. We establish local R-linear convergence results for Anderson acceleration with general depth $m$ under the assumptions that the Jacobian of the nonlinear operator is H\"older continuous and the corresponding fixed-point function is contractive. In the Lipschitz continuous case, we obtain a sharper R-linear convergence factor. We also der…
 
 </details>
 
 ---
 
-## [Differential Attention Unlocks Complementary EEG and Speech Fusion for Emotion Recognition](https://arxiv.org/abs/2609.31399)
-*arXiv Signal Processing*  
+## [SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching](https://arxiv.org/abs/2610.02660)
+*arXiv Computer Vision*  
 Score: **0.70**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: EEG, CNN, methods
+Published: 2026-10-05T04:00:00+00:00
+Tags: spectral, methods, CNN
 
-Uses EEG for multimodal fusion in deep learning, relevant for neural data analysis.
+Involves spectral analysis in model optimization, relevant for intersections of wavelet and spectral methods with modern learning techniques.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.31399v1 Announce Type: cross Abstract: Multimodal emotion recognition (MER) increasingly pairs EEG with speech, treating internal neural signals and external vocal expression as informative views of affect. In practice, naive fusion underperforms the stronger single modality, because EEG artifacts inject noise that corrupts the shared representation. We introduce EmoSpeechBrain, a multimodal framework built on the insight that noise suppression is a precondition for effective fusion. …
+arXiv:2610.02660v1 Announce Type: new Abstract: Diffusion-based world models enable high-quality interactive environment generation but suffer from substantial inference overhead due to repeated Transformer evaluations during denoising. Existing caching methods mainly exploit temporal redundancy at the feature or token level, leaving the underlying mathematical structure of diffusion features largely unexplored. In this work, we reveal that world-model features exhibit highly stable singular sub…
 
 </details>
 
 ---
 
-## [NEXT: Physics-Informed Neuro-Spectral Exponential Time Differencing Architectures](https://arxiv.org/abs/2609.31539)
+## [Approximation Property of Dropout Neural Networks: Sobolev Rates and Confidence Bounds](https://arxiv.org/abs/2610.02253)
 *arXiv Math*  
-Score: **0.65**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: theory, methods, time-frequency
+Score: **0.68**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: neural-networks, sparse, deep-learning, theory
 
-Combines physics-informed neural networks with spectral methods, relevant for developing advanced computational frameworks in signal processing.
+Examines neural networks and approximation properties with probabilistic influences, connecting with signal processing themes of sparse representations and learnable filters.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.31539v1 Announce Type: cross Abstract: Physics-Informed Neural Networks (PINNs) build neural representations of time-dependent PDE solutions, naturally incorporating physics knowledge and observational data, which makes them well suited to both forward and inverse PDE problems. PINNs, however, are known to suffer from spectral bias and lack of causality. Neuro-Spectral Architectures (NeuSA), a recently proposed alternative to PINNs, mitigate both issues, but their numerical integratio…
+arXiv:2610.02253v1 Announce Type: cross Abstract: The universal approximation property of dropout neural networks does not by itself describe the network size required for an accurate random realization. In this work, we study approximation of the unit ball of $W^{n,\infty}([0,1]^d)$ by ReLU networks whose edges are retained independently with probability $p$. The approximation error is measured uniformly over the input domain, and the guarantee holds with probability at least $1-\delta$ for a s…
 
 </details>
 
 ---
 
-## [AUWave: A Data-Driven Model for Reconstructing Significant Wave Heights Using Sparse Observations](https://arxiv.org/abs/2509.19384)
+## [Energetic Variational Deep Learning for Solving High-Dimensional Stationary Fokker-Planck Equations](https://arxiv.org/abs/2610.03325)
+*arXiv Math*  
+Score: **0.66**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: deep-learning, signal-processing, methods
+
+Develops a deep learning framework integrating physics constraints relevant for spectral methods and variational losses applicable to signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.03325v1 Announce Type: new Abstract: This paper develops a deep learning framework for solving high-dimensional stationary Fokker-Planck equations by combining Monte Carlo weak supervision, energy-variational physics constraints, and quasi-Newton refinement. Monte Carlo statistics anchor the scale of the stationary density, while a free-energy variational loss enforces equilibrium physics; the formulation also applies to stationary systems with pointwise orthogonal rotational componen…
+
+</details>
+
+---
+
+## [Real-Time Adaptive Filtering and the Boxcar Limit in Superconducting Qubit Readout](https://arxiv.org/abs/2610.00783)
 *arXiv Signal Processing*  
-Score: **0.65**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: sparse, filter-bank
-
-Applies sparse observations for signal reconstruction, connecting to sparse coding.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2509.19384v2 Announce Type: replace Abstract: Reconstructing high-resolution regional significant wave height (SWH) fields from sparse buoy observations is a critical challenge for ocean monitoring. We introduce AUWave, a hybrid deep learning framework that fuses a station-wise encoder with a multi-scale U-Net enhanced by self-attention to recover regional SWH fields. Trained and validated using NDBC buoy observations and ERA5 reanalysis over the Hawaii region, AUWave achieves high accurac…
-
-</details>
-
----
-
-## [Deep-Learning Solvers and Surrogates for Infinity and p-Laplace Problems](https://arxiv.org/abs/2609.30809)
-*arXiv Math*  
 Score: **0.60**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: CNN, methods, theory
+Published: 2026-10-05T04:00:00+00:00
+Tags: adaptive-filtering, signal-processing, methods
 
-Uses deep learning to solve complex PDEs, bridging neural networks with classical analysis techniques.
+Discusses adaptive filtering techniques applicable to real-time signal processing systems, potentially relevant for EEG/MEG analysis or other signal decomposition.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.30809v1 Announce Type: new Abstract: We investigate the use of neural network solvers for infinity and $p$-Laplace problems, which are fundamental in nonlinear analysis and have practical applications. Our approach employs Physics-Informed Neural Networks (PINNs) and Deep Operator Networks (DeepONets) to address computational challenges associated with large $p$ values, ranging from $2$ to $1000$, on various 2D and 3D domains. Our method offers advantages over traditional physics-base…
+arXiv:2610.00783v2 Announce Type: replace-cross Abstract: Control and readout systems for superconducting quantum computing support real-time control and high-fidelity qubit-state discrimination. We examine when additional digital processing improves readout fidelity. A common baseline for dispersive readout uses a boxcar averager to compute a uniformly weighted average over a fixed window, followed by threshold-based state assignment. In this paper, we evaluated an adaptive finite-impulse-respo…
 
 </details>
 
 ---
 
-## [AlphaEarth distinguishes cities but compresses urban variation](https://arxiv.org/abs/2609.30356)
+## [Efficient Neural Field Learning via Adaptive Coverage and Focused Sampling](https://arxiv.org/abs/2610.02410)
+*arXiv Machine Learning*  
+Score: **0.60**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: methods, sampling
+
+Focus on adaptive sampling optimizing efficiency: tangentially related to multiresolution strategies in signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02410v1 Announce Type: new Abstract: Implicit neural representations (INRs) provide a flexible framework for modeling high-dimensional continuous fields, but their training is often inefficient due to uniform subsampling that ignores spatial heterogeneity. Existing adaptive sampling methods partially address this issue by prioritizing high-error samples, but typically operate at the point level, often leading to redundant sampling in localized regions and insufficient coverage of the …
+
+</details>
+
+---
+
+## [Correcting Guided Diffusion Trajectories with Spectral Alignment](https://arxiv.org/abs/2610.02753)
 *arXiv Computer Vision*  
 Score: **0.60**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: methods, theory
+Published: 2026-10-05T04:00:00+00:00
+Tags: spectral, methods, theory
 
-Highlights innovative data representation techniques potentially relevant for processing and mapping signal data.
+Incorporates spectral alignment, a method potentially relevant for time-frequency analysis, which can extend to applications in wavelet theory.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02753v1 Announce Type: new Abstract: The practical success of conditional image generation hinges on fine-grained differences in condition alignment and visual fidelity. Classifier-free guidance (CFG) is central to this success, but its lack of an explicit criterion makes it difficult to assess whether the guided trajectory is progressing as intended. To address this gap, we show that spectral alignment provides a principled criterion for understanding guidance behavior and improving …
+
+</details>
 
 ---
 
-## [Learning to Replace MCMC in Split-Gibbs Diffusion Posterior Sampling via Deep Unfolding](https://arxiv.org/abs/2609.30539)
+## [A hybrid CNN-adjoint optimization framework for reconstruction of viscoelastic tissue properties in magnetic resonance elastography](https://arxiv.org/abs/2610.02634)
+*arXiv Math*  
+Score: **0.58**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: CNN, optimization, methods, reconstruction
+
+Combines CNNs with adjoint optimization, a potential intersection of structured filters and neural networks with applications in tomographic reconstruction methods.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02634v1 Announce Type: cross Abstract: Magnetic resonance elastography (MRE) is a noninvasive imaging modality for quantifying the viscoelastic properties of soft tissues from shear wave propagation. Recovering the complex-valued shear modulus from measured displacement fields leads to a severely ill-posed inverse problem, particularly in the presence of noise and limited boundary excitations. We investigate adjoint-based optimization, convolutional neural network (CNN) reconstruction…
+
+</details>
+
+---
+
+## [Permutation-Invariant Time-Frequency Segmentation and Parameter Estimation of Multiple Overlapping Interference Signals](https://arxiv.org/abs/2610.02908)
 *arXiv Signal Processing*  
 Score: **0.55**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: methods, CNN
+Published: 2026-10-05T04:00:00+00:00
+Tags: time-frequency, multiresolution, methods
 
-Presents a novel deep learning-based approach to replace iterative MCMC with deep unfolding in signal processing, suitable for users interested in computational efficiency.
+Focuses on time-frequency segmentation in complex signal environments, relevant to multiresolution analysis in modern communication systems.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.30539v1 Announce Type: new Abstract: Split Gibbs sampling enables diffusion posterior inference for general nonlinear inverse problems by decoupling prior and likelihood computations, allowing a pretrained diffusion prior to be reused across measurement models. However, its likelihood update often relies on iterative MCMC, which can hinder parallelization, require algorithm-specific tuning, and incur substantial computational cost. In this work, we propose a learning-based framework t…
+arXiv:2610.02908v1 Announce Type: new Abstract: Radio-frequency interference threatens satellite navigation, wireless communications, radar, and industrial sensing. Reliable operation therefore requires spectrum situational awareness to detect interference and determine the number, time-frequency occupancy, and characteristics of active sources. In realistic environments, multiple sources may overlap. Source-specific segmentation and characterization are therefore particularly challenging. In th…
 
 </details>
 
 ---
 
-## [STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence](https://arxiv.org/abs/2609.30981)
-*arXiv Computer Vision*  
-Score: **0.40**  
-Published: 2026-09-28T04:00:00+00:00
-Tags: methods, time-frequency
+## [A Timing-Robust Frequency-Interleaved ADC with Embedded Analog Fourier Transform](https://arxiv.org/abs/2610.02936)
+*arXiv Signal Processing*  
+Score: **0.50**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: method, filter-bank, signal-processing
 
-The paper deals with evaluating video QA, likely involving time series and signal analysis. The focus on evolving and incomplete evidence can involve sophisticated analysis akin to time-frequency methods.
+Introduces a frequency-interleaved ADC leveraging an analog Fourier transform, offering potential novel methods in the design of digital signal processing hardware.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2609.30981v1 Announce Type: new Abstract: Reliable online video question answering requires tracking state transitions while selectively abstaining when visual evidence is insufficient. Existing benchmarks focus on static recognition or long-range retrieval, rarely evaluating these coupled capabilities under evolving and incomplete evidence. We present STORM-Bench, comprising 5,736 questions across 630 compact, change-dense episodes spanning five egocentric domains (STORM-Real) and two con…
+arXiv:2610.02936v1 Announce Type: new Abstract: Timing errors represent a fundamental challenge in high-speed analog-to-digital converters (ADCs). This paper presents a frequency-interleaved architecture with inherent robustness to timing errors. The frequency interleaving is achieved by an embedded analog Fourier transform (AFT), allowing accurate channel spacing. The charge-based passive AFT is able to share the capacitor array with the capacitive DAC of the subsequent data conversion. A circu…
+
+</details>
+
+---
+
+## [Multi-Fidelity Policy Gradients Stabilize Data-Scarce Reinforcement Learning](https://arxiv.org/abs/2610.02505)
+*arXiv Machine Learning*  
+Score: **0.50**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: methods, RL
+
+While primarily on RL, the mention of high-fidelity data enhances its relevance to multiresolution strategies.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02505v1 Announce Type: new Abstract: Policy gradient methods for on-policy reinforcement learning (RL) can become unstable when expensive, scarce target-domain data yield noisy gradient estimates. We address this challenge by complementing limited high-fidelity (HF) target-domain data with abundant, cheap, but biased low-fidelity (LF) data, e.g., from a simplified simulator. Most existing methods directly optimize biased objectives based on LF data. In contrast, the recently introduce…
+
+</details>
+
+---
+
+## [MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching](https://arxiv.org/abs/2610.02260)
+*arXiv AI*  
+Score: **0.50**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: sparse, methods, theory
+
+Focuses on trajectory constraints in generative flows, intersecting with interests in structured and adaptive signal representations.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physical laws. However, existing constrained samplers often face a trade-off: \textit{enforcing constraints can substantially displace samples from the pretrained data distribution}. To address this trade-off, we introduce \textbf{MintFlow}, a training-free constrained samplin…
+
+</details>
+
+---
+
+## [FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport](https://arxiv.org/abs/2610.02395)
+*arXiv AI*  
+Score: **0.40**  
+Published: 2026-10-05T04:00:00+00:00
+Tags: sparse, methods, theory
+
+Describes entropy-based optimization methods which could interact with multiscale analysis techniques like wavelets.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.02395v1 Announce Type: new Abstract: Streaming GPU solvers for entropic optimal transport (EOT), such as FlashSinkhorn, avoid storing the dense kernel but still evaluate all $n\times m$ point pairs in every Sinkhorn iteration. We present \textbf{FlashSinkhorn~2} (FS2), a solver for squared-Euclidean cost on low-dimensional point clouds that solves large discrete EOT problems to a prescribed marginal residual on a single GPU by coupling two stages. A coarse stage solves on cell centroi…
 
 </details>
 
