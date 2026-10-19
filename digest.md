@@ -1,207 +1,197 @@
-# Weekly ToC Digest (week of 2026-10-12)
+# Weekly ToC Digest (week of 2026-10-19)
 
-Prioritized papers tend to involve novel signal processing methods or connections between classical techniques and deep learning, with emphasis on wavelet and time-frequency analysis, as well as methods in neuroscientific signal processing. This week's selection emphasizes advanced signal processing techniques, including multiresolution analysis, sparse coding, and neural network applications relevant to harmonic analysis and wavelet theory. Papers were scored based on their relevance to wavelet theory, harmonic analysis, and deep learning applications in signal processing. Filtered for relevance to harmonic analysis, wavelet theory, and deep learning integration in signal processing.
+Prioritized wavelet-related methods, time-frequency decompositions, and deep learning intersections with signal processing. Down-weighted irrelevant topics like clinical studies and neural techniques not involving signal analysis. The following papers were selected for their contributions to wavelet theory, multiresolution analysis, or their connections to signal processing and deep learning. Papers are prioritized based on relevance to harmonic analysis, wavelet theory, and intersections with modern deep learning. No items matched the user's primary interests in harmonic analysis, wavelet theory, or their connections to deep learning.
 
-**Included:** 13 (score ≥ 0.35)  
-**Scored:** 18 total items
+**Included:** 12 (score ≥ 0.35)  
+**Scored:** 16 total items
 
 ---
 
-## [Inverse Synthesis of Shock Time Series from Shock Response Spectra Using Ensembles of Conditional Variational Autoencoders](https://arxiv.org/abs/2610.12820)
-*arXiv Machine Learning*  
-Score: **0.95**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: wavelet, time-frequency, methods
+## [Explicit Oblique Inverses of the Approximate Discrete Radon Transform](https://arxiv.org/abs/2610.23363)
+*arXiv Math*  
+Score: **0.90**  
+Published: 2026-10-19T04:00:00+00:00
+Tags: spectral, transform, methods
 
-This paper extends a CVAE framework with wavelet coefficient prediction, emphasizing multiscale analysis important for signal decomposition.
+This paper deals with explicit inverses for the Radon transform, relevant for signal processing, especially in imaging and spectral decomposition, aligning with the user's interest in advanced spectral methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.12820v1 Announce Type: new Abstract: The shock response spectrum (SRS) characterizes the peak responses of single-degree-of-freedom systems to transient acceleration. Because the mapping from an acceleration time series (waveform) to its SRS is many-to-one, inverse synthesis seeks candidate waveforms consistent with a prescribed spectrum. We extend an earlier conditional variational autoencoder (CVAE) framework with a recurrent decoder that predicts multiscale wavelet coefficients and…
+arXiv:2610.23363v1 Announce Type: new Abstract: The approximate discrete Radon transform (ADRT) is a fast, hierarchical approximation of the Radon transform whose levels have explicit spectral decompositions, but its Moore-Penrose inverse, needed for data outside the range, has no closed form. We construct explicit left inverses of the ADRT, oblique projections onto its range, that are exact for every choice of their parameters and amplify noise by a constant factor relative to the Moore-Penrose…
 
 </details>
 
 ---
 
-## [Lightweight Time-Frequency Vibration Sensing for Consumer Device Condition Monitoring](https://arxiv.org/abs/2610.13040)
+## [Advances in Wavelet Denoising for Communication Signals: From Parameter Selection Toward Data-Driven Optimization](https://arxiv.org/abs/2607.21825)
 *arXiv Signal Processing*  
 Score: **0.90**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: time-frequency, MRA, methods
+Published: 2026-10-19T04:00:00+00:00
+Tags: wavelets, denoising, signal-processing, methods
 
-Focus on time-frequency techniques for non-stationary signals aligns well with multiresolution analysis interests.
+This paper explores wavelet denoising, focusing on parameter optimization and developing data-driven techniques for processing nonstationary signals, which closely aligns with interests in wavelet theory and signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.13040v1 Announce Type: new Abstract: Consumer rotating devices, including washing machines, air conditioners, electric fans, robotic vacuum cleaners, and home fitness equipment, increasingly rely on vibration sensing for intelligent condition monitoring and predictive maintenance. Ensuring reliable operation in these resource-constrained appliances requires efficient, lightweight artificial intelligence (AI) solutions capable of processing non-stationary signals under real-world opera…
+arXiv:2607.21825v2 Announce Type: replace Abstract: Wavelet denoising suppresses nonstationary, impulsive, and interference-like disturbances in communication signals, but efficacy depends on coupled choices of transform, mother wavelet, decomposition level, thresholding rule, and shrinkage function. Pairing communication experiments with a PRISMA-aligned synthesis of 2020-2025 studies from ten sources, coded by parameter focus and domain (biomedical, industrial, geophysical, communication), thi…
 
 </details>
 
 ---
 
-## [CNN-Transformer with Sigmoid Label for High-Resolution Sub-Degree DOA Estimation](https://arxiv.org/abs/2610.13433)
-*arXiv Signal Processing*  
+## [Optimization of gridding algorithms for FFT by vector optimization](https://arxiv.org/abs/2512.14914)
+*arXiv Math*  
 Score: **0.85**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: CNN, methods, filter-bank
+Published: 2026-10-19T04:00:00+00:00
+Tags: FFT, optimization, spectral
 
-Integrates CNNs with signal processing for high-resolution DOA estimation, relevant to structured filter design in deep learning.
+This work focuses on FFT optimization, related to filter bank design crucial for signal processing, echoing user interests in efficient spectral analysis methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.13433v1 Announce Type: new Abstract: This paper addresses the grid quantization error of deep-learning (DL)-based direction-of-arrival (DOA) estimation. Classification- based DOA methods discretize the continuous angular space into a grid, so that with a peak-based read-out, the accuracy and resolution are limited by the grid step and by the width of the label peak. To address this issue, we propose a sigmoid label that encodes the sources' DOAs as the sum of angle-shifted monotonic s…
+arXiv:2512.14914v4 Announce Type: replace Abstract: The Fast Fourier Transform (FFT) is widely used in applications such as MRI, CT, and interferometry; however, because of its dependence on uniformly sampled data, it requires the use of gridding techniques for practical implementation. The performance of these algorithms strongly depends on the choice of the gridding kernel, with the first prolate spheroidal wave function (PSWF) regarded as optimal. This work redefines kernel optimality through…
 
 </details>
 
 ---
 
-## [UniDeblur: Unified Motion Deblurring via Fourier Convolution Learning](https://arxiv.org/abs/2610.12941)
-*arXiv Computer Vision*  
-Score: **0.85**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: time-frequency, methods
-
-Focuses on motion deblurring using Fourier convolution, relevant to time-frequency techniques.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.12941v1 Announce Type: new Abstract: Image deblurring is a fundamental task in computer vision, yet existing methods mainly specialize in isolated scenarios. Consequently, the deblurring performance of these models drops significantly across scenarios with different cameras and image contents. This motivates the development of a unified motion deblurring framework that can handle diverse blur patterns. To this end, we construct a multi-source dataset and develop a data pruning and qua…
-
-</details>
-
----
-
-## [Self-Calibration DOA Estimation for Moving Dilated Arrays with Gain and Phase Errors](https://arxiv.org/abs/2610.12934)
-*arXiv Signal Processing*  
-Score: **0.80**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: methods, filter-bank
-
-Focuses on array processing with multiscale signal considerations, beneficial for adaptive representation studies.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.12934v1 Announce Type: new Abstract: Moving dilated arrays (MDAs) can increase the uniform degrees of freedom (uDOFs) while alleviating mutual coupling, but their performance is susceptible to unknown gain and phase errors (GPEs). To deal with this problem, we investigate self-calibration direction-of-arrival (DOA) estimation for MDAs with unknown GPEs. First, multi-position observations are phase aligned to construct an equivalent virtual array with an enlarged aperture. Next, the mo…
-
-</details>
-
----
-
-## [Expert-level detection of low-voltage intervals in EEG as a robust biomarker of neonatal encephalopathy](https://arxiv.org/abs/2610.12680)
-*arXiv Machine Learning*  
-Score: **0.80**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: EEG, methods
-
-The paper applies neural data signal processing to EEG data, a key area for harmonic analysis.
-
----
-
-## [Inverse Synthesis of Shock Time Series from Shock Response Spectra Using Ensembles of Conditional Variational Autoencoders](https://arxiv.org/abs/2610.12820)
+## [Asynchronous Cell-Free Wireless Networks](https://arxiv.org/abs/2610.22641)
 *arXiv Signal Processing*  
 Score: **0.75**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: sparse, wavelets, MRA
+Published: 2026-10-19T04:00:00+00:00
+Tags: signal processing, methods, wireless
 
-Uses autoencoders for wavelet coefficient prediction, tying into interests in sparse coding and signal decomposition.
+Introducing symbol-level asynchronicity for interference management suggests novel signal processing methods that could transfer to broader applications in neural signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.22641v1 Announce Type: new Abstract: This paper introduces intentional symbol-level asynchronicity as an interference-management mechanism for the uplink of cell-free networks. Rather than treating timing offsets as impairments, user-specific delays are deliberately assigned to reduce multiuser interference and improve spectral efficiency. A scalable receiver architecture is devised with synchronous channel-estimation pilots, asynchronous data transmission, bounded matched-filter samp…
+
+</details>
 
 ---
 
-## [HF Single-Station Localization via Multimode Ray Tracing and Time-Frequency Information Fusion](https://arxiv.org/abs/2610.13560)
+## [Entropy-Based Wireless Technology Recognition](https://arxiv.org/abs/2610.23158)
 *arXiv Signal Processing*  
 Score: **0.70**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: time-frequency, methods
+Published: 2026-10-19T04:00:00+00:00
+Tags: signal processing, methods, entropy
 
-Combines time-frequency methods with spatial localization, relevant to spectral methods in signal analysis.
+The study explores novel signal classification techniques possibly extendable to neural data analysis, relevant due to focus on information theory.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.13560v1 Announce Type: new Abstract: High-frequency (HF) single-station localization estimates an emitter location from measured directions of arrival (DOAs) and an ionospheric propagation model. When the propagation mode composition cannot be identified from conventional direction-finding (DF) measurements, the same DF observation may produce multiple physically valid ground landing points under different propagation modes, making the location inversion ambiguous. This paper proposes…
+arXiv:2610.23158v1 Announce Type: new Abstract: Wireless Technology Recognition (WTR) enables identifying wireless technologies from received radio signals and is important for spectrum monitoring and management systems. Existing approaches either rely on handcrafted signal features with limited robustness or computationally intensive Deep Learning (DL) models operating on high-dimensional In-phase and Quadrature (IQ) samples or spectrograms. In this paper, we investigate a different hypothesis:…
 
 </details>
 
 ---
 
-## [Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization](https://arxiv.org/abs/2610.12657)
+## [Coverage Cliffs in Off-Policy Quantile Certification](https://arxiv.org/abs/2610.22565)
 *arXiv Machine Learning*  
 Score: **0.70**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: CNN, sparse
+Published: 2026-10-19T04:00:00+00:00
+Tags: methods, theory, time-series
 
-Introduces structured factorization, relevant for filter banks and representations in deep learning.
+Introduces a method leveraging Bernstein envelopes to enhance quantile certification processes, intersecting with time-series analysis, a relevant area for harmonic analysis and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.22565v1 Announce Type: new Abstract: We study when logged contextual-bandit data can certify an upper tail quantile for a policy selected from the same sample. We construct a PAC-Bayes Bernstein lower-confidence envelope for the target cumulative distribution function (CDF), simultaneous over a predeclared threshold grid and all data-dependent posteriors. The resulting procedure, TailCert, uses the envelope's first crossing of level p to return an atom-safe upper confidence bound on t…
+
+</details>
 
 ---
 
-## [Energy conserving compatible space--time FEM for deterministic and stochastic rotating shallow water](https://arxiv.org/abs/2610.13624)
-*arXiv Math*  
+## [IMU-Aided Motion Compensation of RSS Measurements for Dynamic Visible Light-Inertial Localization](https://arxiv.org/abs/2610.23188)
+*arXiv Signal Processing*  
+Score: **0.65**  
+Published: 2026-10-19T04:00:00+00:00
+Tags: signal processing, RSS, motion compensation
+
+Focus on signal processing for motion compensation aligns with time-frequency analysis interests relevant to user's focus areas.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.23188v1 Announce Type: new Abstract: Visible Light Positioning (VLP) offers high-precision indoor positioning using existing LED infrastructure. However, in VLP systems using Photodiodes (PDs) as receivers, rapid movement of the PD causes measurement inaccuracies as the Discrete Fourier Transform (DFT) processing yields averaged rather than instantaneous Received Signal Strength (RSS) values. To address this challenge, we propose an RSS correction algorithm that integrates Inertial Me…
+
+</details>
+
+---
+
+## [Sensing-Driven Secure Transmission with Mobile Eavesdropper Tracking in RIS-Assisted ISAC](https://arxiv.org/abs/2610.23437)
+*arXiv Signal Processing*  
 Score: **0.50**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: methods
+Published: 2026-10-19T04:00:00+00:00
+Tags: ISAC, network, sensing
 
-Presents methods related to energy conservation in space-time, potentially useful for signal processing with physical system constraints.
+Although more focused on secure transmission, the paper discusses sensing and network intelligence, aligning partially with advanced signal processing techniques and innovation in network control.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.13624v1 Announce Type: new Abstract: We present a fully discrete energy conserving discretisation of the rotating shallow water equations with arbitrary order in space and time. A space time finite element discretisation is used, built from compatible finite element methods in space and continuous Petrov-Galerkin schemes in time. Projected auxiliary variables for Hamiltonian derivatives are necessary for exact energy conservation. We provide an iterative solver approach based on monol…
+arXiv:2610.23437v1 Announce Type: new Abstract: The mobility of potential eavesdroppers (Eves) poses a critical challenge to physical-layer security (PLS) in integrated sensing and communication (ISAC) systems, since rapidly varying Eve positions lead to time-varying eavesdropping channels and outdated security decisions. To address this challenge, this paper investigates sensing-driven secure transmission for reconfigurable intelligent surface (RIS)-assisted ISAC systems with a maneuvering Eve.…
 
 </details>
 
 ---
 
-## [Variational neural transport for aggregation-diffusion equations](https://arxiv.org/abs/2610.12745)
-*arXiv Math*  
+## [Noise-Robust Forced Alignment for Spontaneous Speech](https://arxiv.org/abs/2610.22583)
+*arXiv Machine Learning*  
 Score: **0.50**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: methods
+Published: 2026-10-19T04:00:00+00:00
+Tags: wavelets, speech-processing, multiresolution
 
-Introduces a neural network framework for transport equations, reformulating them as optimal control problems possibly relevant for advanced signal processing.
+Involves multiresolution analysis techniques using differentiable projections and noise correction, intersecting with wavelet-based signal processing.
+
+---
+
+## [Structure-Aware Spatial Kernels for Gaussian Process Distributed Port-Hamiltonian Systems](https://arxiv.org/abs/2610.22575)
+*arXiv Machine Learning*  
+Score: **0.50**  
+Published: 2026-10-19T04:00:00+00:00
+Tags: signal-processing, spatial-kernels, methods
+
+Discusses structure-aware spatial kernel designs, relevant for spatial signal processing methods involving multiresolution applications.
+
+---
+
+## [A Smaller Subspace is All You Need: Efficient ISAC Beamforming via Dimensionality Reduction](https://arxiv.org/abs/2610.23462)
+*arXiv Signal Processing*  
+Score: **0.40**  
+Published: 2026-10-19T04:00:00+00:00
+Tags: ISAC, beamforming, optimization
+
+The use of dimensionality reduction for beamforming can be relevant as a novel method in signal processing, albeit the focus is more on optimization rather than wavelet or multiresolution analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.12745v1 Announce Type: new Abstract: We develop a neural transport framework for nonlinear, nonlocal aggregationdiffusion equations arising in chemotaxis, polymer dynamics, and related applications. Based on the Onsager variational principle, we reformulate the governing equation as a constrained optimal control problem, taking the velocity field as the control and evolving the density via the associated continuity equation. The velocity field is parameterized by a neural network trai…
+arXiv:2610.23462v1 Announce Type: new Abstract: Integrated sensing and communication (ISAC) has been recognized as a critical technology for the sixth generation (6G) wireless networks. Under monostatic sensing mode, achieving a balance between communication and sensing performance via optimal beamforming is a critical research problem. In multiple input multiple output (MIMO) systems, such beamforming problems are of substantial computational complexity due to the large number of antennas. Exis…
 
 </details>
 
 ---
 
-## [Riemannian Hessian analysis of Sobolev gradient flows for the Gross--Pitaevskii ground state problem](https://arxiv.org/abs/2610.12833)
-*arXiv Math*  
+## [Noise-Robust Forced Alignment for Spontaneous Speech](https://arxiv.org/abs/2610.22583)
+*arXiv Machine Learning*  
 Score: **0.40**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: theory, methods
+Published: 2026-10-19T04:00:00+00:00
+Tags: multiresolution, wavelets, speech
 
-Provides a uniform analysis method that could contribute to mathematical frameworks in signal processing.
+The use of WavLM features and a classical GMM-HMM aligner shares resemblance with wavelet-based signal processing, especially in dealing with noisy data.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.12833v1 Announce Type: new Abstract: Sobolev gradient flows for the Gross--Pitaevskii ground state problem are Riemannian gradient descent methods on the sphere under a metric induced by a discrete elliptic operator. We analyze their convergence through the condition number of the Riemannian Hessian at the ground state. Bounds of the Rayleigh quotient of the Riemannian Hessian give a uniform analysis of these methods for different metrics. The uniform analysis applies to the classical…
-
-</details>
-
----
-
-## [The Riemannian Convex Bundle Method](https://arxiv.org/abs/2402.13670)
-*arXiv Math*  
-Score: **0.40**  
-Published: 2026-10-12T04:00:00+00:00
-Tags: methods, theory
-
-Discusses optimization methods on Riemannian manifolds, potentially linking to mathematical frameworks in signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2402.13670v5 Announce Type: replace-cross Abstract: We introduce the convex bundle method to solve convex, non-smooth optimization problems on Riemannian manifolds of bounded sectional curvature. Each step of our method is based on a model that involves the convex hull of previously collected subgradients, parallelly transported into the current serious iterate. This approach generalizes the dual form of classical bundle subproblems in Euclidean space. We prove that, under mild conditions,…
+arXiv:2610.22583v1 Announce Type: new Abstract: We show that forced aligners degrade on spontaneous, noisy real-world speech, and that fillers, laughter, and disfluencies corrupt word boundaries, impacting many downstream applications. We revisit the classical GMM-HMM aligner with upsampled WavLM features instead of MFCCs, explicit phone units for fillers and non-lexical vocal events trained on verbatim-annotated spontaneous speech, and a discriminative projection fitted on clean and noise-corru…
 
 </details>
 
