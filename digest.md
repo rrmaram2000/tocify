@@ -1,347 +1,360 @@
-# Weekly ToC Digest (week of 2026-10-26)
+# Weekly ToC Digest (week of 2026-11-02)
 
-Selected items highlight theoretical advancements in signal processing and computational methods relevant to wavelets and deep learning. Prioritized papers focus on new signal processing methods, particularly those involving wavelets and multiresolution analysis in the context of deep learning. Papers were evaluated based on relevance to signal processing, wavelet theory, and deep learning. Prioritized papers involving signal processing and feature learning, especially those incorporating sparsity or deep learning models. Reduced emphasis on topics without methodological innovations in signal processing.
+The following papers have been curated based on their relevance to harmonic analysis, wavelet theory, and deep learning, focusing on novel methodologies bridging these areas with signal processing techniques. This digest highlights papers at the intersection of harmonic analysis, wavelet theory, and signal processing within deep learning that are particularly relevant this week. Papers were evaluated based on their relevance to harmonic analysis, wavelet theory, modern deep learning, and related interests. Prioritized signal processing and computational method papers crossing into machine learning applications.
 
-**Included:** 20 (score ≥ 0.35)  
-**Scored:** 20 total items
+**Included:** 22 (score ≥ 0.35)  
+**Scored:** 22 total items
 
 ---
 
-## [Time-Varying Kernel Density Deconvolution using Random Finite Set Theory for State Noise Identification](https://arxiv.org/abs/2412.01424)
+## [Meshless Latent Dynamics Models for Model Order Reduction of time-dependent Partial Differential Equations](https://arxiv.org/abs/2610.41043)
+*arXiv Math*  
+Score: **0.88**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: MOR, adaptive, time-series, methods
+
+The development of meshless methodologies for MOR connects to adaptive representations and computational methods for time-series analysis, relevant for signal processing and neural data representation.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.41043v1 Announce Type: new Abstract: Latent dynamics learning has emerged as a prominent approach for Model Order Reduction (MOR) of time-dependent, parameterized Partial Differential Equations (PDEs). Traditional autoencoder-based approaches are intrinsically tied to fixed spatial discretizations during both training and inference, motivating the development of meshless methodologies. In this context, conditioning provides a natural mechanism for representing temporal evolution throu…
+
+</details>
+
+---
+
+## [Variational decomposition autoencoding improves disentanglement of latent representations](https://arxiv.org/abs/2601.06844)
 *arXiv Signal Processing*  
-Score: **0.95**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, time-frequency
+Score: **0.85**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: sparse, VAE, theory
 
-This paper presents novel methods for noise density identification in time-varying systems using kernel density deconvolution, relevant for signal processing with multiresolution aspects.
+This work focuses on understanding nonstationary signals using variational autoencoders, connecting traditional signal processing methods with deep learning. It could potentially advance sparse coding and adaptive bases.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2412.01424v3 Announce Type: replace Abstract: This paper focuses on the noise density identification for state-space models of linear time-varying systems. The density knowledge is essential for the optimal design of any modern state estimator, fault detector, or controller. The proposed method builds on newly derived algorithms for (i) calculation of the measurement prediction residue being independent of the state and linear in state and measurement noises, and (ii) kernel density deconv…
+arXiv:2601.06844v2 Announce Type: replace-cross Abstract: Understanding the structure of complex, nonstationary, high-dimensional time-evolving signals is a central challenge in scientific data analysis. In many domains, such as speech and biomedical signal processing, the ability to learn disentangled and interpretable representations is critical for uncovering latent generative mechanisms. Traditional approaches to unsupervised representation learning, including variational autoencoders (VAEs)…
 
 </details>
 
 ---
 
-## [Neural Disjunctive Normal Forms for Learning Exact Rank Filters](https://arxiv.org/abs/2610.32203)
-*arXiv Computer Vision*  
-Score: **0.95**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: filters, theory, methods
+## [General Frequency Principle for Linear Approximation Classes](https://arxiv.org/abs/2610.41179)
+*arXiv Machine Learning*  
+Score: **0.85**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: time-frequency, methods, theory
 
-This paper presents a novel method for learning rank filters, which aligns with multiresolution and time-frequency techniques, crucial for signal processing.
+This paper explores frequency principles under gradient descent in linear approximation classes, relevant to time-frequency analysis and harmonic components.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32203v1 Announce Type: new Abstract: Gradient-based learning of morphological operators is hindered by locally sparse derivatives with respect to the structuring elements. We develop a method for learning rank filters that retains exact operator evaluation while distributing the derivatives across the window. Using threshold decomposition, we construct a neural disjunctive normal form representation and establish a sufficient condition for exactness with integer-valued images and stru…
+arXiv:2610.41179v1 Announce Type: new Abstract: In this paper, we study a general frequency principle under gradient descent training for the finite linear approximation classes. Under suitable assumptions, we prove that the learner amplitude relative to the target amplitude vanishes at high frequencies, uniformly throughout training. We also establish sufficient conditions for low-frequency priority, covering single-frequency targets trained separately and two frequency components trained in th…
 
 </details>
 
 ---
 
-## [Low-Complexity Wideband Channel Estimation for ISAC in Analog Millimeter-Wave Systems](https://arxiv.org/abs/2610.32953)
-*arXiv Signal Processing*  
-Score: **0.87**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: sparse, methods
-
-Involves innovative wideband channel estimation techniques reducing complexity, bridging classical signal processing and modern computational methods.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.32953v1 Announce Type: new Abstract: Accurate wideband channel estimation is a key enabler for millimeter-wave (mmWave) integrated sensing and communication (ISAC) systems. In the narrowband scenario, the Transformed Spatial Domain Channel Estimation (TSDCE) method was previously shown to provide fast and accurate angle estimation with substantially lower complexity than conventional compressed-sensing approaches based on orthogonal matching pursuit (OMP). However, wideband ISAC scena…
-
-</details>
-
----
-
-## [Spectra: Multi-Scale Implicit Decomposition for Deepfake Detection](https://arxiv.org/abs/2610.31979)
-*arXiv Computer Vision*  
+## [An Efficient Randomized Hierarchical Tucker Decomposition](https://arxiv.org/abs/2610.41554)
+*arXiv Math*  
 Score: **0.82**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: wavelets, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: tensor, decomposition, multiscale, methods
 
-Utilizes multi-scale decomposition methods relevant to harmonic analysis and signal processing techniques.
+Utilizes tensor decomposition techniques relevant in multiscale signal analysis, linking classical signal processing with modern machine learning methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.31979v1 Announce Type: new Abstract: Deepfakes increasingly undermine trust in digital media, yet existing detectors often struggle to generalize across unseen manipulation techniques, compression levels, and dataset shifts. Most approaches rely on RGB appearance, frequency-domain artifacts, or their combination, learning cues present in the final synthesized image. While effective in-distribution, such cues are frequently generator-specific and can diminish as synthesis models evolve…
+arXiv:2610.41554v1 Announce Type: new Abstract: We introduce randomized algorithms for computing the hierarchical Tucker decomposition of high-order tensors. Unlike traditional algorithms performed in a sequential leaves-to-root direction, our algorithms traverse the dimension tree in a root-to-leaves direction, leveraging randomized sequential projections to accelerate the computation of intermediate subspaces. This strategy can reduce the computation time by an order of magnitude relative to p…
 
 </details>
 
 ---
 
-## [FOCUS: A Lightweight Mamba-2 Model for EEG-Based Cognitive Workload Classification](https://arxiv.org/abs/2610.32361)
-*arXiv AI*  
+## [Grid-Refinement SBL for AFDM Channel Estimation Under Fractional Delay and Fractional Doppler Channels](https://arxiv.org/abs/2610.41997)
+*arXiv Signal Processing*  
 Score: **0.80**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: EEG, methods, sparse
+Published: 2026-11-02T05:00:00+00:00
+Tags: sparse, time-frequency, methods
 
-Presents a compact model for EEG binary workload classification using frequency-sensitive analysis, aligning with interests in signal processing methods for neural data.
+Presents a sparse Bayesian learning approach for channel estimation, relevant to time-frequency analysis in signal processing, echoing the mathematical precision in wavelet transforms.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32361v1 Announce Type: new Abstract: Cognitive workload estimation from physiological signals is increasingly relevant in high-risk environments, where continuous and unobtrusive monitoring can inform adaptive systems and safety interventions. This paper presents FOCUS (Frequency-band Optimized Cognitive-load Ultralight SSM), a compact Mamba-2-based model for EEG-based binary workload classification under constrained data conditions. Rather than learning frequency sensitivity from dat…
+arXiv:2610.41997v1 Announce Type: new Abstract: This paper investigates channel estimation for affine frequency division multiplexing (AFDM) systems over channels with fractional delay and fractional Doppler (FDFD) shifts. An exact FDFD channel model is first established, and the corresponding input--output relationship is also derived. To address the FDFD-induced delay--Doppler coupling, a first-order linear approximation grid-refinement sparse Bayesian learning (FLA-GR-SBL) method is developed…
 
 </details>
 
 ---
 
-## [U-STS-LLM: A Unified Spatio-Temporal Steered Large Language Model for Traffic Prediction and Imputation](https://arxiv.org/abs/2605.11735)
-*arXiv Computer Vision*  
+## [Maxwell-Consistent 3-D Magnetic Field Camera using Scalar-Potential-Based Reconstruction](https://arxiv.org/abs/2610.40856)
+*arXiv Signal Processing*  
 Score: **0.78**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: time-frequency, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: harmonic, reconstruction, spectral, methods
 
-Explores spatio-temporal analysis with implications for multiresolution and time-frequency techniques.
+Proposes signal reconstruction methods from spherical harmonic expansions, a key interest in harmonic analysis and spectral methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2605.11735v2 Announce Type: replace-cross Abstract: Accurate spatio-temporal cellular traffic analysis is fundamental to the reliable operation of modern mobile networks, as it underpins load forecasting for congestion avoidance and missing-data imputation for continuity despite transmission errors. While deeply connected, forecasting and imputation have historically evolved as separate sub-fields. Existing models are typically task-specific, decouple temporal and spatial modeling, and rel…
+arXiv:2610.40856v1 Announce Type: new Abstract: Various applications require accurate 3-D characterization of magnetic fields with high spatial and temporal resolution. Building on our previously introduced spherical magnetic field camera employing 86 three-axis Hall sensors arranged on a spherical surface, we present a novel magnetic-field reconstruction approach based on the magnetic scalar potential and its spherical harmonic expansion. Unlike the previous reconstruction method that expands e…
 
 </details>
 
 ---
 
-## [Representation Learning via Composite Subspace Flow Matching](https://arxiv.org/abs/2610.32256)
-*arXiv Computer Vision*  
-Score: **0.78**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: sparse, theory, methods
-
-Addresses semantic representation learning, linking to sparse coding and signal decomposition through subspace analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.32256v1 Announce Type: new Abstract: Distilling semantic meaning from raw image data remains a challenge in machine learning. Current self-supervised paradigms face a trade-off: joint-embedding architectures produce relevant features by aggressively discarding intra-class variance, irreversibly spatial and reconstruction. Conversely, generative models preserve spatial details but struggle to isolate semantics, as their optimization is dominated by pixel variations. To bridge this divi…
-
-</details>
-
----
-
-## [Learning Nonlinear Waveform Fusion Across Scales for Integrated Sensing and Communication](https://arxiv.org/abs/2610.32099)
-*arXiv AI*  
+## [A Good-Vorticity Low-Regularity Integrator for the Inviscid Oldroyd--B System with Stress Diffusion](https://arxiv.org/abs/2610.41250)
+*arXiv Math*  
 Score: **0.75**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: MRA, wavelets, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: numerical, integrators, time-frequency, methods
 
-Focuses on waveform fusion, engaging with multiresolution analysis and adaptive filters fundamental to signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.32099v1 Announce Type: new Abstract: Fixed source superposition and frequency partitioning constrain how communication content interacts with a probing reference in integrated sensing and communication (ISAC). We learn nonlinear waveform fusion across scales for image transmission and localization of multiple targets in range and angle. Reception uses the information available at each end. Adaptive temporal feature weighting and spectral updates combine image features and a determinis…
-
-</details>
+Introduction of novel numerical methods in fluid dynamics, potentially impacting time-frequency methods used in signal analysis via low-regularity integrators.
 
 ---
 
-## [Autoregressive Physics-Informed Neural Operator Surrogates and Joint 4-D Seismic-Production Bayesian History Matching](https://arxiv.org/abs/2610.31677)
-*arXiv Stats ML*  
+## [Automatic Construction of Strong Simple Baselines](https://arxiv.org/abs/2610.40700)
+*arXiv Machine Learning*  
 Score: **0.75**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, time-series, theory
+Published: 2026-11-02T05:00:00+00:00
+Tags: methods, filter-bank, ML
 
-Introduces a physics-informed neural operator model, relevant for time-series analysis in a multiresolution context.
+Explores baseline construction using automated methods, relevant for experimental frameworks involving multiresolution analysis or structured filters.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.31677v1 Announce Type: new Abstract: We present a surrogate-accelerated Bayesian history-matching framework, demonstrated on a realistic synthetic model ($N=100{,}188$ cells). The forward map $\mathcal{G}$ is replaced by a Fourier neural operator $\mathcal{G}_\theta$ trained in a closed loop, $\hat{x}_{n+1}=\mathcal{G}_\theta(u,\hat{x}_n)$, with the discrete black-oil residual $R(x_{n+1},x_n)$ as a physics-informed neural operator (PINO) penalty, truncated backpropagation and noise in…
+arXiv:2610.40700v1 Announce Type: new Abstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent progress has turned out to be an artifact of omitted or missing baselines. In this work, we investigate whether this problem can be mitigated by using large language models to automate the construction …
 
 </details>
 
 ---
 
-## [SAGE: A hybrid vision-language and geometry framework for work-zone pathway prediction under temporary traffic control](https://arxiv.org/abs/2610.31835)
-*arXiv Computer Vision*  
-Score: **0.70**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: sparse, methods
+## [Nonlinear Maps Between Irreducible Representations in Graph Neural Networks](https://arxiv.org/abs/2610.41059)
+*arXiv Machine Learning*  
+Score: **0.75**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: representations, methods, theory
 
-Employs geometric methods with potential applications in multiresolution analysis, relevant for path prediction.
+Focuses on the interactions in representations which could be useful for understanding learnable basis functions and adaptive representations in GNNs.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.31835v1 Announce Type: new Abstract: Temporary traffic control redirects vehicles through work zones, requiring automated vehicles to connect an interpretation of the visible devices to a continuous passing path. Geometric predictors can provide several plausible paths, yet selecting the one consistent with the temporary control remains difficult. We propose SAGE (Semantic-to-Action Grounded Execution), a read-decide-execute-check framework that separates path construction, path prefe…
+arXiv:2610.41059v1 Announce Type: new Abstract: Equivariant linear maps cannot mix non-isomorphic irreducible representations, whereas nonlinear activations can. We develop a degree-resolved version of this nonlinear interaction picture and use the resulting block inventory to construct Specht Triple, a residual on unordered graph triples. On a synthetic structural benchmark with a frozen GIN backbone, Specht Triple reduces aggregate standardised test MSE by 11.05% relative to a parameter-matche…
 
 </details>
 
 ---
 
-## [Contextual Decision Making: Predictive or Generative](https://arxiv.org/abs/2610.32584)
-*arXiv Stats ML*  
-Score: **0.70**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, theory
+## [Accurate structural identification for layered composite structures, through a wave and finite element scheme](https://arxiv.org/abs/2610.40689)
+*arXiv Math*  
+Score: **0.72**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: wave, MRA, finite-element, methods
 
-Discusses decision-making methodologies that might leverage advanced signal processing techniques, potentially aligning with adaptive representations.
+Uses wave and finite element analysis methods for structure identification, aligning with interests in wavelet design and multiresolution analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32584v1 Announce Type: cross Abstract: Contextual decision making uses observed covariates to guide decisions under uncertainty. Two natural approaches are predict-then-optimize (PtO), which learns the conditional expected objective, and generate-then-optimize (GtO), which learns conditional uncertainty and optimizes using generated scenarios. We study when each approach is preferable by examining how the choice of learning target affects statistical accuracy and optimization tractabi…
+arXiv:2610.40689v1 Announce Type: cross Abstract: We present for the first time an approach for identifying the geometric and material characteristics of layered composite structures through an inverse wave and finite element approach. More specifically, this Non-Destructive Evaluation (NDE) approach is able to recover the thickness, density, as well as all independent mechanical characteristics such as the tensile and shear moduli for each layer of the composite structure under investigation. T…
 
 </details>
 
 ---
 
-## [Neural LoFi with Backward Coupling: A Spectral Theory of Cross-Layer Feature Learning](https://arxiv.org/abs/2610.32849)
-*arXiv Stats ML*  
-Score: **0.67**  
-Published: 2026-10-26T04:00:00+00:00
+## [A Manifold-Based Framework for Coupling-Aware Surrogate Optimization of Antenna Arrays Using Characteristic Modes](https://arxiv.org/abs/2605.23851)
+*arXiv Signal Processing*  
+Score: **0.72**  
+Published: 2026-11-02T05:00:00+00:00
 Tags: methods, theory, sparse
 
-Explores cross-layer feature learning with spectral methods, which may connect wavelet approaches to neural feature extraction.
+Combines manifold optimization with array antenna design, integrating ideas from signal processing and adaptive representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32849v1 Announce Type: cross Abstract: During joint training, backpropagation allows later layers to reshape earlier representations, a feedback mechanism absent from purely layer-wise learning. We extend Neural Low-Degree Filtering (Neural LoFi), a recently proposed layer-wise spectral surrogate for feature learning, to capture this interaction. Starting from the exact backpropagation gradients, we derive a local coupling between a neuron's incoming weights and its corresponding next…
+arXiv:2605.23851v2 Announce Type: replace Abstract: A surrogate-based synthesis framework for antenna arrays is presented that incorporates mutual coupling while keeping optimization computationally efficient. The method combines a common characteristic-mode basis, a global modal coupling model, and element-wise generalized scattering matrices (GSMs). Array design variables are formulated and optimized on physically meaningful manifolds, in particular the manifold of unitary symmetric matrices f…
 
 </details>
 
 ---
 
-## [Finite element approximation on piecewise smooth domains](https://arxiv.org/abs/2610.31822)
+## [Approximation classes for adaptive anisotropic space-time finite element methods](https://arxiv.org/abs/2602.14921)
 *arXiv Math*  
-Score: **0.65**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, theory
+Score: **0.71**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: adaptive, space-time, multiresolution, methods
 
-The paper discusses approximation properties that could be extended to general boundaries, which may interest researchers in signal processing involving complex geometries.
+Explores numerical methods in space-time domains, of interest for adaptive and multiresolution techniques in signal analysis.
+
+---
+
+## [Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms](https://arxiv.org/abs/2610.40943)
+*arXiv Math*  
+Score: **0.70**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: kernel, interpolation, scattering, CNN
+
+Research on kernel methods and interpolation impacts structured learning models within neural networks, relevant to scattering and wavelet networks.
+
+---
+
+## [MOSAIC: Addressing Disproportionate Task-Modality Dependencies via Modality-Partitioned Gradient Routing](https://arxiv.org/abs/2610.41004)
+*arXiv Machine Learning*  
+Score: **0.70**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: CNN, methods, representation
+
+The paper discusses modality dependencies in multi-task settings, relevant for multiresolution and representation analysis in CNNs.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.31822v1 Announce Type: new Abstract: The approximation theory by finite elements is usually described on the simplified geometry of polygonal or polyhedral domains. While avoiding the question of boundary approximation makes the analysis simpler, real applications may involve piecewise smooth domains and in some cases the extension of classical results to general boundaries may be tricky. In this paper we discuss in a systematic way the approximation properties and the error analysis …
+arXiv:2610.41004v1 Announce Type: new Abstract: In multi-task settings, combining multiple modalities allows task representations to draw on signals that a single modality alone would not capture. However, individual tasks may depend disproportionately on particular modalities, a structure that conventional fusion-based architectures do not model explicitly, instead enforcing a unified representation space. Consequently, a task's gradients can affect parameters tied to modalities it barely relie…
 
 </details>
 
 ---
 
-## [Structure and Exact Certification of Nonnegative Tensor Decompositions](https://arxiv.org/abs/2610.32787)
+## [Conditional Neural SDEs for Financial Time-Series Generation](https://arxiv.org/abs/2610.41405)
+*arXiv Stats ML*  
+Score: **0.70**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: time-frequency, methods, theory
+
+This paper explores neural stochastic differential equations, a potential novel method for time-series analysis through learnable drift and diffusion functions.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.41405v1 Announce Type: new Abstract: Conditional generation of time-series paths is a central problem in probabilistic modeling, where the goal is to simulate future trajectories that are both realistic and responsive to external context. It has direct applications in finance and economics. Neural stochastic differential equations provide a natural framework for this task by combining continuous-time stochastic dynamics with learnable drift and diffusion functions. However, directly m…
+
+</details>
+
+---
+
+## [RFLocMatch: Reference-Conditioned Residual Learning from Angle-Delay Spectra for Accurate Localization](https://arxiv.org/abs/2610.41757)
+*arXiv Signal Processing*  
+Score: **0.65**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: spectral, time-frequency, localization
+
+Engages spectral methods for localization tasks, addressing challenges in signal processing concerning time-frequency representations and noise modeling.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.41757v1 Announce Type: new Abstract: Radio fingerprint localization supports mobile robots and location-aware services when satellite positioning is unreliable. Angle-delay power fingerprints capture power distributions over angles and delays, but localization remains vulnerable to spatial ambiguity and measurement perturbations. Reflections and blockage can produce similar fingerprints at distant locations, while noise in query fingerprints can alter query-reference rankings despite …
+
+</details>
+
+---
+
+## [Quantile Propagation Planning for Budgeted Tail-Risk Evaluation](https://arxiv.org/abs/2610.41351)
+*arXiv Machine Learning*  
+Score: **0.65**  
+Published: 2026-11-02T05:00:00+00:00
+Tags: methods, time-series, theory
+
+Introduces a novel planning approach using quantile propagation, relevant for computational methods in complex time-series analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+arXiv:2610.41351v1 Announce Type: new Abstract: Risk-aware planning must identify rare, costly outcomes using only a limited number of model evaluations. Monte Carlo rollouts spend this budget on noisy tail estimates, while planning from the mean can miss the tail entirely. We introduce quantile propagation planning (QPP), which propagates a small, fixed set of disturbance quantiles through the dynamics and integrates the resulting cost curve to evaluate both mean and tail risk. The method is ex…
+
+</details>
+
+---
+
+## [Coarse-Graining Optimal Transport for Rollout-Free Post-Training of Flow Matching](https://arxiv.org/abs/2610.41269)
 *arXiv Stats ML*  
 Score: **0.65**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, theory
+Published: 2026-11-02T05:00:00+00:00
+Tags: methods, optimization, theory
 
-Involves tensor decomposition techniques that may relate to multiresolution analysis or sparse tensor methods.
+This research addresses optimal transport in flow matching, which could relate to multiresolution representations in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32787v1 Announce Type: cross Abstract: We study the structure and exact certification of nonnegative tensor decompositions supplied through rational factor matrices. Every failure of minimality or essential uniqueness contains an irreducible positive exchange between $p$ supplied terms and $q$ competing terms. A dimension count based on the Lovitz--Petrov splitting theorem bounds the effective order of such an exchange, the sum over the modes of the joint factor-span dimension minus o…
+arXiv:2610.41269v1 Announce Type: new Abstract: Flow matching depends critically on the coupling used to pair source and target samples. Optimal transport (OT) couplings can reduce velocity conflict and straighten trajectories; but, in practice, challenges remain: the source comes from a continuous distribution, only a finite number of target samples data are accessible, and the neural network has finite capacity. For these reasons, making the coupling more OT-like may not consistently improve s…
 
 </details>
 
 ---
 
-## [A Novel Matrix-Free Approximate Elemental Inverse for Efficient Preconditioning of Discontinuous Galerkin Spectral Elements](https://arxiv.org/abs/2610.31982)
-*arXiv Math*  
+## [FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models](https://arxiv.org/abs/2610.40971)
+*arXiv Computer Vision*  
 Score: **0.60**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: sparse, methods, theory
+Published: 2026-11-02T05:00:00+00:00
+Tags: representation, methods, vision
 
-Introduces novel matrix-free preconditioning methods which can be instrumental in computational efficiency, relating to sparse coding and optimization.
+Explores visual grounding using VLMs, could intersect with invariant representations and group theory aspects in signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.31982v1 Announce Type: new Abstract: Efficient matrix-free preconditioning remains a challenge for discontinuous Galerkin spectral element discretisations of elliptic problems, particularly for general element shapes with collapsed-coordinate bases, such as prisms, tetrahedra and pyramids. Multigrid provides a promising framework, but its efficiency depends strongly on the effectiveness and computational cost of the smoother. For modal bases, point Jacobi can provide insufficient smoo…
+arXiv:2610.40971v1 Announce Type: new Abstract: We present FieldGuideRAG, a training-free GraphRAG method in which a vision-language model, or VLM, recognizes fine-grained species by comparing the query with real photographs stored on the nodes of a knowledge graph. Multimodal GraphRAG systems describe each entity in text, and text conveys little of the visual detail that separates look-alike species. Our graph stores one photograph on every species node and links each species to its relatives, …
 
 </details>
 
 ---
 
-## [Neural network enhancement of the Born approximation](https://arxiv.org/abs/2610.32764)
-*arXiv Math*  
+## [VariaFlow: Uncertainty-Aware Flow Matching for Unsupervised Anomaly Detection](https://arxiv.org/abs/2610.41494)
+*arXiv Computer Vision*  
 Score: **0.60**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: CNN, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: methods, sparse, theory
 
-Uses neural networks to enhance the Born approximation, connecting classical methods with neural network advancements—relevant to deep learning in signal processing.
+Presents flow matching for anomaly detection, incorporating uncertainty which might be linked to signal representation methods.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32764v1 Announce Type: new Abstract: We examine the use of neural networks in conjunction with the Born approximation for solving the inverse scattering problem for a penetrable medium in the frequency domain. The goal is a fast method for determining the refractive index of a scatterer from multistatic far-field measurements at one frequency. We present a new neural network model that seeks to improve on our previous results in by sharpening the reconstructed images. In addition, we …
+arXiv:2610.41494v1 Announce Type: new Abstract: Reconstruction-based anomaly detection no longer fails at reconstruction. Generative models produce high-quality pseudo-healthy reconstructions, and the remaining difficulty is the step of scoring residuals. The residual between a scan and its reconstruction has two indistinguishable sources, genuine pathology and the anatomical variation that separates one healthy brain from another. Scoring against a single reconstruction treats both as anomalous…
 
 </details>
 
 ---
 
-## [Universal neural network approximation of symmetric polyconvex energies and envelopes](https://arxiv.org/abs/2610.32598)
-*arXiv Math*  
+## [DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos](https://arxiv.org/abs/2610.41402)
+*arXiv Computer Vision*  
 Score: **0.55**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: CNN, optimization, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: time-frequency, methods
 
-Focuses on neural network approximations for energy functions, which can be pertinent for optimizing signal processing frameworks.
+Utilizes dual-scale Gaussian memory in temporal localization, relevant for time-series analysis and multiresolution approaches.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32598v1 Announce Type: new Abstract: Symmetric polyconvexity provides a sufficient condition for weak lower semicontinuity in small-strain elasticity and a tractable lower bound for the relaxation of non-(quasi)convex energies. Since classical algorithms for computing such functions can be computationally expensive, neural network approximations have recently emerged as an alternative. A central difficulty with establishing such neural network based approaches for symmetric polyconvex…
+arXiv:2610.41402v1 Announce Type: new Abstract: Online Temporal Action Localization (OnTAL) aims to detect and localize action instances from untrimmed streaming videos in real time. Unlike offline approaches, OnTAL models have no access to future frames and cannot go back and refine earlier predictions, which makes the task considerably harder given the strict real-time constraints and narrow temporal window available. Most existing OnTAL methods lean on either brief anchor-based context or a s…
 
 </details>
 
 ---
 
-## [Solving and Learning Navier-Stokes Dynamics with the Neural Basis Method](https://arxiv.org/abs/2610.32167)
-*arXiv Math*  
-Score: **0.50**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: CNN, methods
-
-Explores a neural basis method for Navier-Stokes dynamics—relating machine learning approaches with traditional fluid dynamics modeling.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.32167v1 Announce Type: cross Abstract: Physics-informed machine learning has become a major direction in predictive modeling of fluid dynamics, combining governing physics with learned representations. Yet prevailing formulations neither guarantee that small PDE-residual losses imply small solution errors nor scale effectively with increasing problem size. Here we present the neural basis method (NBM) as a new approach for Navier--Stokes dynamics. NBM is built on a ``representation-th…
-
-</details>
-
----
-
-## [ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences](https://arxiv.org/abs/2610.32222)
+## [BDNet: Fast-slow thinking is all you need](https://arxiv.org/abs/2610.41485)
 *arXiv Computer Vision*  
 Score: **0.50**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: RL, methods
+Published: 2026-11-02T05:00:00+00:00
+Tags: methods, theory, MRA
 
-Primarily a reinforcement learning paper; minimal direct relevance to signal processing beyond general methodology.
-
-<details>
-<summary>RSS summary</summary>
-
-arXiv:2610.32222v1 Announce Type: new Abstract: Reinforcement learning has gained attention for improving action-conditioned world models (ACWMs), as it enables reward-driven optimization of visual quality (VQ) and action-following fidelity (AF) beyond flow-matching optimization. Realizing this potential requires reward signals that reliably rank videos by both VQ and AF. However, existing rewards capture only one dimension: metric-based rewards assess VQ but require ground-truth videos and do n…
-
-</details>
-
----
-
-## [Angular Supervision for Visual Object Grounding in Autoregressive Vision-Language Models](https://arxiv.org/abs/2610.32220)
-*arXiv Computer Vision*  
-Score: **0.45**  
-Published: 2026-10-26T04:00:00+00:00
-Tags: methods, CNN
-
-Touches on signal alignment through cosine similarity; limited direct link to wavelet or MRA interests.
+Describes an adaptive hierarchical model potentially linked to multiresolution methods and adaptive representations.
 
 <details>
 <summary>RSS summary</summary>
 
-arXiv:2610.32220v1 Announce Type: new Abstract: Autoregressive vision-language models (VLMs) struggle to ground generated text in the correct image regions, and existing explainability methods, such as attention maps and Logit Lens, often produce poor spatial explanations due to weak text-to-vision attention and sink tokens. We propose \textbf{Angular Relevance} ($R_L$), a simple visualization measure based on cosine similarity between visual token embeddings and unembedding-matrix rows. Because…
+arXiv:2610.41485v1 Announce Type: new Abstract: We present BDNet, a hierarchical image-classification backbone built around fast image features and slow statistical references. Its baseline deformation operator (BDO) transforms the deviation of a feature from a stage-specific reference through a low-rank projection and a learned channel scale. Rather than computing pairwise token similarity, the branch operates directly on baseline-relative residuals with complexity linear in the token count. Ea…
 
 </details>
 
